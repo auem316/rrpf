@@ -24,14 +24,35 @@ PAGES = [
     ("glossary.html", "用語集"),
 ]
 
+BASE_URL = "https://hosp.jp/fukugo/"
+GA4_ID = "G-JPKJQ6S6Y9"  # hosp.jp の全ポータル共通の測定ID
+
+# 関連ポータルの並びは hosp.jp/fm/ と同じ。このポータルは公共施設マネジメントの次に置く
 SISTERS = [
     ("https://hosp.jp/fm/", "公共施設マネジメント"),
+    (BASE_URL, "公共施設の複合化"),
     ("https://hosp.jp/ppp/", "公民連携"),
+    ("https://hosp.jp/energy/", "自治体エネルギー"),
+    ("https://hosp.jp/gov-ai/", "自治体生成AI"),
+    ("https://hosp.jp/biz-ai/", "企業の生成AI"),
+    ("https://hosp.jp/edu-ai/", "学校と教育の生成AI"),
+    ("https://hosp.jp/const-ai/", "建設業のAI"),
+    ("https://hosp.jp/ai-security/", "AIセキュリティ"),
+    ("https://hosp.jp/hr/", "自治体人材"),
+    ("https://hosp.jp/gov-biz/", "自治体ビジネス参入"),
     ("https://hosp.jp/chiiki-mirai/", "地域未来交付金"),
     ("https://hosp.jp/kotsu/", "地域公共交通"),
     ("https://shokubase.jp/", "食の拠点"),
-    ("https://hosp.jp/", "運営: Horizon-Shift Partners"),
+    ("https://hosp.jp/", "運営サイトへ"),
 ]
+
+GA4 = f"""<script async src="https://www.googletagmanager.com/gtag/js?id={GA4_ID}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+  gtag('config', '{GA4_ID}');
+</script>"""
 
 e = html.escape
 
@@ -40,9 +61,18 @@ def sec_for_issue(n):
     return f"sec-{n + 2}" if n else "sec-2"
 
 
-def head(title, desc, current):
-    return f"""<title>{e(title)}</title>
+def head(title, desc, current, preview=False):
+    url = BASE_URL + ("" if current == "index.html" else current)
+    # プレビューでは外部のスクリプトを読めないので、計測タグは公開用だけに入れる
+    ga = "" if preview else GA4 + "\n"
+    return f"""{ga}<title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
+<link rel="canonical" href="{url}">
+<meta property="og:type" content="{'website' if current == 'index.html' else 'article'}">
+<meta property="og:title" content="{e(title)}">
+<meta property="og:description" content="{e(desc)}">
+<meta property="og:url" content="{url}">
+<meta property="og:site_name" content="Horizon-Shift Partners">
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,7 +86,10 @@ def header(current):
         cur = ' aria-current="page"' if href == current else ""
         links.append(f'<a href="{href}"{cur}>{label}</a>')
     links.append('<a class="nav-cta" href="https://hosp.jp/contact/">ご相談</a>')
-    sisters = " ".join(f'<a href="{h}">{e(l)}</a>' for h, l in SISTERS)
+    sisters = " ".join(
+        f'<a href="{h}" aria-current="true">{e(l)}</a>' if h == BASE_URL else f'<a href="{h}">{e(l)}</a>'
+        for h, l in SISTERS
+    )
     return f"""<header class="site-header">
   <div class="wrap">
     <a class="brand" href="index.html"><span class="brand-name">{SITE}</span><span class="brand-sub">減らすから、組み替えるへ</span></a>
@@ -84,7 +117,7 @@ FOOTER = f"""<footer class="site-footer">
 
 
 def page(fname, title, desc, body, preview):
-    h = head(title, desc, fname)
+    h = head(title, desc, fname, preview)
     doc_body = f"{header(fname)}\n<main id=\"main\">\n{body}\n</main>\n{FOOTER}\n"
     if preview and fname == "index.html":
         # プレビューのトップページは公開時に外枠が付くため、中身だけを書く

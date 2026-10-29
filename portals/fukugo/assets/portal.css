@@ -96,6 +96,7 @@ p { margin: 0; }
 .sister { background: var(--bg); border-bottom: 1px solid var(--line); font-size: var(--step--1); }
 .sister .wrap { display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; padding-block: 0.4rem; color: var(--ink-soft); }
 .sister a { color: var(--ink-soft); }
+.sister a[aria-current] { color: var(--accent); font-weight: 700; text-decoration: none; }
 
 /* ページの見出し帯 */
 .page-head { padding-block: 2.5rem 1.5rem; }
