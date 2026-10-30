@@ -11,6 +11,7 @@ import markdown
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "manuscript"
 OUT = ROOT / "print"
+FIG = ROOT / "fig"
 
 BOOK = "公共施設の複合化"
 SUB = "——「減らす」から「組み替える」へ"
@@ -74,6 +75,8 @@ th { background: #dcdcdc; font-weight: 700; }
 td strong { font-size: 1em; }
 .fig { margin: 4mm 0; break-inside: avoid; }
 .fig .cap { display: inline-block; background: #000; color: #fff; font-size: 7.5pt; font-weight: 700; padding: .4mm 2.4mm; }
+.fig .art { margin-top: 1.5mm; }
+.fig .art svg { display: block; width: 100%; height: auto; }
 .fig .ph { border: .3mm dashed #000; height: 46mm; display: flex; align-items: center; justify-content: center;
   font-size: 7.5pt; color: #444; margin-top: 1.2mm; }
 """
@@ -91,8 +94,11 @@ def chapter_html(md_text, name):
     html = html[m.end():]
     html = re.sub(r"<h2>この章の要点</h2>\s*(<ol>.*?</ol>)",
                   r'<div class="point"><div class="label">ポイント</div>\1</div>', html, count=1, flags=re.S)
-    html = re.sub(r"<p>〔(図[^　〕]*)　([^〕]*)〕</p>",
-                  r'<div class="fig"><span class="cap">\1　\2</span><div class="ph">作図中</div></div>', html)
+    def fig(m):
+        svg = next(FIG.glob(f"fig{m.group(1)[1:]}_*.svg"), None)
+        inner = svg.read_text(encoding="utf-8") if svg else '<div class="ph">作図中</div>'
+        return f'<div class="fig"><span class="cap">{m.group(1)}　{m.group(2)}</span><div class="art">{inner}</div></div>'
+    html = re.sub(r"<p>〔(図[^　〕]*)　([^〕]*)〕</p>", fig, html)
     # 表のセル・見出し・要点の段落は字下げしない
     return (f'<section class="ch" style="page:{name}"><h1><span class="no">{no}</span>{title}</h1>{html}</section>',
             f"{no}　{title}")
@@ -104,7 +110,7 @@ def main():
     body.append(f'<div class="title"><h1>{BOOK}</h1><p class="sub">{SUB}</p><p class="sub2">{SUB2}</p>'
                 f'<p class="au">{AUTHOR}</p><div class="note">見本紙面（第1章・第3章・第17章）<br>'
                 'A5判。本文は明朝、見出し・表・柱はゴシック。ページ番号は見本用の通し番号です。'
-                '図は作図中の枠を置いています。</div></div>')
+                '</div></div>')
     last_part = None
     for i, (src, part) in enumerate(CHAPTERS):
         md_text = (SRC / f"{src}.md").read_text(encoding="utf-8")

@@ -91,7 +91,13 @@ def render(md_text):
     html = markdown.markdown(md_text, extensions=["tables", "toc"],
                              extension_configs={"toc": {"slugify": slug}})
     html = re.sub(r"<table>(.*?)</table>", r'<div class="tw"><table>\1</table></div>', html, flags=re.S)
-    html = re.sub(r"<p>〔(図[^〕]*)〕</p>", r'<div class="fig-ph">\1（作図中）</div>', html)
+    def fig(m):
+        cap = m.group(1)
+        svg = next((ROOT / "fig").glob(f"fig{cap.split('　')[0][1:]}_*.svg"), None)
+        if not svg:
+            return f'<div class="fig-ph">{cap}（作図中）</div>'
+        return f'<figure><img src="fig/{svg.name}" alt="{cap}"><figcaption>{cap}</figcaption></figure>'
+    html = re.sub(r"<p>〔(図[^〕]*)〕</p>", fig, html)
 
     def link(m):
         n = int(m.group(1))
@@ -156,6 +162,9 @@ def main():
              '<p><a href="checklist-web.html">章別チェックリスト</a></p>']
     (OUT / "index.html").write_text(page("目次", f"{BOOK}{SUB}　目次と見本章", "\n".join(rows)),
                                     encoding="utf-8")
+    (OUT / "fig").mkdir(exist_ok=True)
+    for svg in (ROOT / "fig").glob("*.svg"):
+        (OUT / "fig" / svg.name).write_text(svg.read_text(encoding="utf-8"), encoding="utf-8")
     print("built:", sorted(p.name for p in OUT.iterdir()))
 
 

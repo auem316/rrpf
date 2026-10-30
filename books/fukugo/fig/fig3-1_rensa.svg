@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 248" width="100%" role="img"
+ aria-label="図3-1　失敗の連鎖"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="176" height="96" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="88.0" y="40" font-size="17" text-anchor="middle">保留床が</text>
+<text x="88.0" y="70" font-size="19" font-weight="bold" text-anchor="middle">売れない</text>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="180" y1="48" x2="211" y2="48" stroke="currentColor" stroke-width="2" marker-end="url(#a1)"/>
+<rect x="215" y="0" width="176" height="96" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="303.0" y="40" font-size="17" text-anchor="middle">第三セクターが</text>
+<text x="303.0" y="70" font-size="19" font-weight="bold" text-anchor="middle">床を抱える</text>
+<defs><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="395" y1="48" x2="426" y2="48" stroke="currentColor" stroke-width="2" marker-end="url(#a2)"/>
+<rect x="430" y="0" width="176" height="96" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="518.0" y="40" font-size="17" text-anchor="middle">商業が</text>
+<text x="518.0" y="70" font-size="19" font-weight="bold" text-anchor="middle">撤退する</text>
+<defs><marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="610" y1="48" x2="641" y2="48" stroke="currentColor" stroke-width="2" marker-end="url(#a3)"/>
+<rect x="645" y="0" width="176" height="96" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="733.0" y="40" font-size="17" text-anchor="middle">公共施設で</text>
+<text x="733.0" y="70" font-size="19" font-weight="bold" text-anchor="middle">埋める</text>
+<text x="88.0" y="126" font-size="15" text-anchor="middle">床の買い手がいない</text>
+<text x="303.0" y="126" font-size="15" text-anchor="middle">債務超過・公費で支援</text>
+<text x="518.0" y="126" font-size="15" text-anchor="middle">キーテナントが抜ける</text>
+<text x="733.0" y="126" font-size="15" text-anchor="middle">置く必然性が薄い</text>
+<defs><marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="410" y1="140" x2="410" y2="170" stroke="currentColor" stroke-width="2" marker-end="url(#a4)"/>
+<rect x="0" y="180" width="820" height="54" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="410" y="214" font-size="19" font-weight="bold" text-anchor="middle">施設の総量が増え、床の管理費と修繕費を払い続ける</text>
+</svg>
