@@ -27,6 +27,8 @@
 | アウガ：2018年1月から市役所駅前庁舎 | [青森市民図書館](https://www.library.city.aomori.aomori.jp/aomoricity_history/trivia/201-/288.pdf) | — |
 | エリアなかいち：事業費135億円、8割を国・県・市が負担 | [秋田魁新報](https://www.sakigake.jp/news/article/20220902AK0016/) | 2022年9月2日 |
 | 再開発ビルの空き床に公共施設を入れた例13件 | [大阪府「再開発ビルの空き床対策事例」](https://www.pref.osaka.lg.jp/documents/20793/zirei20akiyuka.pdf) | — |
+| 佐世保中央公園：Park-PFI、事業区域5.4ha、2022年4月供用開始、公募対象施設の設置20年、運営充実額2.5億円（運営利益充当1.4億円）、市内企業が代表・構成企業 | [国土交通省 官民連携事例資料](https://www.mlit.go.jp/sogoseisaku/kanminrenkei/content/001767666.pdf) | 提案時点 |
+| 佐世保中央公園：来園者数・商店街への効果 | 公表資料で確認できず【要確認】 | — |
 | シリウス：2016年11月3日開館、大和駅東側第4地区市街地再開発事業 | [大和市資料](https://www.city.yamato.lg.jp/material/files/group/46/000090528.pdf)、[大和市都市計画審議会 会議録](https://www.city.yamato.lg.jp/material/files/group/53/000078735.pdf) | 平成24年度 |
 | シリウス：市有施設と民間施設の割合95対5、累計約1,880万人（開設から7年）、年約230万人 | [桐生市議会 視察報告](https://www.city.kiryu.lg.jp/_res/projects/default_project/_page_/001/023/987/yamatocity.pdf) | 二次資料 |
 | エンクロス：2018年4月開業、指定管理者CCC、書店とカフェ | [CCC発表](https://www.ccc.co.jp/pdf/news/20180413_ccc_encross.pdf)、[カレントアウェアネス](https://current.ndl.go.jp/car/34996) | — |
