@@ -6,10 +6,16 @@
 
 ## 見本原稿（Web版）
 
-| ファイル | 章 |
+| ファイル | 中身 |
 | --- | --- |
 | manuscript/01_hiroba.md | 第1章 外部経済効果を「広場」でつなぐ |
 | manuscript/03_saikaihatsu.md | 第3章 地方の再開発はなぜ失敗したか |
 | manuscript/17_kokyo-tenant.md | 第17章 公共テナントは商業施設に何をもたらすか |
+| manuscript/konkyo.md | 根拠資料——章別 |
+| manuscript/checklist.md | 章別チェックリスト |
+
+文体と紙面は『自治体の公民連携ハンドブック』（hosp.jp/ppp/book/）にそろえている（である調、要点は番号付き、根拠資料とチェックリストは別ページ）。
+
+Web版は `python3 bin/web.py` で `web/` に組む。デザインは姉妹編と同じ。公開先は hosp.jp/fukugo/book/ を想定（いまは noindex）。
 
 紙版はWeb版の約4割に絞る予定。〔図〇-〇〕は図の差し込み位置、【要確認】は公開資料で裏付けが取れていない点。
