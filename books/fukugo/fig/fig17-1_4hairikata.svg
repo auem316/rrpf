@@ -18,19 +18,19 @@
 <rect x="590" y="60" width="230" height="62" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
 <text x="705" y="98" font-size="16" font-weight="bold" text-anchor="middle">民間</text>
 <rect x="0" y="134" width="140" height="62" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
-<text x="70" y="172" font-size="17" font-weight="bold" text-anchor="middle">② 区分所有</text>
+<text x="70" y="172" font-size="17" font-weight="bold" text-anchor="middle">② 今の床を買う</text>
 <defs><marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="484" y1="156" x2="236" y2="156" stroke="currentColor" stroke-width="2" marker-end="url(#a3)"/>
 <defs><marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="236" y1="186" x2="484" y2="186" stroke="currentColor" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#a4)"/>
-<text x="360" y="149" font-size="15" font-weight="bold" text-anchor="middle">床を売る</text>
+<text x="360" y="149" font-size="15" font-weight="bold" text-anchor="middle">できている床を売る</text>
 <text x="360" y="179" font-size="15" text-anchor="middle">代金を一度払う</text>
 <rect x="590" y="134" width="230" height="62" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
-<text x="705" y="172" font-size="16" font-weight="bold" text-anchor="middle">自治体（床）</text>
+<text x="705" y="172" font-size="16" font-weight="bold" text-anchor="middle">自治体（建物の一部）</text>
 <rect x="0" y="208" width="140" height="62" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
-<text x="70" y="246" font-size="17" font-weight="bold" text-anchor="middle">③ 買い取り</text>
+<text x="70" y="246" font-size="17" font-weight="bold" text-anchor="middle">③ 新築で買う</text>
 <defs><marker id="a5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="484" y1="230" x2="236" y2="230" stroke="currentColor" stroke-width="2" marker-end="url(#a5)"/>
 <defs><marker id="a6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="236" y1="260" x2="484" y2="260" stroke="currentColor" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#a6)"/>
-<text x="360" y="223" font-size="15" font-weight="bold" text-anchor="middle">建てて公共部分を渡す</text>
-<text x="360" y="253" font-size="15" text-anchor="middle">買取代金を払う</text>
+<text x="360" y="223" font-size="15" font-weight="bold" text-anchor="middle">注文どおり建てて渡す</text>
+<text x="360" y="253" font-size="15" text-anchor="middle">完成時に代金を払う</text>
 <rect x="590" y="208" width="230" height="62" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
 <text x="705" y="246" font-size="16" font-weight="bold" text-anchor="middle">公共部分は自治体</text>
 <rect x="0" y="282" width="140" height="62" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
