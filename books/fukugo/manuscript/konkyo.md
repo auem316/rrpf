@@ -27,6 +27,11 @@
 | アウガ：2018年1月から市役所駅前庁舎 | [青森市民図書館](https://www.library.city.aomori.aomori.jp/aomoricity_history/trivia/201-/288.pdf) | — |
 | エリアなかいち：事業費135億円、8割を国・県・市が負担 | [秋田魁新報](https://www.sakigake.jp/news/article/20220902AK0016/) | 2022年9月2日 |
 | 再開発ビルの空き床に公共施設を入れた例13件 | [大阪府「再開発ビルの空き床対策事例」](https://www.pref.osaka.lg.jp/documents/20793/zirei20akiyuka.pdf) | — |
+| シリウス：2016年11月3日開館、大和駅東側第4地区市街地再開発事業 | [大和市資料](https://www.city.yamato.lg.jp/material/files/group/46/000090528.pdf)、[大和市都市計画審議会 会議録](https://www.city.yamato.lg.jp/material/files/group/53/000078735.pdf) | 平成24年度 |
+| シリウス：市有施設と民間施設の割合95対5、累計約1,880万人（開設から7年）、年約230万人 | [桐生市議会 視察報告](https://www.city.kiryu.lg.jp/_res/projects/default_project/_page_/001/023/987/yamatocity.pdf) | 二次資料 |
+| エンクロス：2018年4月開業、指定管理者CCC、書店とカフェ | [CCC発表](https://www.ccc.co.jp/pdf/news/20180413_ccc_encross.pdf)、[カレントアウェアネス](https://current.ndl.go.jp/car/34996) | — |
+| エンクロス：事業総額約46億円（うちエンクロス約19億円）、年間運営予算約1.4億円（指定管理料約1億円）、駅前百貨店の閉鎖が契機 | [浜田市議会 視察報告](https://www.city.hamada.shimane.jp/www/gikai/contents/1654740473596/simple/R050130-0202_soumubunkyou_shisatsureport.pdf) | 二次資料 |
+| エンクロス：開館から2年で市民活動1,730回・延べ26,435人 | [太田市 資料](https://www.city.ota.gunma.jp/uploaded/attachment/32581.pdf) | 二次資料 |
 | 丸亀町：定期借地と業績連動の地代 | [内閣府](https://www.chisou.go.jp/tiiki/chukatu/jirei/akitenpo/05_aki_takamatsu.pdf) | — |
 | オガール：工事費約11億円のうち公共約8億円・民間約2.7億円、32年の事業用定期借地 | [内閣府 PPP/PFI事例集](https://www8.cao.go.jp/pfi/pfi_jouhou/jireishuu/pdf/ppp-2.pdf) | — |
 | アンフォーレ：PFI（収益施設併設型）、契約額約63億円、余剰地を定期借地で民間に | [内閣府 PPP/PFI事例集](https://www8.cao.go.jp/pfi/pfi_jouhou/jireishuu/pdf/486-1.pdf) | 事業者選定時 |
