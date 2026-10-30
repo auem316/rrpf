@@ -19,3 +19,5 @@
 Web版は `python3 bin/web.py` で `web/` に組む。デザインは姉妹編と同じ。公開先は hosp.jp/fukugo/book/ を想定（いまは noindex）。
 
 紙版はWeb版の約4割に絞る予定。〔図〇-〇〕は図の差し込み位置、【要確認】は公開資料で裏付けが取れていない点。
+
+紙面（A5の見本PDF）は `python3 bin/print.py` で `print/mihon.pdf` に組む。公民連携ハンドブックの紙面（ポイント欄、節見出し、囲み、柱とノンブル）にそろえている。
