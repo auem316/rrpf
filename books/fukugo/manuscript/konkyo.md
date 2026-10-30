@@ -29,6 +29,9 @@
 | 再開発ビルの空き床に公共施設を入れた例13件 | [大阪府「再開発ビルの空き床対策事例」](https://www.pref.osaka.lg.jp/documents/20793/zirei20akiyuka.pdf) | — |
 | 丸亀町：定期借地と業績連動の地代 | [内閣府](https://www.chisou.go.jp/tiiki/chukatu/jirei/akitenpo/05_aki_takamatsu.pdf) | — |
 | オガール：工事費約11億円のうち公共約8億円・民間約2.7億円、32年の事業用定期借地 | [内閣府 PPP/PFI事例集](https://www8.cao.go.jp/pfi/pfi_jouhou/jireishuu/pdf/ppp-2.pdf) | — |
+| アンフォーレ：PFI（収益施設併設型）、契約額約63億円、余剰地を定期借地で民間に | [内閣府 PPP/PFI事例集](https://www8.cao.go.jp/pfi/pfi_jouhou/jireishuu/pdf/486-1.pdf) | 事業者選定時 |
+| アンフォーレ：商業棟 延床3,041㎡（スーパー・カルチャースクール）、借地料3.3億円、2023年度入館者1,085,625人（1日3,174人） | [国土交通省 官民連携資料](https://www.mlit.go.jp/sogoseisaku/kanminrenkei/content/001842105.pdf) | 令和5年度 |
+| アンフォーレ：総合病院の郊外移転で1日約3,000人の来街者が減少、2017年度開館 | [鶴岡市議会 視察報告](https://www.city.tsuruoka.lg.jp/shisei/gikai/gikaikatsudo/sisatuhoukoku/R6sisatuhoukoku.files/1anjousi.pdf) | 二次資料 |
 
 ## 第17章　公共テナントは商業施設に何をもたらすか
 
