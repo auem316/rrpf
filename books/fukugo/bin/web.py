@@ -25,6 +25,8 @@ CHAPTERS = [
     ("05_shogyo", "05-shogyo.html"),
     ("06_bunka", "06-bunka.html"),
     ("07_kominkan", "07-kominkan.html"),
+    ("08_fukushi", "08-fukushi.html"),
+    ("09_koen", "09-koen.html"),
     ("17_kokyo-tenant", "17-kokyo-tenant.html"),
 ]
 PAGE_OF = {int(src[:2]): html for src, html in CHAPTERS}

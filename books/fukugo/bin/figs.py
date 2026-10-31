@@ -305,6 +305,47 @@ def fig7_1():
     return f
 
 
+def fig8_1():
+    f = Fig("図8-1　閉じた施設から、まちの居場所へ", 340)
+    cols = [("① 福祉×福祉", "高齢者＋子ども", "まだ閉じている", 0.0),
+            ("② 福祉×商業", "温泉・食堂・売店", "住民が来る理由", 0.13),
+            ("③ 福祉×文化", "図書館・公民館に", "日常の動線に乗る", 0.13)]
+    w, gap = 240, 50
+    for i, (a, b, c, fill) in enumerate(cols):
+        x = i * (w + gap)
+        f.head(x, 0, w, a)
+        f.box(x, 58, w, 120, fill=fill, sw=2, dash=(i == 0))
+        f.text(x + w / 2, 106, b, 18, True)
+        f.text(x + w / 2, 146, c, 16)
+        if i < 2:
+            f.arrow(x + w + 6, 118, x + w + gap - 6, 118)
+    f.arrow(410, 190, 410, 226)
+    f.box(0, 238, 820, 96, fill=0.38, sw=2.2)
+    f.text(410, 276, "自治体は、土地・床・条件を出す", 19, True)
+    f.text(410, 310, "公募の条件に「地域に開く機能」の一行", 17)
+    return f
+
+
+def fig9_1():
+    f = Fig("図9-1　Park-PFI のお金の流れ——収益施設の稼ぎを公園に戻す", 360)
+    f.box(0, 40, 250, 110, fill=0.38, sw=2.2)
+    f.text(125, 88, "収益施設", 19, True)
+    f.text(125, 120, "カフェ・レストラン", 16)
+    f.box(570, 40, 250, 110, sw=2.2)
+    f.text(695, 88, "公園の広場・園路", 19, True)
+    f.text(695, 120, "誰でも無料で使う", 16)
+    f.arrow(256, 80, 562, 80, sw=2.6)
+    f.text(410, 66, "稼ぎの一部で整備・運営", 17, True)
+    f.arrow(562, 124, 256, 124, sw=2, dash=True)
+    f.text(410, 150, "人が来て、長くいる", 16)
+    f.box(150, 196, 520, 76, fill=0.13, sw=2)
+    f.text(410, 228, "代わりに受ける特例", 17, True)
+    f.text(410, 258, "期間 最長20年／建物 12%まで", 16)
+    f.box(0, 296, 820, 60, sw=2.2, dash=True)
+    f.text(410, 334, "人が集まる場所でしか回りにくい", 18, True)
+    return f
+
+
 def check(f):
     import re
     s = f.svg()
@@ -322,7 +363,8 @@ def main():
     for name, fn in [("fig2-1_ruikei", fig2_1), ("fig2-2_toi", fig2_2), ("fig1-1_haichi", fig1_1), ("fig1-2_hiroba", fig1_2), ("fig3-1_rensa", fig3_1),
                      ("fig3-2_junjo", fig3_2), ("fig17-1_4hairikata", fig17_1),
                      ("fig4-1_aite", fig4_1), ("fig5-1_kariru-motsu", fig5_1),
-                     ("fig6-1_dousen", fig6_1), ("fig7-1_3michi", fig7_1)]:
+                     ("fig6-1_dousen", fig6_1), ("fig7-1_3michi", fig7_1),
+                     ("fig8-1_hiraku", fig8_1), ("fig9-1_parkpfi", fig9_1)]:
         f = fn()
         n, c = check(f)
         (OUT / f"{name}.svg").write_text(f.svg(), encoding="utf-8")

@@ -16,6 +16,8 @@
 | manuscript/05_shogyo.md | 第5章 公共×商業——床を借りるか、持つか |
 | manuscript/06_bunka.md | 第6章 文化×商業——入口に商業、奥に文化 |
 | manuscript/07_kominkan.md | 第7章 公民館×カフェ・居酒屋 |
+| manuscript/08_fukushi.md | 第8章 福祉×商業・文化——幼老複合をまちの居場所に |
+| manuscript/09_koen.md | 第9章 公園×収益施設——Park-PFIの先へ |
 | manuscript/17_kokyo-tenant.md | 第17章 公共テナントは商業施設に何をもたらすか |
 | manuscript/konkyo.md | 根拠資料——章別 |
 | manuscript/checklist.md | 章別チェックリスト |

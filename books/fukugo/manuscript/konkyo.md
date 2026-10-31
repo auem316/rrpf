@@ -117,6 +117,28 @@
 | 川口市の公民館：飲酒禁止、懇親会の飲み物はソフトドリンク・ノンアルコールに限る | [川口市](https://www.city.kawaguchi.lg.jp/material/files/group/180/inshoku.pdf) | — |
 | 飲食店営業許可、酒類販売業免許、深夜酒類提供飲食店営業の届出 | 食品衛生法、酒税法、風営法第33条 | — |
 
+## 第8章　福祉×商業・文化——幼老複合をまちの居場所に
+
+| 本文の記述 | 出所 | 版・基準日 |
+| --- | --- | --- |
+| 江東園：1962年に養護老人ホーム、1976年に保育園、1987年に統合、幼児約100人・入居者約100人 | [政府広報](https://www.gov-online.go.jp/eng/publicity/book/hlj/html/201512/201512_04_jp.html) | 2015年12月 |
+| 共生型サービス：2018年度の介護保険制度改正で創設、対象サービス | [群馬県](https://www.pref.gunma.jp/02/d23g_00055.html) | — |
+| Share金沢：2014年3月、約1万1,000坪、サ高住32世帯、学生住宅（月30時間のボランティアで家賃半額） | [長寿科学振興財団](https://www.tyojyu.or.jp/net/kaigo-seido/jirei/gochamazedekuraserumachi.html) | — |
+| B's行善寺：2016年秋、近隣120世帯の入浴無料、月約3万人・1日約1,000人、地域住民の利用は福祉利用者の約2倍、従業員120人中60人が地域雇用、診療所2017年4月 | [長寿科学振興財団](https://www.tyojyu.or.jp/net/kaigo-seido/jirei/gochamazedekuraserumachi.html) | — |
+
+## 第9章　公園×収益施設——Park-PFIの先へ
+
+| 本文の記述 | 出所 | 版・基準日 |
+| --- | --- | --- |
+| Park-PFI：203か所で活用、187か所で検討中、東京都18・福岡県17・神奈川県14・愛知県13・大阪府13 | [国土交通省](https://www.mlit.go.jp/toshi/park/content/001890751.pdf) | 2026年3月31日時点 |
+| Park-PFIの特例（許可期間20年、建蔽率+10%で12%、利便増進施設）、保育所等の占用（広場面積の30%以内） | [国土交通省 都市公園法改正のポイント](https://www.mlit.go.jp/common/001248733.pdf) | 2017年改正 |
+| てんしば：2015年から20年、近鉄不動産、芝生広場約7,000㎡を寄付、入園者 約150万人（2012年度）→約440万人（2018年度）、維持管理費3,700万円→700万円、使用料収入0→3,200万円 | [国土交通省 官民連携資料](https://www.mlit.go.jp/sogoseisaku/kanminrenkei/content/001327864.pdf) | — |
+| 南池袋公園：2016年4月リニューアル | [豊島区](https://www.city.toshima.lg.jp/documents/39931/1-1.pdf) | — |
+| 南池袋公園：設置等許可（期間5年）、売上の0.5%以上を毎月負担、南池袋公園をよくする会 | [豊島区 出店者募集要項](https://www.city.toshima.lg.jp/documents/54016/20250912153849.pdf) | 2025年9月 |
+| Hisaya-odori Park：2020年9月、約1km・約5.4ha、35店舗 | [三井不動産の発表](https://digitalpr.jp/r/41452) | — |
+| MIYASHITA PARK：屋上約1haの公園、商業施設とホテル、批判 | [三井不動産の発表](https://digitalpr.jp/r/37040)、[谷頭和希（2024年）](https://gendai.media/articles/-/124281) | — |
+| Fビレッジ：計画地36.7ha、2023年3月開業、来場者300万人、新駅 概算85〜90億円・2027年度開業目標、人口約5.7万人 | [国土交通省](https://www.mlit.go.jp/common/001266145.pdf)、[内閣府](https://www.chisou.go.jp/tiiki/tiikisaisei/portal/pdf/dai35/A-1_kitahiroshimashi.pdf) | 論点整理ペーパーから転記。紙版の前に再確認【要確認】 |
+
 ## 第17章　公共テナントは商業施設に何をもたらすか
 
 | 本文の記述 | 出所 | 版・基準日 |
