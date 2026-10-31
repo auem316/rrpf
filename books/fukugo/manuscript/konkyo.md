@@ -36,7 +36,7 @@
 | エンクロス：事業総額約46億円（うちエンクロス約19億円）、年間運営予算約1.4億円（指定管理料約1億円）、駅前百貨店の閉鎖が契機 | [浜田市議会 視察報告](https://www.city.hamada.shimane.jp/www/gikai/contents/1654740473596/simple/R050130-0202_soumubunkyou_shisatsureport.pdf) | 二次資料 |
 | エンクロス：開館から2年で市民活動1,730回・延べ26,435人 | [太田市 資料](https://www.city.ota.gunma.jp/uploaded/attachment/32581.pdf) | 二次資料 |
 | Mallmall：2018年4月開業、都城大丸2011年1月閉店、ハートシティ都城が跡地取得、整備費約65億円、図書館改修で約31億円縮減、民間商業施設2022年4月、図書館累計約675万人・全体約1,115万人（2024年度末）、旧図書館年約17万人、空き店舗率30%→17% | [鶴岡市議会 視察報告](https://www.city.tsuruoka.lg.jp/shisei/gikai/gikaikatsudo/sisatuhoukoku/gikaisisatu2025.files/R7sankenmiyakonojousi.pdf) | 二次資料、2025年 |
-| Mallmall：既存ストックを活用して図書館・交流センターを設置、官民連携による商業施設整備 | [国土交通省 資料](https://www1.mlit.go.jp:8088/common/001146067.pdf) | — |
+| Mallmall：旧大丸センターモール等の既存ストックを活用して図書館・交流センターを設置、官民連携による商業施設整備 | [国土交通省 資料](https://www1.mlit.go.jp:8088/common/001146067.pdf) | — |
 | 丸亀町：定期借地と業績連動の地代 | [内閣府](https://www.chisou.go.jp/tiiki/chukatu/jirei/akitenpo/05_aki_takamatsu.pdf) | — |
 | オガール：工事費約11億円のうち公共約8億円・民間約2.7億円、32年の事業用定期借地 | [内閣府 PPP/PFI事例集](https://www8.cao.go.jp/pfi/pfi_jouhou/jireishuu/pdf/ppp-2.pdf) | — |
 | アンフォーレ：PFI（収益施設併設型）、契約額約63億円、余剰地を定期借地で民間に | [内閣府 PPP/PFI事例集](https://www8.cao.go.jp/pfi/pfi_jouhou/jireishuu/pdf/486-1.pdf) | 事業者選定時 |
