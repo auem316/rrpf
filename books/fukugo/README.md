@@ -18,6 +18,8 @@
 | manuscript/07_kominkan.md | 第7章 公民館×カフェ・居酒屋 |
 | manuscript/08_fukushi.md | 第8章 福祉×商業・文化——幼老複合をまちの居場所に |
 | manuscript/09_koen.md | 第9章 公園×収益施設——Park-PFIの先へ |
+| manuscript/10_shoku.md | 第10章 食を核にする |
+| manuscript/11_kotsu.md | 第11章 地域公共交通×複合施設 |
 | manuscript/17_kokyo-tenant.md | 第17章 公共テナントは商業施設に何をもたらすか |
 | manuscript/konkyo.md | 根拠資料——章別 |
 | manuscript/checklist.md | 章別チェックリスト |

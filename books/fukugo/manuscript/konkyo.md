@@ -139,6 +139,31 @@
 | MIYASHITA PARK：屋上約1haの公園、商業施設とホテル、批判 | [三井不動産の発表](https://digitalpr.jp/r/37040)、[谷頭和希（2024年）](https://gendai.media/articles/-/124281) | — |
 | Fビレッジ：計画地36.7ha、2023年3月開業、来場者300万人、新駅 概算85〜90億円・2027年度開業目標、人口約5.7万人 | [国土交通省](https://www.mlit.go.jp/common/001266145.pdf)、[内閣府](https://www.chisou.go.jp/tiiki/tiikisaisei/portal/pdf/dai35/A-1_kitahiroshimashi.pdf) | 論点整理ペーパーから転記。紙版の前に再確認【要確認】 |
 
+## 第10章　食を核にする
+
+| 本文の記述 | 出所 | 版・基準日 |
+| --- | --- | --- |
+| 第一牧志公設市場：1950年12月に市営市場として開設、仮設市場を経て2023年3月に再開、1階75店舗・2階12店舗・3階調理体験室と多目的室、「持ち上げ」は1990年から | [政府広報オンライン](https://www.gov-online.go.jp/hlj/ja/november_2025/november_2025-07.html) | 2025年11月 |
+| Time Out Market Lisboa：2014年5月、建物の半分、約36店、2018年に約400万人 | [Wikipedia](https://en.wikipedia.org/wiki/Time_Out_Market_Lisboa) | 一次資料での確認を紙版の前に【要確認】 |
+| Markthal：2014年10月、住宅228戸、駐車場1,200台超 | [Wikipedia](<https://en.wikipedia.org/wiki/Market_Hall_(Rotterdam)>) | 一次資料での確認を紙版の前に【要確認】 |
+| バスク・カリナリー・センター：2011年開校、モンドラゴン大学と地元シェフが設立 | [Basque Culinary Center](https://www.bculinary.com/en/sobrebcc) | — |
+| なら食と農の魅力創造国際大学校：2016年4月、農業大学校を再編、校内のオーベルジュ | [マイナビ農業](https://agri.mynavi.jp/2021_10_09_172601/) | 二次資料 |
+| 豊洲 千客万来：2024年2月開業、当初の事業者の辞退など | [日刊建設工業新聞](https://www.decn.co.jp/inc/jigyo_data/%E8%B1%8A%E6%B4%B2%E5%8D%83%E5%AE%A2%E4%B8%87%E6%9D%A5%EF%BC%882024%E5%B9%B42%E6%9C%881%E6%97%A5%EF%BC%89.pdf) | 2024年2月1日 |
+
+## 第11章　地域公共交通×複合施設
+
+| 本文の記述 | 出所 | 版・基準日 |
+| --- | --- | --- |
+| 2023年の地域公共交通活性化再生法の改正（令和5年法律第18号、10月施行） | [国土交通省](https://www.mlit.go.jp/report/press/sogo12_hh_000330.html) | — |
+| 2026年の改正（令和8年法律第35号）、施設利用者用運送サービス提供者、交通空白 約2,500地区・地点、集中対策期間 令和7〜9年度、白川町・湖西市（運賃100円）・八戸市 | [国土交通省 資料](https://www.mlit.go.jp/sogoseisaku/transport/content/002008617.pdf) | 2026年5月31日時点の数値を含む。施行日は政令で定める【要確認】 |
+| 熊本市 桜町再開発：2019年9月、バスターミナル・商業・ホテル・住宅・熊本城ホール | [熊本市](https://www.city.kumamoto.jp/kiji00322348/index.html) | — |
+| 桜町再開発の市の支出が総額400億円超 | [データ・マックス](https://data-max.co.jp/article/34645) | 報道ベース |
+| ライトキューブ宇都宮：2022年11月、JR宇都宮駅東口に直結 | [栃木県](https://www.pref.tochigi.lg.jp/h15/kouhou/houdou/documents/01lightcube.pdf) | — |
+| きらめき広場・哲西：2001年、支局・防災センター・生涯学習センター・文化ホール・図書館・保健福祉センター・診療所、道の駅に隣接 | [国土交通省 資料](https://www.mlit.go.jp/common/001116560.pdf) | — |
+| 地域くらしサービス拠点：交通の停留所を拠点の機能に挙げる | [内閣府](https://www.chisou.go.jp/sousei/about/chiikikurashi/pdf/gaiyo.pdf) | — |
+| 境町：2020年11月26日、往復約5km、無料、車両3台・5年間で5億2,000万円 | [レスポンス](https://response.jp/article/2020/11/26/340686.html) | 2020年11月 |
+| 境町長の「横に動くエレベータ」 | [乗りものニュース](https://trafficnews.jp/post/111210) | — |
+
 ## 第17章　公共テナントは商業施設に何をもたらすか
 
 | 本文の記述 | 出所 | 版・基準日 |

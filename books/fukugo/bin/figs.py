@@ -346,6 +346,40 @@ def fig9_1():
     return f
 
 
+def fig10_1():
+    f = Fig("図10-1　食の拠点の五つの要素——市場と飲食から始める", 330)
+    f.box(0, 0, 400, 130, fill=0.38, sw=2.4)
+    f.text(200, 56, "市場", 21, True)
+    f.text(200, 96, "毎日の需要・新鮮な食材", 16)
+    f.box(420, 0, 400, 130, fill=0.38, sw=2.4)
+    f.text(620, 56, "飲食・フードホール", 21, True)
+    f.text(620, 96, "訪れるきっかけ・滞在", 16)
+    items = [("人材育成", "県・大学・学校"), ("研究開発", "大学・試験研究機関"), ("交流", "広場・調理室・催し")]
+    w, gap = 260, 20
+    for i, (a, b) in enumerate(items):
+        x = i * (w + gap)
+        f.box(x, 160, w, 100, sw=2, dash=True)
+        f.text(x + w / 2, 202, a, 19, True)
+        f.text(x + w / 2, 236, b, 16)
+    f.text(410, 300, "まず二つで始め、あとから既存の施設と組む", 18, True)
+    return f
+
+
+def fig11_1():
+    f = Fig("図11-1　交通と複合施設の四つの組み合わせ方", 330)
+    cells = [("① 結節型", "駅・ターミナルの隣に置く", "大都市"),
+             ("② 拠点型", "束ねた施設を交通の起点に", "町村"),
+             ("③ 回遊型", "散らばった施設を循環で結ぶ", "中規模の市"),
+             ("④ 共有型", "病院・学校・企業の送迎を開く", "町村")]
+    for i, (a, b, c) in enumerate(cells):
+        x, y = (i % 2) * 420, (i // 2) * 165
+        f.box(x, y, 400, 150, fill=0.13 if i in (1, 3) else 0, sw=2.2)
+        f.text(x + 200, y + 46, a, 20, True)
+        f.text(x + 200, y + 88, b, 17)
+        f.text(x + 200, y + 124, "向く規模：" + c, 16)
+    return f
+
+
 def check(f):
     import re
     s = f.svg()
@@ -364,7 +398,8 @@ def main():
                      ("fig3-2_junjo", fig3_2), ("fig17-1_4hairikata", fig17_1),
                      ("fig4-1_aite", fig4_1), ("fig5-1_kariru-motsu", fig5_1),
                      ("fig6-1_dousen", fig6_1), ("fig7-1_3michi", fig7_1),
-                     ("fig8-1_hiraku", fig8_1), ("fig9-1_parkpfi", fig9_1)]:
+                     ("fig8-1_hiraku", fig8_1), ("fig9-1_parkpfi", fig9_1),
+                     ("fig10-1_shoku", fig10_1), ("fig11-1_kotsu", fig11_1)]:
         f = fn()
         n, c = check(f)
         (OUT / f"{name}.svg").write_text(f.svg(), encoding="utf-8")

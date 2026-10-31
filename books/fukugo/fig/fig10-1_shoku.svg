@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 342" width="100%" role="img"
+ aria-label="図10-1　食の拠点の五つの要素——市場と飲食から始める"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="400" height="130" rx="5" fill="currentColor" fill-opacity="0.38" stroke="currentColor" stroke-width="2.4"/>
+<text x="200" y="56" font-size="21" font-weight="bold" text-anchor="middle">市場</text>
+<text x="200" y="96" font-size="16" text-anchor="middle">毎日の需要・新鮮な食材</text>
+<rect x="420" y="0" width="400" height="130" rx="5" fill="currentColor" fill-opacity="0.38" stroke="currentColor" stroke-width="2.4"/>
+<text x="620" y="56" font-size="21" font-weight="bold" text-anchor="middle">飲食・フードホール</text>
+<text x="620" y="96" font-size="16" text-anchor="middle">訪れるきっかけ・滞在</text>
+<rect x="0" y="160" width="260" height="100" rx="5" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="130.0" y="202" font-size="19" font-weight="bold" text-anchor="middle">人材育成</text>
+<text x="130.0" y="236" font-size="16" text-anchor="middle">県・大学・学校</text>
+<rect x="280" y="160" width="260" height="100" rx="5" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="410.0" y="202" font-size="19" font-weight="bold" text-anchor="middle">研究開発</text>
+<text x="410.0" y="236" font-size="16" text-anchor="middle">大学・試験研究機関</text>
+<rect x="560" y="160" width="260" height="100" rx="5" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="690.0" y="202" font-size="19" font-weight="bold" text-anchor="middle">交流</text>
+<text x="690.0" y="236" font-size="16" text-anchor="middle">広場・調理室・催し</text>
+<text x="410" y="300" font-size="18" font-weight="bold" text-anchor="middle">まず二つで始め、あとから既存の施設と組む</text>
+</svg>
