@@ -138,6 +138,55 @@ def fig3_2():
     return f
 
 
+def fig2_1():
+    f = Fig("図2-1　4つの類型——相手が民間に近づくほど、価値もリスクも大きくなる", 340)
+    items = [("A 公共×公共", "学校＋公民館"), ("B 公共×商業", "図書館＋飲食"),
+             ("C 公共×働く場", "廃校＋オフィス"), ("D 公共×住まい", "庁舎＋住宅")]
+    w, gap = 190, 20
+    for i, (a, b) in enumerate(items):
+        x = i * (w + gap)
+        f.box(x, 0, w, 84, fill=0.06 + i * 0.07, sw=2.2)
+        f.text(x + w / 2, 36, a, 18, True)
+        f.text(x + w / 2, 66, b, 16)
+    f.arrow(0, 112, 816, 112, sw=2.4)
+    f.text(410, 140, "相手が民間に近づく", 17, True)
+    f.parts.append('<path d="M0,226 L820,188 L820,226 Z" fill="currentColor" fill-opacity="0.18" stroke="currentColor" stroke-width="1.4"/>')
+    f.text(0, 180, "価値：にぎわい・民間の資金", 16, True, "start")
+    f.parts.append('<path d="M0,298 L820,260 L820,298 Z" fill="currentColor" fill-opacity="0.34" stroke="currentColor" stroke-width="1.4"/>')
+    f.text(0, 252, "リスク：撤退・公費での穴埋め", 16, True, "start")
+    f.text(410, 332, "B・C・D は、民間が稼げるかを確かめてから選ぶ", 16)
+    return f
+
+
+def fig2_2():
+    f = Fig("図2-2　4つの問いで類型を選ぶ", 400)
+    f.box(250, 0, 320, 56, fill=0.13, sw=2.2)
+    f.text(410, 35, "④ その場所で束ねる施設か", 18, True)
+    f.arrow(250, 28, 160, 28)
+    f.box(0, 4, 156, 48, sw=1.4, dash=True)
+    f.text(78, 34, "残す・転じる・畳む", 15)
+    f.text(205, 20, "いいえ", 15)
+    f.arrow(410, 58, 410, 92)
+    f.text(440, 80, "はい", 15, False, "start")
+    f.box(180, 96, 460, 84, sw=2)
+    f.text(410, 130, "① 利用時間帯は補い合うか", 17)
+    f.text(410, 162, "② 利用者は重なるか", 17)
+    f.arrow(410, 182, 410, 214)
+    f.box(250, 218, 320, 56, fill=0.13, sw=2.2)
+    f.text(410, 253, "③ 民間が稼げる立地か", 18, True)
+    f.arrow(330, 276, 210, 320)
+    f.arrow(490, 276, 610, 320)
+    f.text(250, 300, "いいえ", 15, False, "end")
+    f.text(570, 300, "はい", 15, False, "start")
+    f.box(0, 324, 400, 66, sw=2.2)
+    f.text(200, 352, "A を軸にする", 18, True)
+    f.text(200, 378, "民間は小さな床で試す", 16)
+    f.box(420, 324, 400, 66, sw=2.2)
+    f.text(620, 352, "A を核に B・C・D を足す", 18, True)
+    f.text(620, 378, "テナントが決まった分だけ", 16)
+    return f
+
+
 def fig17_1():
     f = Fig("図17-1　4つの入り方と、お金・床の流れ", 392)
     # 列：入り方｜自治体｜流れ｜民間｜持ち主
@@ -183,7 +232,7 @@ def check(f):
 
 def main():
     OUT.mkdir(exist_ok=True)
-    for name, fn in [("fig1-1_haichi", fig1_1), ("fig1-2_hiroba", fig1_2), ("fig3-1_rensa", fig3_1),
+    for name, fn in [("fig2-1_ruikei", fig2_1), ("fig2-2_toi", fig2_2), ("fig1-1_haichi", fig1_1), ("fig1-2_hiroba", fig1_2), ("fig3-1_rensa", fig3_1),
                      ("fig3-2_junjo", fig3_2), ("fig17-1_4hairikata", fig17_1)]:
         f = fn()
         n, c = check(f)

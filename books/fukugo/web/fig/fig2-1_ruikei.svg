@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 352" width="100%" role="img"
+ aria-label="図2-1　4つの類型——相手が民間に近づくほど、価値もリスクも大きくなる"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="190" height="84" rx="5" fill="currentColor" fill-opacity="0.06" stroke="currentColor" stroke-width="2.2"/>
+<text x="95.0" y="36" font-size="18" font-weight="bold" text-anchor="middle">A 公共×公共</text>
+<text x="95.0" y="66" font-size="16" text-anchor="middle">学校＋公民館</text>
+<rect x="210" y="0" width="190" height="84" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="305.0" y="36" font-size="18" font-weight="bold" text-anchor="middle">B 公共×商業</text>
+<text x="305.0" y="66" font-size="16" text-anchor="middle">図書館＋飲食</text>
+<rect x="420" y="0" width="190" height="84" rx="5" fill="currentColor" fill-opacity="0.2" stroke="currentColor" stroke-width="2.2"/>
+<text x="515.0" y="36" font-size="18" font-weight="bold" text-anchor="middle">C 公共×働く場</text>
+<text x="515.0" y="66" font-size="16" text-anchor="middle">廃校＋オフィス</text>
+<rect x="630" y="0" width="190" height="84" rx="5" fill="currentColor" fill-opacity="0.27" stroke="currentColor" stroke-width="2.2"/>
+<text x="725.0" y="36" font-size="18" font-weight="bold" text-anchor="middle">D 公共×住まい</text>
+<text x="725.0" y="66" font-size="16" text-anchor="middle">庁舎＋住宅</text>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="0" y1="112" x2="816" y2="112" stroke="currentColor" stroke-width="2.4" marker-end="url(#a1)"/>
+<text x="410" y="140" font-size="17" font-weight="bold" text-anchor="middle">相手が民間に近づく</text>
+<path d="M0,226 L820,188 L820,226 Z" fill="currentColor" fill-opacity="0.18" stroke="currentColor" stroke-width="1.4"/>
+<text x="0" y="180" font-size="16" font-weight="bold" text-anchor="start">価値：にぎわい・民間の資金</text>
+<path d="M0,298 L820,260 L820,298 Z" fill="currentColor" fill-opacity="0.34" stroke="currentColor" stroke-width="1.4"/>
+<text x="0" y="252" font-size="16" font-weight="bold" text-anchor="start">リスク：撤退・公費での穴埋め</text>
+<text x="410" y="332" font-size="16" text-anchor="middle">B・C・D は、民間が稼げるかを確かめてから選ぶ</text>
+</svg>

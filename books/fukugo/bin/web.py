@@ -17,7 +17,9 @@ BASEDATE = "2026年10月30日"
 
 # (ファイル, 部) 見本として組む章
 CHAPTERS = [
+    ("00_josho", "00-josho.html"),
     ("01_hiroba", "01-hiroba.html"),
+    ("02_ruikei", "02-ruikei.html"),
     ("03_saikaihatsu", "03-saikaihatsu.html"),
     ("17_kokyo-tenant", "17-kokyo-tenant.html"),
 ]
@@ -123,9 +125,10 @@ def main():
         md_text = (SRC / f"{src}.md").read_text(encoding="utf-8")
         n = int(src[:2])
         body = render(md_text)
+        anc = "序章" if n == 0 else f"第{n}章"
         body += ('\n<hr>\n<blockquote><p><strong>この章は見本原稿です。</strong>'
-                 f'Web版には、この章の<a href="konkyo.html#第{n}章">根拠資料</a>と'
-                 f'<a href="checklist-web.html#第{n}章">チェックリスト</a>を置いている。</p></blockquote>\n')
+                 f'Web版には、この章の<a href="konkyo.html#{anc}">根拠資料</a>と'
+                 f'<a href="checklist-web.html#{anc}">チェックリスト</a>を置いている。</p></blockquote>\n')
         prev = f'<a href="{CHAPTERS[i-1][1]}">← {titles[i-1]}</a>' if i else "<span></span>"
         nxt = f'<a href="{CHAPTERS[i+1][1]}">{titles[i+1]} →</a>' if i + 1 < len(CHAPTERS) else "<span></span>"
         body += f'<div class="pager">{prev}{nxt}</div>'
@@ -139,6 +142,7 @@ def main():
                       lambda m: f'<span id="第{m.group(2)}章"></span><h2 id="{m.group(1)}">'
                                 + (f'<a href="{PAGE_OF[int(m.group(2))]}">第{m.group(2)}章</a>'
                                    if int(m.group(2)) in PAGE_OF else f"第{m.group(2)}章"), body)
+        body = re.sub(r'<h2 id="(序章[^"]*)">序章', r'<span id="序章"></span><h2 id="\1"><a href="00-josho.html">序章</a>', body)
         (OUT / dst).write_text(page(md_text.splitlines()[0][2:], desc_of(md_text), body), encoding="utf-8")
 
     rows = [f'<h1>{BOOK}<br><span class="lead">{SUB}</span></h1>',
@@ -147,14 +151,15 @@ def main():
             '<div class="kami"><p><strong>この本には、紙の版とWebの版があります。</strong></p>'
             '<p>紙は、読んで決め、点検表として書き込むためのもの。Webは、必要なところをその場で引くためのものです。'
             '<strong>本文は同じですが、Web版には章ごとの根拠資料とチェックリストを足しています。</strong></p>'
-            '<p class="lead">いま読めるのは見本の3章（第1章・第3章・第17章）です。ほかの章は準備中です。</p></div>']
+            '<p class="lead">いま読めるのは、序章・第1章〜第3章・第17章です。ほかの章は準備中です。</p></div>']
     for part, chs in TOC:
         if part:
             rows.append(f'<div class="part">{part}</div>')
         for ch in chs:
             m = re.match(r"第(\d+)章", ch)
-            if m and int(m.group(1)) in PAGE_OF:
-                rows.append(f'<p><a href="{PAGE_OF[int(m.group(1))]}">{ch}</a></p>')
+            n = 0 if ch.startswith("序章") else (int(m.group(1)) if m else None)
+            if n in PAGE_OF:
+                rows.append(f'<p><a href="{PAGE_OF[n]}">{ch}</a></p>')
             else:
                 rows.append(f'<p class="soon">{ch}（準備中）</p>')
     rows += ['<h2>巻末資料</h2>',

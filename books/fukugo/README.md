@@ -8,7 +8,9 @@
 
 | ファイル | 中身 |
 | --- | --- |
+| manuscript/00_josho.md | 序章 なぜ「減らす」から「組み替える」へなのか |
 | manuscript/01_hiroba.md | 第1章 外部経済効果を「広場」でつなぐ |
+| manuscript/02_ruikei.md | 第2章 何と何を組み合わせるか（4つの類型） |
 | manuscript/03_saikaihatsu.md | 第3章 地方の再開発はなぜ失敗したか |
 | manuscript/17_kokyo-tenant.md | 第17章 公共テナントは商業施設に何をもたらすか |
 | manuscript/konkyo.md | 根拠資料——章別 |

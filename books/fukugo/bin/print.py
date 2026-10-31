@@ -20,7 +20,9 @@ AUTHOR = "上村　章文"
 
 # 見本として組む章：(原稿, 部)
 CHAPTERS = [
+    ("00_josho", "序章"),
     ("01_hiroba", "第1部　考え方"),
+    ("02_ruikei", "第1部　考え方"),
     ("03_saikaihatsu", "第1部　考え方"),
     ("17_kokyo-tenant", "第5部　デベロッパーの実務"),
 ]
@@ -89,7 +91,7 @@ PAGE_RULE = """@page {name}:left  {{ @bottom-left  {{ content: counter(page) "�
 def chapter_html(md_text, name):
     html = markdown.markdown(md_text, extensions=["tables"])
     html = re.sub(r"<hr\s*/?>", "", html)
-    m = re.match(r"<h1>(第\d+章)　(.*?)</h1>", html)
+    m = re.match(r"<h1>(序章|第\d+章)　(.*?)</h1>", html)
     no, title = m.group(1), m.group(2)
     html = html[m.end():]
     html = re.sub(r"<h2>この章の要点</h2>\s*(<ol>.*?</ol>)",
@@ -108,7 +110,7 @@ def main():
     OUT.mkdir(exist_ok=True)
     pages, body = [], []
     body.append(f'<div class="title"><h1>{BOOK}</h1><p class="sub">{SUB}</p><p class="sub2">{SUB2}</p>'
-                f'<p class="au">{AUTHOR}</p><div class="note">見本紙面（第1章・第3章・第17章）<br>'
+                f'<p class="au">{AUTHOR}</p><div class="note">見本紙面（序章・第1章〜第3章・第17章）<br>'
                 'A5判。本文は明朝、見出し・表・柱はゴシック。ページ番号は見本用の通し番号です。'
                 '</div></div>')
     last_part = None
@@ -117,7 +119,7 @@ def main():
         name = f"c{i}"
         html, chap = chapter_html(md_text, name)
         pages.append(PAGE_RULE.format(name=name, part=part, chap=chap))
-        if part != last_part:
+        if part != last_part and part != "序章":
             body.append(f'<div class="partpage">{part.replace("　", "　")}</div>')
             last_part = part
         body.append(html)
