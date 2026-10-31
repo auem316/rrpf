@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 412" width="100%" role="img"
+ aria-label="図5-1　借りるか、持つか——お金の出方の違い"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<line x1="90" y1="300" x2="780" y2="300" stroke="currentColor" stroke-width="2" stroke-opacity="1.0"/>
+<line x1="90" y1="300" x2="90" y2="30" stroke="currentColor" stroke-width="2" stroke-opacity="1.0"/>
+<text x="76" y="46" font-size="16" text-anchor="end">累計の</text>
+<text x="76" y="68" font-size="16" text-anchor="end">支出</text>
+<text x="780" y="330" font-size="16" text-anchor="end">年数</text>
+<polyline points="90,300 780,40" fill="none" stroke="currentColor" stroke-width="3.2"/>
+<polyline points="90,300 90,190 550,165 550,135 780,120" fill="none" stroke="currentColor" stroke-width="3.2" stroke-dasharray="10 6"/>
+<text x="770" y="28" font-size="17" font-weight="bold" text-anchor="end">借りる（賃料が毎年）</text>
+<text x="770" y="108" font-size="17" font-weight="bold" text-anchor="end">持つ</text>
+<text x="104" y="180" font-size="16" text-anchor="start">取得・改修</text>
+<text x="562" y="160" font-size="16" text-anchor="start">大規模修繕</text>
+<line x1="431" y1="300" x2="431" y2="172" stroke="currentColor" stroke-width="1.6" stroke-opacity="0.6"/>
+<text x="431" y="330" font-size="16" font-weight="bold" text-anchor="middle">分かれ目</text>
+<text x="265" y="288" font-size="16" text-anchor="middle">短いなら借りる</text>
+<text x="650" y="240" font-size="16" text-anchor="middle">長いなら持つ</text>
+<rect x="0" y="340" width="820" height="56" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="410" y="376" font-size="18" font-weight="bold" text-anchor="middle">先に「何年いるか」を決めれば、総額で比べられる</text>
+</svg>

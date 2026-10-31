@@ -218,6 +218,54 @@ def fig17_1():
     return f
 
 
+def fig4_1():
+    f = Fig("図4-1　学校の複合化の相手——多いのは「置くだけ」の施設", 420)
+    rows = [("地域防災用備蓄倉庫", 7475), ("放課後児童クラブ", 6870), ("体育館等", 843), ("公民館等", 608),
+            ("給食共同調理場", 409), ("児童館等", 170), ("保育所", 88), ("図書館", 75)]
+    x0, maxw, rh = 250, 470, 40
+    for i, (name, n) in enumerate(rows):
+        y = 10 + i * rh
+        f.text(x0 - 12, y + 24, name, 17, i < 2, anchor="end")
+        w = max(4, round(maxw * n / 7475))
+        f.box(x0, y + 4, w, 28, fill=0.38 if i < 2 else 0.13, sw=1.4, rx=2)
+        f.text(x0 + w + 10, y + 25, f"{n:,}", 17, i < 2, anchor="start")
+    f.line(x0, 6, x0, 10 + len(rows) * rh, sw=2)
+    f.box(0, 350, 400, 66, fill=0.38, sw=2)
+    f.text(200, 391, "空き教室や敷地に置くだけ", 18, True)
+    f.box(420, 350, 400, 66, sw=2.2, dash=True)
+    f.text(620, 391, "人が出入りする複合は少ない", 18, True)
+    return f
+
+
+def fig5_1():
+    f = Fig("図5-1　借りるか、持つか——お金の出方の違い", 400)
+    ox, oy, W, H = 90, 300, 690, 270
+    f.line(ox, oy, ox + W, oy, sw=2)
+    f.line(ox, oy, ox, oy - H, sw=2)
+    f.text(ox - 14, oy - H + 16, "累計の", 16, anchor="end")
+    f.text(ox - 14, oy - H + 38, "支出", 16, anchor="end")
+    f.text(ox + W, oy + 30, "年数", 16, anchor="end")
+    # 借りる：毎年の賃料が積み上がる
+    f.parts.append(f'<polyline points="{ox},{oy} {ox + W},{oy - H + 10}" fill="none" stroke="currentColor" stroke-width="3.2"/>')
+    # 持つ：最初に取得・改修、途中で大規模修繕
+    pts = [(ox, oy), (ox, oy - 110), (ox + 460, oy - 135), (ox + 460, oy - 165), (ox + W, oy - 180)]
+    f.parts.append('<polyline points="' + " ".join(f"{x},{y}" for x, y in pts) +
+                   '" fill="none" stroke="currentColor" stroke-width="3.2" stroke-dasharray="10 6"/>')
+    f.text(ox + W - 10, oy - H - 2, "借りる（賃料が毎年）", 17, True, anchor="end")
+    f.text(ox + W - 10, oy - 192, "持つ", 17, True, anchor="end")
+    f.text(ox + 14, oy - 120, "取得・改修", 16, anchor="start")
+    f.text(ox + 472, oy - 140, "大規模修繕", 16, anchor="start")
+    # 分かれ目（線が交わるあたり）
+    cx = ox + 341
+    f.line(cx, oy, cx, oy - 128, sw=1.6, op=0.6)
+    f.text(cx, oy + 30, "分かれ目", 16, True)
+    f.text(ox + 175, oy - 12, "短いなら借りる", 16)
+    f.text(ox + 560, oy - 60, "長いなら持つ", 16)
+    f.box(0, 340, 820, 56, fill=0.13, sw=2.2)
+    f.text(410, 376, "先に「何年いるか」を決めれば、総額で比べられる", 18, True)
+    return f
+
+
 def check(f):
     import re
     s = f.svg()
@@ -233,7 +281,8 @@ def check(f):
 def main():
     OUT.mkdir(exist_ok=True)
     for name, fn in [("fig2-1_ruikei", fig2_1), ("fig2-2_toi", fig2_2), ("fig1-1_haichi", fig1_1), ("fig1-2_hiroba", fig1_2), ("fig3-1_rensa", fig3_1),
-                     ("fig3-2_junjo", fig3_2), ("fig17-1_4hairikata", fig17_1)]:
+                     ("fig3-2_junjo", fig3_2), ("fig17-1_4hairikata", fig17_1),
+                     ("fig4-1_aite", fig4_1), ("fig5-1_kariru-motsu", fig5_1)]:
         f = fn()
         n, c = check(f)
         (OUT / f"{name}.svg").write_text(f.svg(), encoding="utf-8")
