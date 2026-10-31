@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 372" width="100%" role="img"
+ aria-label="図1-2　広場を囲む施設の配置（入口の向きと駐車場の位置）"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="820" height="300" rx="5" fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="7 5"/>
+<rect x="270" y="100" width="280" height="110" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.4"/>
+<text x="410" y="145" font-size="20" font-weight="bold" text-anchor="middle">広場</text>
+<text x="410" y="178" font-size="16" text-anchor="middle">運営者と予算を先に決める</text>
+<rect x="300" y="22" width="220" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="410.0" y="55" font-size="17" font-weight="bold" text-anchor="middle">公共施設（役所・図書館）</text>
+<rect x="60" y="120" width="160" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="140.0" y="153" font-size="17" font-weight="bold" text-anchor="middle">文化施設</text>
+<rect x="600" y="120" width="160" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="680.0" y="153" font-size="17" font-weight="bold" text-anchor="middle">商業</text>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="410" y1="76" x2="410" y2="98" stroke="currentColor" stroke-width="2" marker-end="url(#a1)"/>
+<defs><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="222" y1="155" x2="268" y2="155" stroke="currentColor" stroke-width="2" marker-end="url(#a2)"/>
+<defs><marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="598" y1="155" x2="552" y2="155" stroke="currentColor" stroke-width="2" marker-end="url(#a3)"/>
+<text x="410" y="248" font-size="17" font-weight="bold" text-anchor="middle">入口は広場に向ける</text>
+<rect x="20" y="228" width="150" height="56" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="1.4"/>
+<text x="95" y="262" font-size="17" font-weight="bold" text-anchor="middle">駐車場</text>
+<rect x="650" y="228" width="150" height="56" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="1.4"/>
+<text x="725" y="262" font-size="17" font-weight="bold" text-anchor="middle">駐車場</text>
+<defs><marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="410" y1="262" x2="410" y2="296" stroke="currentColor" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#a4)"/>
+<text x="410" y="330" font-size="17" text-anchor="middle">商店街・停留所へ歩いて回る</text>
+<text x="95" y="222" font-size="15" text-anchor="middle">外周にまとめる</text>
+</svg>

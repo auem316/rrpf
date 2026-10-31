@@ -1,0 +1,3225 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><style>
+@page { size: 148mm 210mm; margin: 17mm 16mm 18mm 16mm; }
+@page :left  { margin-left: 17mm; margin-right: 15mm; }
+@page :right { margin-left: 15mm; margin-right: 17mm; }
+@page plain { @bottom-left { content: none } @bottom-right { content: none } }
+@page c0:left  { @bottom-left  { content: counter(page) "　序章"; font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c0:right { @bottom-right { content: "序章　なぜ「減らす」から「組み替える」へなのか　" counter(page); font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c0:first { @bottom-left { content: none } @bottom-right { content: none } }
+@page c1:left  { @bottom-left  { content: counter(page) "　第1部　考え方"; font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c1:right { @bottom-right { content: "第1章　外部経済効果を「広場」でつなぐ　" counter(page); font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c1:first { @bottom-left { content: none } @bottom-right { content: none } }
+@page c2:left  { @bottom-left  { content: counter(page) "　第1部　考え方"; font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c2:right { @bottom-right { content: "第2章　何と何を組み合わせるか（4つの類型）　" counter(page); font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c2:first { @bottom-left { content: none } @bottom-right { content: none } }
+@page c3:left  { @bottom-left  { content: counter(page) "　第1部　考え方"; font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c3:right { @bottom-right { content: "第3章　地方の再開発はなぜ失敗したか　" counter(page); font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c3:first { @bottom-left { content: none } @bottom-right { content: none } }
+@page c4:left  { @bottom-left  { content: counter(page) "　第2部　組み合わせ別"; font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c4:right { @bottom-right { content: "第4章　公共×公共——学校を核にする　" counter(page); font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c4:first { @bottom-left { content: none } @bottom-right { content: none } }
+@page c5:left  { @bottom-left  { content: counter(page) "　第2部　組み合わせ別"; font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c5:right { @bottom-right { content: "第5章　公共×商業——床を借りるか、持つか　" counter(page); font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c5:first { @bottom-left { content: none } @bottom-right { content: none } }
+@page c6:left  { @bottom-left  { content: counter(page) "　第2部　組み合わせ別"; font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c6:right { @bottom-right { content: "第6章　文化×商業——入口に商業、奥に文化　" counter(page); font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c6:first { @bottom-left { content: none } @bottom-right { content: none } }
+@page c7:left  { @bottom-left  { content: counter(page) "　第2部　組み合わせ別"; font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c7:right { @bottom-right { content: "第7章　公民館×カフェ・居酒屋　" counter(page); font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c7:first { @bottom-left { content: none } @bottom-right { content: none } }
+@page c8:left  { @bottom-left  { content: counter(page) "　第2部　組み合わせ別"; font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c8:right { @bottom-right { content: "第8章　福祉×商業・文化——幼老複合をまちの居場所に　" counter(page); font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c8:first { @bottom-left { content: none } @bottom-right { content: none } }
+@page c9:left  { @bottom-left  { content: counter(page) "　第2部　組み合わせ別"; font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c9:right { @bottom-right { content: "第9章　公園×収益施設——Park-PFIの先へ　" counter(page); font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c9:first { @bottom-left { content: none } @bottom-right { content: none } }
+@page c10:left  { @bottom-left  { content: counter(page) "　第2部　組み合わせ別"; font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c10:right { @bottom-right { content: "第10章　食を核にする　" counter(page); font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c10:first { @bottom-left { content: none } @bottom-right { content: none } }
+@page c11:left  { @bottom-left  { content: counter(page) "　第2部　組み合わせ別"; font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c11:right { @bottom-right { content: "第11章　地域公共交通×複合施設　" counter(page); font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c11:first { @bottom-left { content: none } @bottom-right { content: none } }
+@page c12:left  { @bottom-left  { content: counter(page) "　第5部　デベロッパーの実務"; font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c12:right { @bottom-right { content: "第17章　公共テナントは商業施設に何をもたらすか　" counter(page); font: 7pt "Noto Sans CJK JP", sans-serif; } }
+@page c12:first { @bottom-left { content: none } @bottom-right { content: none } }
+@counter-style circled { system: fixed; symbols: "❶" "❷" "❸" "❹" "❺" "❻" "❼"; suffix: " "; }
+html { font-family: "Noto Serif CJK JP", "IPAMincho", serif; font-size: 8.7pt; line-height: 1.78;
+  color: #000; text-align: justify; font-kerning: none; }
+body { margin: 0; }
+.sans, table, .point .label, h2, h3, .fig, .partpage, .title, .kakomi-label {
+  font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+p { margin: 0; text-indent: 1em; }
+p + p { margin-top: 0; }
+strong { font-weight: 700; font-family: "Noto Sans CJK JP", sans-serif; font-size: .97em; }
+.title { page: plain; height: 170mm; display: flex; flex-direction: column; justify-content: center; }
+.title h1 { font-size: 20pt; line-height: 1.5; margin: 0 0 4mm; font-weight: 700; }
+.title .sub { font-size: 11pt; margin: 0 0 2mm; }
+.title .sub2 { font-size: 8.5pt; margin: 0 0 16mm; }
+.title .au { font-size: 11pt; }
+.title .note { margin-top: 26mm; font-size: 7.5pt; line-height: 1.7; border-top: .3mm solid #000; padding-top: 3mm; }
+.partpage { page: plain; break-before: page; height: 170mm; display: flex; align-items: center; justify-content: center;
+  font-size: 15pt; font-weight: 700; letter-spacing: .05em; }
+.ch { break-before: page; }
+.ch h1 { font-family: "Noto Sans CJK JP", sans-serif; font-size: 15pt; line-height: 1.45; font-weight: 700;
+  margin: 6mm 0 6mm; padding-bottom: 2.5mm; border-bottom: .6mm solid #000; }
+.ch h1 .no { display: block; font-size: 9pt; font-weight: 700; letter-spacing: .1em; margin-bottom: 1mm; }
+.point { border: .35mm solid #000; padding: 2.5mm 3.5mm 2.8mm; margin: 0 0 6mm; break-inside: avoid; }
+.point .label { display: inline-block; background: #000; color: #fff; font-weight: 700; font-size: 8pt;
+  padding: .3mm 2.5mm; margin: 0 0 1.8mm; letter-spacing: .1em; }
+.point ol { list-style: none; counter-reset: pt; margin: 0; padding-left: 1.45em; }
+.point li { margin: 0; line-height: 1.7; }
+.point li { counter-increment: pt; position: relative; }
+.point li::before { content: counter(pt, circled); position: absolute; left: -1.45em; font-family: "Noto Serif CJK JP", serif; font-weight: 400; }
+.point li strong { font-family: inherit; font-size: 1em; }
+h2 { font-size: 10pt; font-weight: 700; line-height: 1.5; margin: 6mm 0 2.5mm; padding: .6mm 0 .6mm 2.4mm;
+  border-left: 1.3mm solid #000; break-after: avoid; }
+h3 { font-size: 9pt; font-weight: 700; margin: 4mm 0 1.2mm; break-after: avoid; }
+ul, ol { margin: 1.5mm 0; padding-left: 1.3em; }
+li { margin: .6mm 0; }
+li p { text-indent: 0; }
+blockquote { margin: 3mm 0; padding: 2.2mm 3.2mm; border: .3mm solid #000; background: #ececec; break-inside: avoid; }
+blockquote p { text-indent: 0; }
+table { width: 100%; border-collapse: collapse; font-size: 7.2pt; line-height: 1.5; margin: 3mm 0 3.5mm;
+  break-inside: avoid; text-align: left; }
+th, td { border: .2mm solid #000; padding: .9mm 1.3mm; vertical-align: top; }
+th { background: #dcdcdc; font-weight: 700; }
+td strong { font-size: 1em; }
+.fig { margin: 4mm 0; break-inside: avoid; }
+.fig .cap { display: inline-block; background: #000; color: #fff; font-size: 7.5pt; font-weight: 700; padding: .4mm 2.4mm; }
+.fig .art { margin-top: 1.5mm; }
+.fig .art svg { display: block; width: 100%; height: auto; }
+.fig .ph { border: .3mm dashed #000; height: 46mm; display: flex; align-items: center; justify-content: center;
+  font-size: 7.5pt; color: #444; margin-top: 1.2mm; }
+</style></head><body><div class="title"><h1>公共施設の複合化</h1><p class="sub">——「減らす」から「組み替える」へ</p><p class="sub2">商業・文化・福祉・交通を「広場」でつなぐ——自治体とデベロッパーの実務</p><p class="au">上村　章文</p><div class="note">見本紙面（序章・第1章〜第11章・第17章）<br>A5判。本文は明朝、見出し・表・柱はゴシック。ページ番号は見本用の通し番号です。</div></div><section class="ch" style="page:c0"><h1><span class="no">序章</span>なぜ「減らす」から「組み替える」へなのか</h1>
+<div class="point"><div class="label">ポイント</div><ol>
+<li>公共施設等総合管理計画は、全団体がつくった。<strong>それでも施設の総量は、10年で1.3%増えた。</strong></li>
+<li>人口が減り、建物が古くなり、担い手が減る。<strong>三つの圧力は同時に来る。</strong></li>
+<li>この数年で、複合化を支える制度が相次いで作り替えられた。<strong>最も有利な借入れの期限は、2026年度で切れる。</strong></li>
+<li>複合化は、面積を減らす手段ではない。<strong>地域に必要な機能を、人が集まり、運営しやすい形に組み替える手段である。</strong></li>
+<li>本書は、自治体と商業施設のデベロッパーの<strong>両方に向けて</strong>書いた。同じ事例を、両側から読めるようにしてある。</li>
+</ol></div>
+
+<h2>0-1　計画はできたのに、減っていない</h2>
+<p>公共施設等総合管理計画は、全国のすべての自治体がつくった。全1,788団体、策定率は100%である（2025年3月末）。</p>
+<p>ところが、市区町村が持つ公共施設の延床面積は、2023年度末で約4億8,683万㎡ある。10年前より1.3%増えた。</p>
+<p><strong>「減らす計画」だけでは、施設は減らない。</strong>これが本書の出発点である。</p>
+<p>減らない理由は、担当者の努力不足ではない。施設を一つ減らす話は、その施設を使う人にとっては「失う話」でしかない。失う話だけを持って住民の前に立てば、合意は得られない。必要なのは、<strong>減らす代わりに何を得るのか</strong>を示すことである。</p>
+
+<h2>0-2　三つの圧力は、同時に来る</h2>
+<table>
+<thead>
+<tr>
+<th>圧力</th>
+<th>主なデータ</th>
+<th>複合化への意味</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>人口が減る</td>
+<td>2050年に人口が2020年より減る市区町村は1,651（95.5%）。うち約6割は30%以上減る</td>
+<td>施設ごとの利用者が減り、単独では維持できない施設が増える</td>
+</tr>
+<tr>
+<td>建物が古くなる</td>
+<td>インフラ等の今後30年の維持更新費は、壊れてから直す方式で約280兆円、予防的に直す方式で約190兆円</td>
+<td>建て替えの時期をそろえ、まとめて一つにすれば、更新費を圧縮できる</td>
+</tr>
+<tr>
+<td>担い手が減る</td>
+<td>市区町村の土木部門の職員は1996年比で27.1%減。技術系職員が0人の市区町村は約25%</td>
+<td>施設が散らばるほど、管理の手間が増える。まとめれば少ない人数でも回せる</td>
+</tr>
+</tbody>
+</table>
+<p>三つは別々の問題に見える。しかし、同じ方向を指している。<strong>利用者も、お金も、人手も、施設の数に追いつかない。</strong></p>
+
+<h2>0-3　制度が、相次いで作り替えられた</h2>
+<p>もう一つの理由は、制度が動いたことである。複合化を支える仕組みは、この数年で次々に作り替えられた。</p>
+<table>
+<thead>
+<tr>
+<th>年</th>
+<th>動いたこと</th>
+<th>複合化への意味</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2017年</td>
+<td>都市公園法の改正で、Park-PFI（公募設置管理制度）ができた</td>
+<td>収益施設の稼ぎで公共空間を支える型が生まれた（第9章、第12章）</td>
+</tr>
+<tr>
+<td>2018年</td>
+<td>文部科学省が、公民館の営利事業を全面禁止とはしない解釈を示した（12月21日の事務連絡）</td>
+<td>公民館にカフェや居酒屋を入れる道が開いた（第7章）</td>
+</tr>
+<tr>
+<td>2020年</td>
+<td>都市再生特別措置法の改正で、「居心地が良く歩きたくなるまちなか」の制度ができた</td>
+<td>道路を広場に戻し、施設どうしをつなぐ手段が制度になった（第1章）</td>
+</tr>
+<tr>
+<td>2023年</td>
+<td>地域公共交通活性化再生法の改正（10月施行）</td>
+<td>交通とまちづくりの「連携と協働」が基本方針に入った（第11章）</td>
+</tr>
+<tr>
+<td>2026年</td>
+<td>地域公共交通活性化再生法の再改正</td>
+<td>学校・病院・福祉施設・商業施設の送迎を、地域交通の協力者に位置付けた（第11章）</td>
+</tr>
+<tr>
+<td>2026年度</td>
+<td>公共施設等適正管理推進事業債（集約化・複合化）の対象は、この年度までに工事着手した分</td>
+<td>2027年度以降の扱いは、本書の執筆時点で未公表（第13章）</td>
+</tr>
+</tbody>
+</table>
+<p>適正管理債は、事業費の90%を借りられ、返済額の50%を国が地方交付税で手当てする。複合化にとって最も有利な借入れである。その期限が、2026年度で切れる。</p>
+<blockquote>
+<p><strong>期限は、着手を急ぐ理由にはなる。しかし、住民との対話の順序を飛ばす理由にはならない。</strong>合意形成には、10年単位の時間がかかる例もある（第15章）。</p>
+</blockquote>
+<p>2020年前後に出た公共施設マネジメントの本は、ここに並べた前提の多くが古くなっている。</p>
+
+<h2>0-4　「減らす」から「組み替える」へ</h2>
+<p>複合化の価値は、面積が減ることだけではない。図書館と子育て支援、カフェ、働く場が同じ建物にあれば、それぞれの利用者が互いの施設に立ち寄る。<strong>1たす1が、2より大きくなる。</strong></p>
+<p>一方で、まとめ方を誤ると、「行きにくくなった」「中身が薄くなった」という不満が残る。同じ複合化でも、組み合わせ方で結果は正反対になる。</p>
+<p>全国では、すでに学校の約39%（11,450校）が、ほかの公共施設と複合化・共用化している（2022年9月時点）。ただし、相手の多くは防災備蓄倉庫（7,475校）や放課後児童クラブ（6,870校）である。図書館（75校）や公民館（608校）との本格的な複合化は、まだ少ない。</p>
+<p><strong>伸びしろは大きい。</strong>そして、その伸びしろを埋めるのは「何と何を、どこで、どう束ねるか」という判断である。本書は、その判断のための本である。</p>
+
+<h2>0-5　本書の芯——外部経済効果を「広場」でつなぐ</h2>
+<p>本書を貫く考え方は一つである。</p>
+<blockquote>
+<p><strong>商業施設にも公共施設にも、まわりに人と便益を広げる力（外部経済効果）がある。自動車社会は、それを道路と駐車場で分断した。ヨーロッパの広場のように、役所・文化・商業を、もう一度一つの場に集める。</strong></p>
+</blockquote>
+<p>第1章でこの考え方を説明し、第2章以降はすべて、その具体策として書いた。どの章の組み合わせも、「二つの効果が同じ場所で重なるか」という問いで判断する。</p>
+
+<h2>0-6　自治体とデベロッパーの、両方に向けて</h2>
+<p>主な読者は、市町村で公共施設の再編を担う課長・係長である。施設マネジメント、企画、財政、都市計画の各課を想定した。複合化は担当課をまたぐ。どの課から読んでも全体が分かるように書いた。</p>
+<p>規模は、人口3万〜20万人の市町村を中心に置いた。大都市の成功例がそのまま使えない自治体が、いちばん困っているからである。</p>
+<p>もう一つの読者は、<strong>商業施設のデベロッパーと運営会社</strong>である。複合化のうち商業との融合では、床を建て、テナントを集め、運営するのは民間である。自治体だけでは完結しない。</p>
+<table>
+<thead>
+<tr>
+<th>読者</th>
+<th>この本でできるようになること</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>課長・係長</td>
+<td>候補地ごとに「何と何を組み合わせるか」を決め、庁内と議会に説明できる</td>
+</tr>
+<tr>
+<td>首長・幹部</td>
+<td>「減らす」ではなく「組み替える」として方針を示せる</td>
+</tr>
+<tr>
+<td>議員</td>
+<td>再開発や複合化の提案が、失敗の型に当てはまらないかを確かめられる</td>
+</tr>
+<tr>
+<td>デベロッパー・運営会社</td>
+<td>公共を入れた商業施設の事業性を見積もり、自治体に通る提案を組める</td>
+</tr>
+</tbody>
+</table>
+<p>自治体向けの本と民間向けの本は、ふつう別の棚に並ぶ。本書は、<strong>同じ事例を両側の算盤で読む。</strong>自治体の担当者にとっても、民間の算盤が分かれば、公募の条件を現実的に書ける。</p>
+
+<h2>0-7　本書の使い方</h2>
+<p>全章を同じ形で書いた。</p>
+<ul>
+<li>冒頭に「この章の要点」を置いた。結論だけを5項目以内で示す。</li>
+<li>本文の節番号（1-1など）は、紙の版とWebの版で同じである。</li>
+<li>章の終わりに、人口規模別の「理想・次善・最低限」の表を置いた。<strong>「できないから何もしない」を防ぐためである。</strong>規模の区切り（20万人以上、5万〜20万人、5万人未満）は、姉妹編『自治体の公民連携ハンドブック』とそろえた。</li>
+<li>第2部と第3部の各章の終わりに、「デベロッパーから見ると」の欄を置いた。第5部は、その欄を束ねて深めた部である。</li>
+</ul>
+<p>通読は想定していない。<strong>困っていることから引いていただきたい。</strong></p>
+<table>
+<thead>
+<tr>
+<th>困っていること</th>
+<th>最初に読む章</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>何と何を組み合わせればよいか分からない</td>
+<td>第2章</td>
+</tr>
+<tr>
+<td>駅前の再開発ビルが空いている</td>
+<td>第3章</td>
+</tr>
+<tr>
+<td>商業施設に図書館や窓口を入れたい</td>
+<td>第5章、第17章</td>
+</tr>
+<tr>
+<td>公民館や文化施設の利用が減っている</td>
+<td>第6章、第7章</td>
+</tr>
+<tr>
+<td>財源の当てがない</td>
+<td>第13章</td>
+</tr>
+<tr>
+<td>住民の反対が強い</td>
+<td>第15章</td>
+</tr>
+<tr>
+<td>自治体に複合化を提案したい（民間）</td>
+<td>第17章〜第19章</td>
+</tr>
+</tbody>
+</table>
+
+<h2>0-8　本書が扱わないこと</h2>
+<ul>
+<li><strong>施設の総量をどれだけ減らすか</strong>という、量の議論は扱わない。どの施設を残し、束ね、転じ、畳むかの判定は、すでに各自治体の計画にある。本書は「束ねる」と決めたあとの話である。</li>
+<li><strong>手法（PFI、指定管理など）の選び方</strong>は、姉妹編『自治体の公民連携ハンドブック』に譲る。あちらは「どの手法で発注するか」、本書は「何と何を組み合わせ、どんな場をつくるか」を扱う。</li>
+<li><strong>大都市の大型再開発</strong>は、参考として触れるにとどめる。地価の高い場所だから成り立った手法は、そのままは真似できない。</li>
+</ul>
+
+<h2>0-9　この章で覚えておくこと</h2>
+<p>「施設を減らせ」と言われたら、<strong>「減らして、何を得るのか」</strong>を先に考える。</p>
+<p>答えが「にぎわい」なら、第1章へ。答えが「まだない」なら、第2章へ。</p></section><div class="partpage">第1部　考え方</div><section class="ch" style="page:c1"><h1><span class="no">第1章</span>外部経済効果を「広場」でつなぐ</h1>
+<div class="point"><div class="label">ポイント</div><ol>
+<li><strong>商業施設にも公共施設にも、外部経済効果がある。</strong>使う人の外にまで、便益が広がる。</li>
+<li>二つの効果は性格が違う。<strong>公共は平日の昼に、商業は週末と夕方に人を呼ぶ。</strong>だから組み合わせると強くなる。</li>
+<li>自動車社会は、施設を道路と駐車場で切り離した。<strong>効果は互いに届かなくなった。</strong></li>
+<li>複合化は建物の中で完結させない。<strong>建物の前に広場を置き、入口を広場に向ける。</strong></li>
+<li><strong>広場はつくるだけでは人が集まらない。</strong>運営する人と予算を、建物と同時に用意する。</li>
+</ol></div>
+
+<h2>1-1　外部経済効果とは何か</h2>
+<p>施設を使う人だけでなく、まわりの人や店にも便益が広がる。この効果を<strong>外部経済効果</strong>という。</p>
+<p>商店街で考える。店が集まっていると、客は一軒で用を済ませない。歩いて何軒も回る。ある店を目当てに来た客が、隣の店でも買い物をする。店が集まること自体が、それぞれの店の売上を押し上げる。これが商業の外部経済効果である。</p>
+<p>公共施設にも同じ力がある。役所の窓口、図書館、病院、子育て支援センターは、毎日、決まって人を呼ぶ。その人たちが帰りに買い物をし、お茶を飲む。公共施設は料金ではほとんど稼がない。しかし、まわりの店から見れば、<strong>毎日人を連れてきてくれる装置</strong>である。</p>
+<p>二つの効果は、性格が違う。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>商業施設の外部経済効果</th>
+<th>公共施設の外部経済効果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>人を呼ぶ理由</td>
+<td>品ぞろえ、楽しさ、値段</td>
+<td>手続、学び、子育て、医療など生活の必要</td>
+</tr>
+<tr>
+<td>人の来かた</td>
+<td>週末や夕方に波がある</td>
+<td>平日の昼にも安定して来る</td>
+</tr>
+<tr>
+<td>景気の影響</td>
+<td>受けやすい</td>
+<td>受けにくい</td>
+</tr>
+<tr>
+<td>本人の稼ぎ</td>
+<td>売上として回収する</td>
+<td>料金ではほとんど回収しない</td>
+</tr>
+</tbody>
+</table>
+<p>この違いがあるから、組み合わせると強くなる。公共施設は平日の昼に安定して人を呼び、商業施設は週末と夕方ににぎわいをつくる。互いの弱い時間帯を、相手が埋める。</p>
+<p><strong>複合化の価値は、面積が減ることより、二つの効果を同じ場所で重ねられることにある。</strong></p>
+
+<h2>1-2　自動車社会が分断したもの</h2>
+<p>車で移動する社会では、施設ごとに駐車場を持つ。人は目的地だけに行って帰る。役所は郊外の広い敷地に移り、商業は幹線道路沿いの大型店に集まり、病院やホールはまた別の場所に建った。</p>
+<p>施設どうしが道路と駐車場で切り離されると、それぞれの外部経済効果は互いに届かない。役所に来た人は、用事を済ませると車でまっすぐ帰る。帰りに寄るはずだった店は、遠すぎて寄れない。歩いて回る人がいなくなった中心部の商店街から、衰退が進んだ。</p>
+<p>青森市では、郊外のバイパス沿いに店が集まり、中心部の路線価は再開発ビルの開業時の約3分の1まで下がったと報じられている（第3章）。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>自動車社会の配置</th>
+<th>広場を中心にした配置</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>施設の場所</td>
+<td>役所・病院・大型店がばらばらの場所にある</td>
+<td>役所・文化施設・商業が広場を囲む</td>
+</tr>
+<tr>
+<td>人の動き</td>
+<td>車で目的地だけに行って帰る</td>
+<td>歩いていくつもの施設を回る</td>
+</tr>
+<tr>
+<td>外部経済効果</td>
+<td>施設ごとに閉じ、まわりに届かない</td>
+<td>広場で重なり、互いを高め合う</td>
+</tr>
+<tr>
+<td>公共の空間</td>
+<td>道路と駐車場</td>
+<td>広場と歩行者の空間</td>
+</tr>
+<tr>
+<td>商店街</td>
+<td>衰退する</td>
+<td>回遊する人の受け皿になる</td>
+</tr>
+</tbody>
+</table>
+<p>ここで大事なのは、施設の一つひとつは悪くないということである。郊外の役所も、大型店も、それぞれの理屈で正しい場所を選んだ。問題は、全体として効果を打ち消し合う配置になったことである。</p>
+<p><strong>施設を一つずつ建て替える限り、この配置は直らない。</strong>複合化は、配置そのものを組み替える数少ない機会である。</p>
+<div class="fig"><span class="cap">図1-1　自動車社会の配置と、広場を中心にした配置</span><div class="art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 342" width="100%" role="img"
+ aria-label="図1-1　自動車社会の配置と、広場を中心にした配置"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="395" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="197.5" y="29" font-size="19" font-weight="bold" text-anchor="middle">自動車社会の配置</text>
+<line x1="0" y1="165" x2="395" y2="165" stroke="currentColor" stroke-width="10" stroke-opacity="0.25"/>
+<line x1="200" y1="60" x2="200" y2="268" stroke="currentColor" stroke-width="10" stroke-opacity="0.25"/>
+<rect x="22" y="78" width="110" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="77" y="111" font-size="17" font-weight="bold" text-anchor="middle">役所</text>
+<rect x="240" y="190" width="110" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="295" y="223" font-size="17" font-weight="bold" text-anchor="middle">大型店</text>
+<rect x="250" y="76" width="110" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="305" y="109" font-size="17" font-weight="bold" text-anchor="middle">病院</text>
+<rect x="22" y="190" width="46" height="40" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="1.4"/>
+<text x="45" y="217" font-size="17" font-weight="bold" text-anchor="middle">P</text>
+<rect x="130" y="76" width="46" height="40" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="1.4"/>
+<text x="153" y="103" font-size="17" font-weight="bold" text-anchor="middle">P</text>
+<rect x="140" y="205" width="46" height="40" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="1.4"/>
+<text x="163" y="232" font-size="17" font-weight="bold" text-anchor="middle">P</text>
+<rect x="425" y="0" width="395" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="622.5" y="29" font-size="19" font-weight="bold" text-anchor="middle">広場を中心にした配置</text>
+<rect x="575" y="130" width="120" height="80" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2" stroke-dasharray="7 5"/>
+<text x="635" y="177" font-size="19" font-weight="bold" text-anchor="middle">広場</text>
+<rect x="580" y="56" width="110" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="635" y="89" font-size="17" font-weight="bold" text-anchor="middle">役所</text>
+<rect x="440" y="144" width="110" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="495" y="177" font-size="17" font-weight="bold" text-anchor="middle">図書館</text>
+<rect x="712" y="144" width="110" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="767" y="177" font-size="17" font-weight="bold" text-anchor="middle">商業</text>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="635" y1="110" x2="635" y2="128" stroke="currentColor" stroke-width="2" marker-end="url(#a1)"/>
+<defs><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="552" y1="170" x2="573" y2="170" stroke="currentColor" stroke-width="2" marker-end="url(#a2)"/>
+<defs><marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="710" y1="170" x2="697" y2="170" stroke="currentColor" stroke-width="2" marker-end="url(#a3)"/>
+<rect x="440" y="224" width="70" height="40" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="1.4"/>
+<text x="475" y="251" font-size="17" font-weight="bold" text-anchor="middle">P</text>
+<rect x="750" y="224" width="70" height="40" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="1.4"/>
+<text x="785" y="251" font-size="17" font-weight="bold" text-anchor="middle">P</text>
+<rect x="0" y="280" width="395" height="50" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="197" y="311" font-size="19" font-weight="bold" text-anchor="middle">効果は施設ごとに閉じる</text>
+<rect x="425" y="280" width="395" height="50" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="622" y="311" font-size="19" font-weight="bold" text-anchor="middle">広場で効果が重なる</text>
+</svg>
+</div></div>
+
+<h2>1-3　ヨーロッパの広場に学ぶ</h2>
+<p>ヨーロッパの都市では、中世から市庁舎・教会・市場が一つの広場を囲んできた。行政と祈りと商いが同じ場所に集まり、人の行き来そのものがまちの価値になっている。</p>
+<ul>
+<li><strong>シエナのカンポ広場（イタリア）</strong>——市場や競技、行事の場として使われてきた。市庁舎のプッブリコ宮が面している。1349年に全体が舗装された。</li>
+<li><strong>ドイツの町のマルクト広場</strong>——「市場の広場」という名のとおり、市庁舎と教会が面し、定期市が開かれる町の中心である。</li>
+<li><strong>コペンハーゲンのストロイエ（デンマーク）</strong>——現代になって車を道路から外した例である。1962年に約1.1kmの通りを歩行者専用にした。歩行者の空間は約1.58万㎡から約10万㎡に広がった。</li>
+</ul>
+<p>三つに共通するのは、<strong>広場が「建物と建物のあいだの余り」ではなく、まちの主役として設計されている</strong>ことである。施設の入口は広場に向き、人は広場を通って施設に入る。広場に出ると、ほかの施設が目に入る。</p>
+<p>ストロイエには、もう一つ教訓がある。車を外すとき、多くの商店主が「客が減る」と反対した。結果は逆だった。買い物客やカフェが増え、早くに成功した。<strong>歩く人が増えると、商業の外部経済効果が回り始める。</strong>日本の中心市街地で同じ議論をするとき、この経験は判断の材料になる。</p>
+
+<h2>1-4　日本での実践と国の制度</h2>
+<p>日本にも、広場で分断をつなぎ直した例がある。</p>
+<ul>
+<li><strong>富山市 グランドプラザ（2007年）</strong>——再開発の区域内にあった路地のような市道をまとめ、両側の建物を後退させてつくった屋根付きの広場である。路面電車の停留所で降りた人が、広場を通って商業施設や商店街へ向かう流れが生まれた。<strong>道路を広場に変えて、分断をつなぎ直した例</strong>である。</li>
+<li><strong>紫波町 オガール（岩手県）</strong>——図書館などの公共施設と商業の建物が、中央の広場を囲んで配置されている（第5章、第12章）。</li>
+</ul>
+<p>国も制度を整えた。2020年9月施行の都市再生特別措置法の改正で、「居心地が良く歩きたくなるまちなか」をつくる制度ができている。</p>
+<table>
+<thead>
+<tr>
+<th>制度</th>
+<th>中身</th>
+<th>複合化での使いどころ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>まちなかウォーカブル推進事業</td>
+<td>街路を広場に変える整備などを支援する</td>
+<td>複合施設の前の道路を広場にする</td>
+</tr>
+<tr>
+<td>民間の敷地を広場として開放したときの固定資産税の軽減</td>
+<td>民間が自分の敷地を公共の広場として使わせる場合に税を軽くする</td>
+<td>商業施設の前庭を、公共施設と共有の広場にする</td>
+</tr>
+<tr>
+<td>歩行者利便増進道路（ほこみち）</td>
+<td>道路を歩行者のために使う。公募で選ばれた者は最長20年の占用ができる</td>
+<td>広場に面した道路にカフェや売店を出す</td>
+</tr>
+</tbody>
+</table>
+
+<h2>1-5　広場を中心に組む4つの原則</h2>
+<ol>
+<li><strong>複合化を建物の中だけで完結させない。</strong>建物の前に広場を置き、公共施設・文化施設・商業の入口を広場に向ける。建物の中を通路でつなぐだけでは、外から人は入ってこない。</li>
+<li><strong>公共施設を散らさない。</strong>役所、図書館、ホールの建て替え先は、郊外の広い敷地ではなく、広場を囲む場所に選ぶ。建て替えの時期がずれていても、置く場所だけは先に決めておける。</li>
+<li><strong>道路と駐車場で分断しない。</strong>駐車場は外周にまとめ、広場のまわりは歩いて回れるようにする。必要なら道路の一部を広場に変える。</li>
+<li><strong>広場の運営者と予算を先に決める。</strong>マルシェやイベント、清掃を担う人（まちづくり会社や指定管理者）とその費用を、建物と同時に用意する。</li>
+</ol>
+<p>4つめが、いちばん見落とされる。広場は、建物と違って、完成した日から自然に使われるものではない。</p>
+<blockquote>
+<p><strong>誰が、いつ、何のために使うのかを決めていない広場は、ただの空き地になる。</strong>建物の工事費と同じ表に、広場の運営費を書いておく。</p>
+</blockquote>
+<div class="fig"><span class="cap">図1-2　広場を囲む施設の配置（入口の向きと駐車場の位置）</span><div class="art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 372" width="100%" role="img"
+ aria-label="図1-2　広場を囲む施設の配置（入口の向きと駐車場の位置）"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="820" height="300" rx="5" fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="7 5"/>
+<rect x="270" y="100" width="280" height="110" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.4"/>
+<text x="410" y="145" font-size="20" font-weight="bold" text-anchor="middle">広場</text>
+<text x="410" y="178" font-size="16" text-anchor="middle">運営者と予算を先に決める</text>
+<rect x="300" y="22" width="220" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="410.0" y="55" font-size="17" font-weight="bold" text-anchor="middle">公共施設（役所・図書館）</text>
+<rect x="60" y="120" width="160" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="140.0" y="153" font-size="17" font-weight="bold" text-anchor="middle">文化施設</text>
+<rect x="600" y="120" width="160" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="680.0" y="153" font-size="17" font-weight="bold" text-anchor="middle">商業</text>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="410" y1="76" x2="410" y2="98" stroke="currentColor" stroke-width="2" marker-end="url(#a1)"/>
+<defs><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="222" y1="155" x2="268" y2="155" stroke="currentColor" stroke-width="2" marker-end="url(#a2)"/>
+<defs><marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="598" y1="155" x2="552" y2="155" stroke="currentColor" stroke-width="2" marker-end="url(#a3)"/>
+<text x="410" y="248" font-size="17" font-weight="bold" text-anchor="middle">入口は広場に向ける</text>
+<rect x="20" y="228" width="150" height="56" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="1.4"/>
+<text x="95" y="262" font-size="17" font-weight="bold" text-anchor="middle">駐車場</text>
+<rect x="650" y="228" width="150" height="56" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="1.4"/>
+<text x="725" y="262" font-size="17" font-weight="bold" text-anchor="middle">駐車場</text>
+<defs><marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="410" y1="262" x2="410" y2="296" stroke="currentColor" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#a4)"/>
+<text x="410" y="330" font-size="17" text-anchor="middle">商店街・停留所へ歩いて回る</text>
+<text x="95" y="222" font-size="15" text-anchor="middle">外周にまとめる</text>
+</svg>
+</div></div>
+
+<h2>1-6　規模別の現実解——理想・次善・最低限</h2>
+<p>広場をつくれるのは、大きな都市だけではない。規模に応じて、できることがある。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>理想</th>
+<th>次善</th>
+<th>最低限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>人口20万人以上</td>
+<td>中心部の再編で、市庁舎・図書館・ホールと商業が広場を囲む配置にする。道路の一部を広場に変える</td>
+<td>再開発や建て替えの区域内に、屋根付きの広場を一つ設ける</td>
+<td>既存の公共施設の前庭を、イベントや出店に使えるよう規則を変える</td>
+</tr>
+<tr>
+<td>人口5万〜20万人</td>
+<td>学校や庁舎の建て替えに合わせ、公共施設と商業を一つの敷地にまとめ、中央に広場を置く</td>
+<td>複合施設の入口側に広場を設け、駐車場を裏に回す</td>
+<td>庁舎や図書館の駐車場の一角を、週末だけ広場として使う</td>
+</tr>
+<tr>
+<td>人口5万人未満</td>
+<td>支所・診療所・図書館・店を一か所にまとめた拠点の前に、小さな広場を置く</td>
+<td>道の駅や商業施設の前の空間を、公共の催しにも使えるよう協定を結ぶ</td>
+<td>公民館の前の空き地で、月1回の市（いち）を開く</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>「最低限」の欄は、予算がなくても今年度から始められる。</strong>広場の使い方を一度でも試すと、どこに人が来て、何が足りないかが分かる。大きな整備の前に、ここから始める。</p>
+</blockquote>
+
+<h2>1-7　デベロッパーから見ると</h2>
+<p><strong>稼げるか。</strong>公共施設が平日の昼に人を呼べば、商業施設の弱い時間帯が埋まる。広場が施設の前にあれば、その人出が店の前を通る。</p>
+<p>ただし、公共施設の来館者が実際にどれだけ買い回るかを示す公開データは、本書の執筆時点では見つけられていない【要確認】。<strong>事業計画では、この効果を上振れの要素として扱い、確実な収入としては見込まない。</strong>それが安全である。</p>
+<p><strong>どこにリスクがあるか。</strong>広場の運営費を誰が持つかが曖昧なまま始まると、清掃や警備の費用が商業側に寄ってくる。広場を共有するなら、運営者と費用の分担を協定に書く。</p>
+<p><strong>自治体に何を確かめるか。</strong>三つある。①広場の所有と管理の区分、②広場での出店やイベントの許可の手続、③駐車場の配置と台数の考え方（公共施設の利用者と商業の客で共用するか）である。</p>
+
+<h2>1-8　この章で覚えておくこと</h2>
+<p>複合化の図面を見せられたら、まず建物の外を見る。<strong>入口がどこを向いているか、建物の前に誰でも入れる場所があるか。</strong>それだけで、その計画が外部経済効果をつなごうとしているかどうかが分かる。</p>
+<p>そして、広場の欄に運営費が書いてなければ、そこを最初に問う。</p></section><section class="ch" style="page:c2"><h1><span class="no">第2章</span>何と何を組み合わせるか（4つの類型）</h1>
+<div class="point"><div class="label">ポイント</div><ol>
+<li>複合化は、組み合わせる相手で<strong>4つの類型</strong>に分けられる。公共×公共、公共×商業、公共×働く場、公共×住まい・医療福祉である。</li>
+<li><strong>相手が民間に近づくほど、にぎわいと民間資金を引き出せる。その分、商売が成り立たないときのリスクも大きくなる。</strong></li>
+<li>類型は、四つの問いで選ぶ。利用時間帯は補い合うか、利用者は重なるか、民間が稼げる立地か、その場所に残すべき機能か。</li>
+<li>多くの自治体にとって、出発点は<strong>学校を核にした公共×公共</strong>である。</li>
+<li>商業や働く場は、市場性を確かめてから<strong>小さな床で足す。</strong>最初から大きく建てない。</li>
+</ol></div>
+
+<h2>2-1　4つの類型</h2>
+<table>
+<thead>
+<tr>
+<th>類型</th>
+<th>組み合わせの例</th>
+<th>主に生まれる価値</th>
+<th>主なリスク</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A 公共×公共</td>
+<td>学校＋公民館・図書館・放課後児童クラブ、庁舎＋保健センター</td>
+<td>延床面積と管理費の圧縮、世代間の交流、窓口の一本化</td>
+<td>学校の安全管理、所管課ごとの縦割り、機能が「等価」でないという不満</td>
+</tr>
+<tr>
+<td>B 公共×商業・サービス</td>
+<td>図書館＋産直・飲食・クリニック、庁舎の敷地にコンビニ、公園＋カフェ</td>
+<td>来訪者の増加、賃料・借地料の収入、滞在時間の延長</td>
+<td>テナントの撤退、商業の不振を公費で埋める事態</td>
+</tr>
+<tr>
+<td>C 公共×働く場</td>
+<td>庁舎の余った床にオフィス、廃校にサテライトオフィス、図書館にコワーキング</td>
+<td>平日昼間の利用、起業や誘致の拠点、安定した賃料収入</td>
+<td>都市部以外では入居の需要が読みにくい、民間の既存オフィスとの競合</td>
+</tr>
+<tr>
+<td>D 公共×住まい・医療福祉</td>
+<td>庁舎＋分譲マンション、公営住宅＋店舗、公民館＋デイサービス</td>
+<td>余った容積（建てられるのに使っていない床）の売却で整備費を賄う、定住人口の確保</td>
+<td>区分所有による将来の建て替えの難しさ、大都市以外での再現性</td>
+</tr>
+</tbody>
+</table>
+<p>A から D へ進むほど、相手が民間に近づく。民間に近づくほど、にぎわいと民間の資金を引き出せる。</p>
+<blockquote>
+<p><strong>その代わり、商売が成り立たないときのリスクも大きくなる。</strong>B・C・D は、市場性（民間が稼げるかどうか）を確かめてから選ぶ。A は、市場性がなくても成り立つ。</p>
+</blockquote>
+<div class="fig"><span class="cap">図2-1　4つの類型——相手が民間に近づくほど、価値もリスクも大きくなる</span><div class="art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 352" width="100%" role="img"
+ aria-label="図2-1　4つの類型——相手が民間に近づくほど、価値もリスクも大きくなる"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="190" height="84" rx="5" fill="currentColor" fill-opacity="0.06" stroke="currentColor" stroke-width="2.2"/>
+<text x="95.0" y="36" font-size="18" font-weight="bold" text-anchor="middle">A 公共×公共</text>
+<text x="95.0" y="66" font-size="16" text-anchor="middle">学校＋公民館</text>
+<rect x="210" y="0" width="190" height="84" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="305.0" y="36" font-size="18" font-weight="bold" text-anchor="middle">B 公共×商業</text>
+<text x="305.0" y="66" font-size="16" text-anchor="middle">図書館＋飲食</text>
+<rect x="420" y="0" width="190" height="84" rx="5" fill="currentColor" fill-opacity="0.2" stroke="currentColor" stroke-width="2.2"/>
+<text x="515.0" y="36" font-size="18" font-weight="bold" text-anchor="middle">C 公共×働く場</text>
+<text x="515.0" y="66" font-size="16" text-anchor="middle">廃校＋オフィス</text>
+<rect x="630" y="0" width="190" height="84" rx="5" fill="currentColor" fill-opacity="0.27" stroke="currentColor" stroke-width="2.2"/>
+<text x="725.0" y="36" font-size="18" font-weight="bold" text-anchor="middle">D 公共×住まい</text>
+<text x="725.0" y="66" font-size="16" text-anchor="middle">庁舎＋住宅</text>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="0" y1="112" x2="816" y2="112" stroke="currentColor" stroke-width="2.4" marker-end="url(#a1)"/>
+<text x="410" y="140" font-size="17" font-weight="bold" text-anchor="middle">相手が民間に近づく</text>
+<path d="M0,226 L820,188 L820,226 Z" fill="currentColor" fill-opacity="0.18" stroke="currentColor" stroke-width="1.4"/>
+<text x="0" y="180" font-size="16" font-weight="bold" text-anchor="start">価値：にぎわい・民間の資金</text>
+<path d="M0,298 L820,260 L820,298 Z" fill="currentColor" fill-opacity="0.34" stroke="currentColor" stroke-width="1.4"/>
+<text x="0" y="252" font-size="16" font-weight="bold" text-anchor="start">リスク：撤退・公費での穴埋め</text>
+<text x="410" y="332" font-size="16" text-anchor="middle">B・C・D は、民間が稼げるかを確かめてから選ぶ</text>
+</svg>
+</div></div>
+
+<h2>2-2　類型ごとの例</h2>
+<h3>A 公共×公共——さいたま市「いーよの」（2020年4月）</h3>
+<p>小学校に、子育て支援センター、放課後児童クラブ、郷土資料館、地域サロンを複合化した。約2年間の市民ワークショップを経て開設している。<strong>学校を核にした類型 A の典型である。</strong></p>
+<h3>A＋B——習志野市「プラッツ習志野」（千葉県、2019年11月）</h3>
+<p>8施設（7つの建物）を3つの建物に集約した。市で初めてのPFIで、契約額は約72億円、費用の削減効果（VFM）は約2.3億円である。機能を保ったまま、建物を減らした。市自身が「合意形成に労力が必要だった」と記している。</p>
+<h3>A＋B——秦野市（神奈川県）</h3>
+<p>保健福祉センターに郵便局を誘致し、年200万円の賃料を得ている。庁舎の敷地には、独立店舗型のコンビニを定期借地で置いた。<strong>大きな再開発でなくても、小さな床や敷地の貸し出しから始められる。</strong></p>
+<h3>B 公共×商業——紫波町「オガールプラザ」（岩手県、2012年6月）</h3>
+<p>図書館・地域交流センター・子育て応援センターと、産直・飲食・医療を一体で整備した。テナントを先に決め、その賃料から建設費を逆算したとされる（第3章、第5章）。</p>
+<h3>C 公共×働く場——五城目町「BABAME BASE」（秋田県、2013年10月）</h3>
+<p>廃校を起業支援の拠点にした。入居した事業者は延べ44件で、入居費は月2万円からである。<strong>人口約8,000人の町でも、「働く場」との複合は成り立つ。</strong></p>
+<h3>D 公共×住まい——豊島区庁舎（東京都、2015年5月）</h3>
+<p>市街地再開発で、庁舎と分譲マンション（432戸）を一体で整備した。旧庁舎の跡地などは76年の定期借地で貸し、約191億円を得た。「実質ゼロ円の庁舎」と報じられた。</p>
+<blockquote>
+<p><strong>ただし、地価の高い大都市だから成り立った手法である。</strong>地方の市町村が、そのまま真似できるものではない。</p>
+</blockquote>
+<p>庁舎や図書館にコワーキングを併設した例（類型 C）は全国で増えている。しかし、利用の実績や収支を公開している例は、本書の執筆時点では確認できていない【要確認】。</p>
+
+<h2>2-3　類型を選ぶための4つの問い</h2>
+<ol>
+<li><strong>利用時間帯は補い合うか。</strong>平日昼の学校と、夕方・休日の地域利用のように、空き時間を互いに埋められる組み合わせほど、効率が上がる。</li>
+<li><strong>利用者は重なるか。</strong>子育て世代が、図書館と小児科を一度に使えるように、「ついでに寄る」動きが生まれるかどうかが、にぎわいを左右する。</li>
+<li><strong>民間が収益を上げられる立地か（市場性）。</strong>市場性が低い場所で B・C・D を狙うと、公募の不調や撤退につながる。その場合は A を軸にし、民間は小さな床から試す。</li>
+<li><strong>その場所に残すべき機能か（必需性）。</strong>対象の施設を「残す・束ねる・転じる・畳む」に振り分け、「束ねる」と判断したものを複合化の候補にする。代わりが効かない施設は「残す」、需要がない施設は「畳む」。無理に複合化しない。</li>
+</ol>
+<p>1と2は、第1章の外部経済効果の問いである。時間帯が補い合えば、互いの弱い時間を埋める。利用者が重なれば、「ついで」の動きが生まれる。</p>
+<p>3と4は、事業として成り立つかの問いである。<strong>1と2が強くても、3が弱ければ、商業は小さく始める。</strong></p>
+<div class="fig"><span class="cap">図2-2　4つの問いで類型を選ぶ</span><div class="art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 412" width="100%" role="img"
+ aria-label="図2-2　4つの問いで類型を選ぶ"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="250" y="0" width="320" height="56" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="410" y="35" font-size="18" font-weight="bold" text-anchor="middle">④ その場所で束ねる施設か</text>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="250" y1="28" x2="160" y2="28" stroke="currentColor" stroke-width="2" marker-end="url(#a1)"/>
+<rect x="0" y="4" width="156" height="48" rx="5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-dasharray="7 5"/>
+<text x="78" y="34" font-size="15" text-anchor="middle">残す・転じる・畳む</text>
+<text x="205" y="20" font-size="15" text-anchor="middle">いいえ</text>
+<defs><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="410" y1="58" x2="410" y2="92" stroke="currentColor" stroke-width="2" marker-end="url(#a2)"/>
+<text x="440" y="80" font-size="15" text-anchor="start">はい</text>
+<rect x="180" y="96" width="460" height="84" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="410" y="130" font-size="17" text-anchor="middle">① 利用時間帯は補い合うか</text>
+<text x="410" y="162" font-size="17" text-anchor="middle">② 利用者は重なるか</text>
+<defs><marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="410" y1="182" x2="410" y2="214" stroke="currentColor" stroke-width="2" marker-end="url(#a3)"/>
+<rect x="250" y="218" width="320" height="56" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="410" y="253" font-size="18" font-weight="bold" text-anchor="middle">③ 民間が稼げる立地か</text>
+<defs><marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="330" y1="276" x2="210" y2="320" stroke="currentColor" stroke-width="2" marker-end="url(#a4)"/>
+<defs><marker id="a5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="490" y1="276" x2="610" y2="320" stroke="currentColor" stroke-width="2" marker-end="url(#a5)"/>
+<text x="250" y="300" font-size="15" text-anchor="end">いいえ</text>
+<text x="570" y="300" font-size="15" text-anchor="start">はい</text>
+<rect x="0" y="324" width="400" height="66" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="200" y="352" font-size="18" font-weight="bold" text-anchor="middle">A を軸にする</text>
+<text x="200" y="378" font-size="16" text-anchor="middle">民間は小さな床で試す</text>
+<rect x="420" y="324" width="400" height="66" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="620" y="352" font-size="18" font-weight="bold" text-anchor="middle">A を核に B・C・D を足す</text>
+<text x="620" y="378" font-size="16" text-anchor="middle">テナントが決まった分だけ</text>
+</svg>
+</div></div>
+
+<h2>2-4　出発点は、学校を核にした公共×公共</h2>
+<p>学校は、全国の市区町村が持つ施設の延床面積の約4割を占める（2010年度末時点）。そして、通学区という自然な地域の単位を持つ。</p>
+<p>学校の約39%は、すでにほかの公共施設と複合化・共用化している（序章）。ただし相手の多くは、防災備蓄倉庫と放課後児童クラブである。図書館や公民館との本格的な複合化は、まだ少ない。</p>
+<blockquote>
+<p><strong>類型 A を「学校を核」に組むことが、多くの自治体にとって最も現実的な出発点である。</strong>詳しくは第4章で扱う。</p>
+</blockquote>
+<p>学校を核にすると、安全管理が必ず問題になる。子どもがいる時間に、地域の人が出入りする。入口と動線を分け、学校の区域と地域の区域の境目を設計で決める（第4章）。</p>
+
+<h2>2-5　商業と働く場は、小さな床から足す</h2>
+<p>類型 B・C は、市場性があれば大きな効果を生む。なければ、空き床を公費で埋め続けることになる（第3章）。</p>
+<p>だから、最初から大きく建てない。</p>
+<ul>
+<li><strong>既存の公共施設の空いた床を、まず貸してみる。</strong>郵便局、コンビニ、カフェなど、小さな床で始められる相手から当たる（秦野市）。</li>
+<li><strong>期間を区切って試す。</strong>数か月から1〜2年の暫定利用で、手が挙がるか、客が来るかを確かめる。</li>
+<li><strong>テナントが決まった分だけ建てる。</strong>新築するなら、意向を確かめたテナントの賃料から規模を逆算する（オガール）。</li>
+</ul>
+<blockquote>
+<p><strong>「手が挙がらなかった」という結果にも価値がある。</strong>それは、その場所では B・C が成り立たないという実証である。類型 A に絞る判断の材料になる。</p>
+</blockquote>
+
+<h2>2-6　規模別の現実解——理想・次善・最低限</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>理想</th>
+<th>次善</th>
+<th>最低限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>人口20万人以上</td>
+<td>駅前や中心部で、公共を核に商業（B）や住まい（D）を組み合わせ、民間部分は独立採算にする</td>
+<td>庁舎や図書館の建て替えに合わせ、低層部に商業や働く場（B・C）を入れる</td>
+<td>既存の公共施設の空き床を、公募で民間に貸す</td>
+</tr>
+<tr>
+<td>人口5万〜20万人</td>
+<td>学校や庁舎の建て替えを機に、公共×公共（A）を核に、テナントを先に決めて商業（B）を足す</td>
+<td>学校を核に、公民館・図書館・放課後児童クラブを束ねる（A）</td>
+<td>空き教室や庁舎の空き床に、カフェや郵便局を入れる</td>
+</tr>
+<tr>
+<td>人口5万人未満</td>
+<td>支所・診療所・図書館の分室・店を一か所に束ね、小さな拠点にする（A＋B）</td>
+<td>廃校を、起業や働く場の拠点に転じる（C）</td>
+<td>公共施設の一角を、期間を区切って民間に貸し、需要を試す</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>どの規模でも、最初の一歩は「空いている床を貸してみる」ことである。</strong>議決も大きな予算も要らない。手が挙がるかどうかが、次の類型を選ぶ根拠になる。</p>
+</blockquote>
+
+<h2>2-7　デベロッパーから見ると</h2>
+<p><strong>稼げるか。</strong>民間が入るのは B・C・D である。このうち、地方で最も現実的なのは B、とくに<strong>公共施設を核にした小さな商業</strong>である。公共が人を呼び、商業はその人出に乗る。大きな集客を自前でつくる必要がない。</p>
+<p>D（住まい）は、地価の高い場所でなければ、余った容積を売っても整備費に届かない。地方では、店舗付きの公営住宅など、小さな形にとどまる。</p>
+<p><strong>どこにリスクがあるか。</strong>A の施設に後から B を足す場合、公共施設の開館時間や安全管理の制約を、商業が背負うことになる。とくに学校を核にした複合では、入口と動線を分けられるかを、計画の最初に確かめる。</p>
+<p><strong>自治体に何を確かめるか。</strong>三つある。①その施設は「束ねる」と判断されているか（残す・畳むと判断された施設ではないか）、②類型 A の核は何か（学校か、庁舎か、図書館か）、③民間に求めるのは床を借りることか、建てることか、運営することか、である。</p>
+
+<h2>2-8　この章で覚えておくこと</h2>
+<p>複合化の相手を決める前に、<strong>四つの問いに答える。</strong>時間帯は補い合うか、利用者は重なるか、民間が稼げるか、その場所に残すべきか。</p>
+<p>答えに迷ったら、学校を核にした公共×公共から始め、商業は空いている床を貸すところから足す。</p></section><section class="ch" style="page:c3"><h1><span class="no">第3章</span>地方の再開発はなぜ失敗したか</h1>
+<div class="point"><div class="label">ポイント</div><ol>
+<li>地方の再開発では、商業ビルにテナントが集まらず、<strong>空いた床を自治体が公共施設で埋める</strong>という結末が繰り返されてきた。</li>
+<li>失敗は個別の努力不足ではない。<strong>構造から起きている。</strong>共通する型は6つある。</li>
+<li>根っこにあるのは、<strong>「商業が主役、公共は脇役（または救済役）」という順序</strong>である。</li>
+<li>複合化は、この順序を逆にする。<strong>毎日人が来る公共機能を核に置き、商業は先に決まったテナントの分だけ足す。</strong></li>
+<li>既存の空きビルに公共施設を入れるときは、<strong>近くの古い施設を同時に畳む。</strong>施設の総量を増やさない。</li>
+</ol></div>
+
+<h2>3-1　再開発のお金の仕組み</h2>
+<p>まず、市街地再開発事業の仕組みを押さえる。</p>
+<p>市街地再開発事業は、古い建物が建て込んだ区域で、土地と建物をまとめて取り壊し、大きなビルに建て替える事業である。もとの地権者は、持っていた土地や建物の価値に見合った床を、新しいビルの中に受け取る。これを<strong>権利変換</strong>という。</p>
+<p>新しいビルは、もとの建物より大きく建てる。地権者に渡した分を超えて増えた床を<strong>保留床</strong>という。事業費の大きな部分は、この保留床を売ったり貸したりした代金と、国や自治体の補助金でまかなう。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>中身</th>
+<th>地方で起きやすいこと</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>権利床</td>
+<td>もとの地権者が受け取る床</td>
+<td>地権者が商売をやめ、床が空いたままになる</td>
+</tr>
+<tr>
+<td>保留床</td>
+<td>増えた床。売ったり貸したりして事業費にあてる</td>
+<td>買い手や借り手がいない</td>
+</tr>
+<tr>
+<td>補助金</td>
+<td>国・自治体が事業費の一部を負担する</td>
+<td>負担が軽く見え、規模が膨らむ</td>
+</tr>
+</tbody>
+</table>
+<p>都市の中心で床の需要が強いときは、この仕組みはよく回る。保留床が高く売れ、その代金で道路や広場も整う。</p>
+<p><strong>問題は、地方では保留床の買い手がいないことである。</strong>誰も買わない床は、第三セクター（自治体が出資する会社）や自治体自身が引き受けることになる。ここから失敗の連鎖が始まる。</p>
+
+<h2>3-2　代表的な失敗例</h2>
+<h3>青森市 アウガ（2001年開業）</h3>
+<p>事業費185億円の複合ビルである。地下に市場、1〜4階に商業、4〜9階に図書館などの公共施設が入った。</p>
+<p>初年度の売上は、計画の52億円に対して約23億円と、半分以下だった。運営する第三セクターは、2015年度末に約24億円の債務超過となった。市は2008年に銀行の債権約23億円を買い取るなど支援を重ねたが、2016年に市長が引責辞任した。2017年2月に商業テナントが一斉に撤退し、2018年1月からは市役所の駅前庁舎として使われている。</p>
+<h3>秋田市 エリアなかいち（2012年開業）</h3>
+<p>2012年7月に完成した再開発の拠点である。事業費135億円で、その8割を国・県・市が負担した。商業施設、県立美術館、市のにぎわい交流館「AU」で構成される。整備の前には、中心部の小売の売上が1994年の1,000億円超から2004年の500億円台へ、10年で半減していた。</p>
+<p>開業から10年たっても、商業の苦境は好転していないと報じられている。一方で、隣の通りでは客層が広がったとも伝えられ、市は中心市街地の人口の増加や地価の上昇に一定の成果があったとしている。</p>
+<blockquote>
+<p><strong>なかいちは、白黒のつけにくい例である。</strong>美術館と交流館という公共の側は人を呼んだが、商業の床は埋まりきらなかった。公共施設があっても、商業の規模をテナントの賃料から決めていなければ、商業は自分の重さで沈む。</p>
+</blockquote>
+<h3>全国の再開発ビル</h3>
+<p>大阪府がまとめた再開発ビルの空き床対策の事例集には、商業床の空きに公共施設を入れた例が13件挙げられている。北見市（市の分庁舎）、中津川市（市役所機能・多目的ホール）、岡谷市（生涯学習センター・子育て支援館）、久留米市（図書館など）、佐賀市（子育て支援センター・市民センター）、倉敷市（男女共同参画センター）などである。</p>
+<p>一つひとつの事例には、それぞれの事情がある。ただ、13件も並ぶと、個別の事情では説明しきれない流れが見えてくる。<strong>商業ビルを建て、商業が埋まらず、公共施設で埋める。</strong>この流れである。</p>
+
+<h2>3-3　失敗に共通する6つの型</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>型</th>
+<th>何が起きるか</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>売上の見込みが楽観的すぎる</td>
+<td>人口や商圏が伸びることを前提に計画し、売上や賃料が計画の半分程度で止まる（アウガは初年度で計画の半分以下）</td>
+</tr>
+<tr>
+<td>2</td>
+<td>お金の仕組みが保留床に頼っている</td>
+<td>地方では保留床の買い手がおらず、第三セクターや自治体が引き受ける</td>
+</tr>
+<tr>
+<td>3</td>
+<td>核となる大型店（キーテナント）に頼っている</td>
+<td>百貨店やスーパーが撤退すると、ビル全体が一気に空く</td>
+</tr>
+<tr>
+<td>4</td>
+<td>郊外化と車社会の現実を見ていない</td>
+<td>郊外のバイパス沿いに店が集まり、中心部は人通りも土地の値段も下がり続ける（青森では路線価が開業時の約3分の1に）</td>
+</tr>
+<tr>
+<td>5</td>
+<td>補助金があるので規模が膨らむ</td>
+<td>事業費の多くを公費でまかなえるため、身の丈を超えた床を建てる</td>
+</tr>
+<tr>
+<td>6</td>
+<td>公共施設があとから「穴埋め」で入る</td>
+<td>その場所に置く必然性が薄いまま、床の管理費と修繕の積立てを自治体が払い続ける</td>
+</tr>
+</tbody>
+</table>
+<p>6つめの型は、本書のテーマと直接つながる。空き床に公共施設を入れると、見た目は「複合施設」になる。</p>
+<blockquote>
+<p><strong>しかし、これは複合化ではない。</strong>近くの古い施設を畳まずに入れれば、施設の総量はむしろ増える。公共施設の総量を減らそうとする計画（公共施設等総合管理計画）と、逆の方向に進む。</p>
+</blockquote>
+<p>6つの型の根っこにあるのは、「商業が主役、公共は脇役（または救済役）」という順序である。<strong>商業の需要が細る地方では、この順序そのものが成り立たない。</strong></p>
+<div class="fig"><span class="cap">図3-1　失敗の連鎖</span><div class="art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 248" width="100%" role="img"
+ aria-label="図3-1　失敗の連鎖"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="176" height="96" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="88.0" y="40" font-size="17" text-anchor="middle">保留床が</text>
+<text x="88.0" y="70" font-size="19" font-weight="bold" text-anchor="middle">売れない</text>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="180" y1="48" x2="211" y2="48" stroke="currentColor" stroke-width="2" marker-end="url(#a1)"/>
+<rect x="215" y="0" width="176" height="96" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="303.0" y="40" font-size="17" text-anchor="middle">第三セクターが</text>
+<text x="303.0" y="70" font-size="19" font-weight="bold" text-anchor="middle">床を抱える</text>
+<defs><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="395" y1="48" x2="426" y2="48" stroke="currentColor" stroke-width="2" marker-end="url(#a2)"/>
+<rect x="430" y="0" width="176" height="96" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="518.0" y="40" font-size="17" text-anchor="middle">商業が</text>
+<text x="518.0" y="70" font-size="19" font-weight="bold" text-anchor="middle">撤退する</text>
+<defs><marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="610" y1="48" x2="641" y2="48" stroke="currentColor" stroke-width="2" marker-end="url(#a3)"/>
+<rect x="645" y="0" width="176" height="96" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="733.0" y="40" font-size="17" text-anchor="middle">公共施設で</text>
+<text x="733.0" y="70" font-size="19" font-weight="bold" text-anchor="middle">埋める</text>
+<text x="88.0" y="126" font-size="15" text-anchor="middle">床の買い手がいない</text>
+<text x="303.0" y="126" font-size="15" text-anchor="middle">債務超過・公費で支援</text>
+<text x="518.0" y="126" font-size="15" text-anchor="middle">キーテナントが抜ける</text>
+<text x="733.0" y="126" font-size="15" text-anchor="middle">置く必然性が薄い</text>
+<defs><marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="410" y1="140" x2="410" y2="170" stroke="currentColor" stroke-width="2" marker-end="url(#a4)"/>
+<rect x="0" y="180" width="820" height="54" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="410" y="214" font-size="19" font-weight="bold" text-anchor="middle">施設の総量が増え、床の管理費と修繕費を払い続ける</text>
+</svg>
+</div></div>
+
+<h2>3-4　順序を逆にする</h2>
+<p>複合化の考え方は、この順序を逆にすることである。公共を核に置き、商業はその人の流れに乗る規模で足す。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>失敗の型（商業先行・公共は穴埋め）</th>
+<th>融合の型（公共を核に商業を足す）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>出発点</td>
+<td>再開発ビルを建てること</td>
+<td>公共施設の再編計画（どの機能を中心部に集めるか）</td>
+</tr>
+<tr>
+<td>集客の核</td>
+<td>百貨店・大型店</td>
+<td>図書館・子育て・行政窓口・医療など毎日使う公共機能</td>
+</tr>
+<tr>
+<td>商業の規模</td>
+<td>計画上の需要から決める</td>
+<td>先に決めたテナントの賃料から逆算する</td>
+</tr>
+<tr>
+<td>床の持ち方</td>
+<td>第三セクターが保留床を抱える</td>
+<td>公共部分は自治体が取得、民間部分は民間がリスクを負う</td>
+</tr>
+<tr>
+<td>地権者</td>
+<td>床を受け取って終わり</td>
+<td>業績に連動する地代で一緒にリスクを負う</td>
+</tr>
+<tr>
+<td>公共施設</td>
+<td>空き床に後から入る</td>
+<td>別の施設を畳んで移す（総量を増やさない）</td>
+</tr>
+<tr>
+<td>失敗したとき</td>
+<td>自治体が債務を肩代わり</td>
+<td>契約で決めた見直し・撤退のルールに従う</td>
+</tr>
+</tbody>
+</table>
+<p>第1章で見たとおり、公共施設は平日の昼にも安定して人を呼び、景気の影響を受けにくい。地方の中心部で、百貨店に代わって毎日人を呼べるのは、むしろ公共施設のほうである。</p>
+<p><strong>集客の核を、商業から公共に置き換える。</strong>これが、順序を逆にするということである。</p>
+<div class="fig"><span class="cap">図3-2　二つの順序の比較</span><div class="art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 312" width="100%" role="img"
+ aria-label="図3-2　二つの順序の比較"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="140" height="100" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="70" y="57" font-size="18" font-weight="bold" text-anchor="middle">失敗の順序</text>
+<rect x="170" y="14" width="196" height="72" rx="5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-dasharray="7 5"/>
+<text x="268" y="57" font-size="16" text-anchor="middle">再開発ビルを建てる</text>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="368" y1="50" x2="388" y2="50" stroke="currentColor" stroke-width="2" marker-end="url(#a1)"/>
+<rect x="390" y="14" width="196" height="72" rx="5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-dasharray="7 5"/>
+<text x="488" y="57" font-size="16" text-anchor="middle">商業で埋める</text>
+<defs><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="588" y1="50" x2="608" y2="50" stroke="currentColor" stroke-width="2" marker-end="url(#a2)"/>
+<rect x="610" y="14" width="196" height="72" rx="5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-dasharray="7 5"/>
+<text x="708" y="57" font-size="16" text-anchor="middle">空いた床を公共で埋める</text>
+<rect x="0" y="128" width="140" height="100" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="70" y="185" font-size="18" font-weight="bold" text-anchor="middle">融合の順序</text>
+<rect x="170" y="142" width="196" height="72" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="268" y="185" font-size="16" font-weight="bold" text-anchor="middle">施設再編計画で決める</text>
+<defs><marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="368" y1="178" x2="388" y2="178" stroke="currentColor" stroke-width="2" marker-end="url(#a3)"/>
+<rect x="390" y="142" width="196" height="72" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="488" y="185" font-size="16" font-weight="bold" text-anchor="middle">公共機能を核に置く</text>
+<defs><marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="588" y1="178" x2="608" y2="178" stroke="currentColor" stroke-width="2" marker-end="url(#a4)"/>
+<rect x="610" y="142" width="196" height="72" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="708" y="185" font-size="16" font-weight="bold" text-anchor="middle">テナント分だけ足す</text>
+<rect x="0" y="248" width="820" height="52" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="410" y="281" font-size="19" font-weight="bold" text-anchor="middle">集客の核を、商業から公共に置き換える</text>
+</svg>
+</div></div>
+
+<h2>3-5　失敗の型を断ち切った例</h2>
+<p>ここでは六つの例を見る。丸亀町は<strong>お金とリスクの持ち方</strong>を変えた。オガールとアンフォーレは<strong>集客の核を公共に置き、商業をその流れに乗る規模で足した。</strong>佐世保中央公園は、同じことを建物ではなく公園で行った。シリウスとエンクロスは、駅前の核を公共に置き換えたが、商業はごく小さい。</p>
+<h3>高松市 丸亀町商店街——リスクの持ち方を変える</h3>
+<p>丸亀町は、商業を主役にした再生である。集客の核を公共に置き換えた例ではない。学ぶべきは、土地とリスクの扱い方である。</p>
+<p>地権者の土地を、まちづくり会社が定期借地でまとめて借りる。土地を持つことと使うことを分け、店の構成を会社が一体で組み立てている。</p>
+<p>地権者に払う地代は、会社の業績に連動して毎年見直す。売上が落ちれば、地代も下がる。<strong>地権者は「床を受け取って終わり」ではなく、運営会社と一緒にリスクを分け合う。</strong>保留床を売って事業費をまかなう形（型の2）に頼らず、売上が落ちたときの痛みを一者に集めない仕組みである。</p>
+<h3>紫波町 オガールプラザ（岩手県、2012年6月開業）——集客の核と規模を変える</h3>
+<p>図書館などの公共部分を核にして、テナントを先に決めた。建設費は、テナントの賃料から逆算している。工事費約11億円のうち、公共部分の約8億円を町が買い取り、民間部分の約2.7億円は民間が借入れで建てた。民間部分の土地は、32年の事業用定期借地である。</p>
+<p>「稼げる規模しか建てない」という考え方は、6つの型の1・2・5を、計画の最初の段階で断ち切っている（第5章、第12章）。<strong>集客の核を公共に置いた、本章のいう「順序を逆にした」例である。</strong></p>
+<h3>安城市 アンフォーレ（愛知県、2017年度開館）——病院の跡地を、図書館を核に組み直す</h3>
+<p>中心市街地にあった総合病院が郊外へ移り、1日約3,000人の来街者が減った。その跡地に、市は図書情報館を核とする拠点施設を整備した。</p>
+<p>公共部分は、図書情報館、多目的ホール、カフェなどで、PFIで整備した（契約額約63億円）。公共施設を建てて余った土地は、定期借地で民間に貸した。民間はそこにスーパーマーケットとカルチャースクールの商業棟（延床約3,000㎡）を、独立採算で建てている。市には約20年で約3.3億円の借地料が入る。</p>
+<p>入館者は、2023年度で約108万人、1日平均約3,200人である。<strong>病院が呼んでいた人の流れを、図書館が引き継いだ。</strong>商業は、その流れに乗る規模で足されている。</p>
+<h3>佐世保市 佐世保中央公園（長崎県、2022年4月リニューアル）——公園を核に、商業の稼ぎを戻す</h3>
+<p>中心商店街に近い名切地区では、施設の老朽化や機能の移転で人が減り、治安や路上駐車も課題になっていた。市は2017年に地区のまちづくり構想をつくり、公園を中心市街地の交流の拠点に位置付けた。</p>
+<p>整備はPark-PFIで行った。公園の約5.4haに、市の建物で民間が運営する屋内遊び場、芝生広場、駐車場を置いた。そこに、民間が建てるレストラン、カフェ、テイクアウトの飲食店、バーベキュー場、オートキャンプ場、コンビニを足している。民間の施設は20年間の設置で、<strong>その稼ぎを公共部分の整備と運営に充てる。</strong>提案の時点で、運営の充実に回る額は約2.5億円（うち飲食などの利益から約1.4億円）とされた。代表企業と構成企業は市内の企業である。</p>
+<p>集客の核は、遊び場と芝生広場という公共の空間であり、商業はその人出に乗る形である。<strong>オガールやアンフォーレと同じ順序を、公園で組んだ例</strong>といえる。リニューアル後の来園者数や商店街への効果は、公表資料では確かめられていない【要確認】（第9章、第12章）。</p>
+<h3>大和市 シリウス（神奈川県、2016年11月開館）——再開発ビルの核を公共にする</h3>
+<p>大和駅東側第4地区の市街地再開発事業で建てたビルに、市は図書館、芸術文化ホール、子どもの広場、生涯学習センターをまとめて入れた。<strong>再開発ビルの核を、商業ではなく公共に置いた例である。</strong></p>
+<p>市の施設と民間の施設の割合は95対5で、民間はカフェ1店にとどまる。来館者は開館から7年で累計約1,880万人、年に約230万人と報告されている（他市議会の視察報告による）。</p>
+<h3>延岡市 エンクロス（宮崎県、2018年4月開業）——百貨店が抜けた駅前を、公共で埋め直す</h3>
+<p>駅前の百貨店が閉じたあと、市は駅に隣り合う複合施設を整備した。待合、市民活動の場、約4万冊の図書を置き、書店とカフェが入る。運営はカルチュア・コンビニエンス・クラブ（CCC）が指定管理者として担う。延岡駅周辺の整備の総額は約46億円で、うちエンクロスは約19億円である。</p>
+<p>開館から2年で市民活動は1,730回開かれ、延べ約2.6万人が参加した。一方で、年間の運営費は約1.4億円（うち指定管理料約1億円）かかり、費用に見合う効果の検証が要るとの指摘もある（他市議会の視察報告による）。</p>
+<blockquote>
+<p><strong>シリウスとエンクロスは、公共施設だけで駅前に人を呼べることを示した。</strong>ただし、商業の稼ぎで公共を支える形にはなっていない。オガールやアンフォーレのように、借地料や賃料を公共に戻す仕組みまで組むかどうかで、運営費の重さが変わる。</p>
+</blockquote>
+<p>六つの例に共通するのは、<strong>建物より先に、中身——運営する人と入居者——を決めている</strong>ことである。</p>
+
+<h2>3-6　融合のための7つの原則</h2>
+<ol>
+<li><strong>施設再編計画から始める。</strong>再開発の計画ではなく、公共施設等総合管理計画のなかで「中心部に集める機能」と「畳む施設」を先に決める。</li>
+<li><strong>公共機能を集客の核にする。</strong>図書館、子育て支援、行政窓口、健診・医療など、毎日人が来る機能を核に据える。商業はその人の流れに乗る規模にとどめる。</li>
+<li><strong>テナントを先に決めて規模を逆算する。</strong>サウンディング（民間への事前の意向調査）や仮設の出店で需要を確かめる。そのうえで、入る店が決まった分だけ建てる。</li>
+<li><strong>リスクを負う人を分ける。</strong>公共部分は自治体が持ち、商業部分は民間が借入れとリスクを負う。第三セクターに床を抱えさせたり、自治体が債務を保証したりはしない。</li>
+<li><strong>土地は売らずに貸す。</strong>定期借地や、業績に連動する地代を使い、地権者と運営会社が同じ方向を向く仕組みにする。</li>
+<li><strong>用途を変えられる建物にする。</strong>将来、商業が縮んでも公共や住宅に変えられるよう、柱と床だけの骨組みを長く使い、内装を入れ替えられる設計（スケルトン・インフィル）にする。</li>
+<li><strong>既存の空きビルは「再編の受け皿」として使う。</strong>空き床に公共施設を入れるときは、近くの古い施設を同時に畳み、施設の総量を増やさないことを条件にする。</li>
+</ol>
+
+<h2>3-7　すでにある空きビルをどうするか</h2>
+<p>多くの自治体にとって、目の前の課題は新しい再開発ではない。<strong>すでに建っている再開発ビルの空き床である。</strong>ここに公共施設を入れること自体は、悪い選択ではない。中心部に人を呼び戻す手段になる。違いを分けるのは、入れ方である。</p>
+<table>
+<thead>
+<tr>
+<th>確かめること</th>
+<th>穴埋めになる入れ方</th>
+<th>再編の受け皿になる入れ方</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>移す施設</td>
+<td>新しい施設を足す</td>
+<td>近くの古い施設を畳んで移す</td>
+</tr>
+<tr>
+<td>施設の総量</td>
+<td>増える</td>
+<td>増えない（減る）</td>
+</tr>
+<tr>
+<td>床の持ち方</td>
+<td>自治体が床を買い取り、抱え続ける</td>
+<td>借りる期間を区切るか、買う場合は将来の修繕費まで見積もる</td>
+</tr>
+<tr>
+<td>修繕・建替えの分担</td>
+<td>決めていない</td>
+<td>区分所有者との分担を先に決める</td>
+</tr>
+<tr>
+<td>置く理由</td>
+<td>床が空いているから</td>
+<td>中心部に集める機能として計画に位置付けている</td>
+</tr>
+</tbody>
+</table>
+<p>再開発ビルは区分所有者が多く、大規模な修繕や建て替えの合意が難しくなりがちである。</p>
+<blockquote>
+<p><strong>自治体が床を持つなら、建物の寿命までの修繕費の分担を、買う前に見積もる。</strong>床の代金だけを見て判断すると、あとから重い負担が残る。</p>
+</blockquote>
+<h3>都城市 Mallmall（宮崎県、2018年4月開業）——百貨店の跡地を、図書館を核に再生する</h3>
+<p>再編の受け皿として空きビルを使った例である。</p>
+<p>2011年1月、中心部に残った最後の大型店、都城大丸が閉店した。翌年、商工会議所の会員企業が受け皿会社「ハートシティ都城」をつくり、跡地を取得した。市、受け皿会社、商工会議所の三者で再生の方針を決め、市は<strong>旧大丸の跡地にあったセンターモールの建物を改装して、市立図書館を移した。</strong>あわせて、まちなか交流センター、子育て支援センター、保健センター、バスの待合所を置き、建物のあいだを屋根のある広場でつないだ。</p>
+<p>整備費は約65億円で、国の交付金と合併特例債などを充てた。図書館は既存の建物を使ったことで、同じ規模の新築より約31億円安くなったとされる。民間はあとから、スーパーとホテルの入る商業施設を2022年4月に開いた。</p>
+<p>旧図書館の来館者は年約17万人だった。移転後の図書館は、2024年度末までの累計で約675万人、施設全体では約1,115万人を数える。市内の空き店舗率は30%から17%に下がった。一方で、大通りの空き店舗は減っておらず、商店街への波及は今後の検証が要るとも報告されている（他市議会の視察報告による）。</p>
+<blockquote>
+<p><strong>古い図書館を畳んで、百貨店の跡地に残った建物に移した。</strong>施設の総量を増やさずに、中心部の集客の核を公共に置き換えた。商業は、その人の流れを見てから民間が足した。本章の7つの原則を、ほぼそのまま実行した例である。</p>
+</blockquote>
+
+<h2>3-8　規模別の現実解——理想・次善・最低限</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>理想</th>
+<th>次善</th>
+<th>最低限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>人口20万人以上</td>
+<td>施設再編計画で中心部に集める機能を決め、公共を核にした再開発・建て替えを、テナントを先に決めてから進める</td>
+<td>既存の再開発ビルの空き床に、近くの古い施設を畳んで移す</td>
+<td>計画中の再開発について、売上と賃料の見込みを第三者に点検させる</td>
+</tr>
+<tr>
+<td>人口5万〜20万人</td>
+<td>新しいビルは建てず、既存ビルの再生と小規模な連鎖型の建て替えで公共と商業を組み合わせる</td>
+<td>空き床を期間を区切って借り、公共機能を試しに置いてから買うかどうかを決める</td>
+<td>中心部の空きビルの床の持ち主・修繕積立・空き状況を一覧にする</td>
+</tr>
+<tr>
+<td>人口5万人未満</td>
+<td>大きな再開発はせず、既存の建物の改修（リノベーション）で公共と小さな店を一体にする</td>
+<td>空き店舗の一区画に、窓口や子育て相談を出張で置く</td>
+<td>過去の再開発・中心市街地の事業について、計画と実績を比べて公開する</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>「最低限」の欄は、次の失敗を防ぐための準備である。</strong>とくに計画と実績の比較は、どの規模でも始められる。公開すれば、次の計画で同じ見込み違いを繰り返さずに済む。</p>
+</blockquote>
+
+<h2>3-9　デベロッパーから見ると</h2>
+<p><strong>稼げるか。</strong>地方の再開発で商業床を大きく持つ計画は、本章の6つの型のどれかに当たりやすい。事業として危うい。逆に、公共部分を自治体が取得し、民間部分を先に決めたテナントの分だけ建てる計画なら、民間が負うリスクは小さく区切られる。<strong>公共が核になる計画のほうが、民間にとっても読みやすい。</strong></p>
+<p><strong>どこにリスクがあるか。</strong>三つある。①自治体の財政事情や首長の交代で、公共部分の取得が遅れる・縮む。②地権者が多く、権利の調整に時間がかかる。③既存ビルでは、区分所有者のあいだで修繕や建て替えの合意がとれない。①は議会の議決（債務負担行為など）の時期を、②③は合意の見通しを、参入の前に確かめる。</p>
+<p><strong>自治体に何を確かめるか。</strong>四つある。①その場所に集める機能が、公共施設等総合管理計画や個別施設計画で決まっているか。②畳む施設はどれか。③公共部分を取得するか借りるか、その予算の見通し。④不振や撤退のときのルールを契約に書く用意があるか。</p>
+
+<h2>3-10　この章で覚えておくこと</h2>
+<p>再開発の計画を見せられたら、<strong>集客の核が何か</strong>を最初に問う。答えが大型店なら、6つの型を一つずつ当てはめてみる。</p>
+<p>そして、空き床に公共施設を入れる話が出たら、<strong>「どの施設を畳むのか」</strong>を問う。答えがなければ、それは複合化ではなく穴埋めである。</p></section><div class="partpage">第2部　組み合わせ別</div><section class="ch" style="page:c4"><h1><span class="no">第4章</span>公共×公共——学校を核にする</h1>
+<div class="point"><div class="label">ポイント</div><ol>
+<li>学校は、市区町村が持つ施設の床の約4割を占め、通学区という地域の単位を持つ。<strong>複合化の核として、これ以上の候補はない。</strong></li>
+<li>学校の約39%は、すでにほかの施設と複合化している。<strong>しかし相手の多くは備蓄倉庫と放課後児童クラブで、図書館や公民館との本格的な複合はまだ少ない。</strong></li>
+<li>学校を核にするときの最大の論点は、安全管理である。<strong>入口と動線、管理の区分、設備の系統という「境目」を、設計の段階で決める。</strong></li>
+<li>国の補助で建てた学校を他の用途に使う手続（財産処分）は、思われているより軽い。<strong>壁になりやすいのは、制度より庁内の縦割りである。</strong></li>
+<li>逆向きの複合化もある。<strong>学校のプールを畳み、民間や拠点校の施設に授業を移す</strong>のも、学校を核にした組み替えである。</li>
+</ol></div>
+
+<h2>4-1　なぜ学校が核になるのか</h2>
+<p>学校は、全国の市区町村が持つ施設の延床面積の約4割を占める（2010年度末時点）。数が多く、地域ごとに均等に散らばっている。</p>
+<p>学校には、ほかの公共施設にない強みが三つある。</p>
+<ul>
+<li><strong>地域の単位を持っている。</strong>通学区は、住民にとって最も身近な地域の区切りである。「この学区の拠点」と言えば、誰のための施設かが伝わる。</li>
+<li><strong>建て替えの時期が来ている。</strong>多くの学校は、子どもが急に増えた昭和40年代から50年代にかけて、まとめて建てられた。いまその更新の時期を迎えている。建て替えに合わせれば、周りの施設を一緒に組み込める。</li>
+<li><strong>使われない時間が長い。</strong>授業があるのは平日の昼だけである。夕方、夜、土日、長期休みには、体育館も特別教室も空いている。</li>
+</ul>
+<p>三つめは、第2章の「利用時間帯は補い合うか」の問いに、最もはっきり答えられる組み合わせである。</p>
+<blockquote>
+<p><strong>学校は、地域に最も多く、最も広く、そして最も空いている時間の長い公共施設である。</strong></p>
+</blockquote>
+
+<h2>4-2　いまの複合化の実態</h2>
+<p>文部科学省の調査（2022年9月時点）では、公立の小中学校などのうち11,450校、約39%が、ほかの公共施設と複合化している。相手の内訳は次のとおりである（1校で複数の施設と複合している場合は、それぞれに数えている）。</p>
+<table>
+<thead>
+<tr>
+<th>相手の施設</th>
+<th>校数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>地域防災用備蓄倉庫</td>
+<td>7,475</td>
+</tr>
+<tr>
+<td>放課後児童クラブ</td>
+<td>6,870</td>
+</tr>
+<tr>
+<td>体育館等</td>
+<td>843</td>
+</tr>
+<tr>
+<td>公民館等</td>
+<td>608</td>
+</tr>
+<tr>
+<td>給食共同調理場</td>
+<td>409</td>
+</tr>
+<tr>
+<td>児童館等</td>
+<td>170</td>
+</tr>
+<tr>
+<td>保育所</td>
+<td>88</td>
+</tr>
+<tr>
+<td>図書館</td>
+<td>75</td>
+</tr>
+<tr>
+<td>行政機関</td>
+<td>55</td>
+</tr>
+<tr>
+<td>水泳プール</td>
+<td>44</td>
+</tr>
+<tr>
+<td>老人デイサービスセンター等</td>
+<td>31</td>
+</tr>
+<tr>
+<td>民間施設</td>
+<td>15</td>
+</tr>
+</tbody>
+</table>
+<p>備蓄倉庫と放課後児童クラブは、空いた教室や敷地の一角に置ける。建物の造りを変えなくても済む。</p>
+<p>一方、図書館は75校、公民館は608校、保育所は88校にとどまる。<strong>人が日常的に出入りし、学校と空間を分け合う複合は、まだ始まったばかりである。</strong></p>
+<div class="fig"><span class="cap">図4-1　学校の複合化の相手——多いのは「置くだけ」の施設</span><div class="art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 432" width="100%" role="img"
+ aria-label="図4-1　学校の複合化の相手——多いのは「置くだけ」の施設"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<text x="238" y="34" font-size="17" font-weight="bold" text-anchor="end">地域防災用備蓄倉庫</text>
+<rect x="250" y="14" width="470" height="28" rx="2" fill="currentColor" fill-opacity="0.38" stroke="currentColor" stroke-width="1.4"/>
+<text x="730" y="35" font-size="17" font-weight="bold" text-anchor="start">7,475</text>
+<text x="238" y="74" font-size="17" font-weight="bold" text-anchor="end">放課後児童クラブ</text>
+<rect x="250" y="54" width="432" height="28" rx="2" fill="currentColor" fill-opacity="0.38" stroke="currentColor" stroke-width="1.4"/>
+<text x="692" y="75" font-size="17" font-weight="bold" text-anchor="start">6,870</text>
+<text x="238" y="114" font-size="17" text-anchor="end">体育館等</text>
+<rect x="250" y="94" width="53" height="28" rx="2" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="1.4"/>
+<text x="313" y="115" font-size="17" text-anchor="start">843</text>
+<text x="238" y="154" font-size="17" text-anchor="end">公民館等</text>
+<rect x="250" y="134" width="38" height="28" rx="2" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="1.4"/>
+<text x="298" y="155" font-size="17" text-anchor="start">608</text>
+<text x="238" y="194" font-size="17" text-anchor="end">給食共同調理場</text>
+<rect x="250" y="174" width="26" height="28" rx="2" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="1.4"/>
+<text x="286" y="195" font-size="17" text-anchor="start">409</text>
+<text x="238" y="234" font-size="17" text-anchor="end">児童館等</text>
+<rect x="250" y="214" width="11" height="28" rx="2" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="1.4"/>
+<text x="271" y="235" font-size="17" text-anchor="start">170</text>
+<text x="238" y="274" font-size="17" text-anchor="end">保育所</text>
+<rect x="250" y="254" width="6" height="28" rx="2" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="1.4"/>
+<text x="266" y="275" font-size="17" text-anchor="start">88</text>
+<text x="238" y="314" font-size="17" text-anchor="end">図書館</text>
+<rect x="250" y="294" width="5" height="28" rx="2" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="1.4"/>
+<text x="265" y="315" font-size="17" text-anchor="start">75</text>
+<line x1="250" y1="6" x2="250" y2="330" stroke="currentColor" stroke-width="2" stroke-opacity="1.0"/>
+<rect x="0" y="350" width="400" height="66" rx="5" fill="currentColor" fill-opacity="0.38" stroke="currentColor" stroke-width="2"/>
+<text x="200" y="391" font-size="18" font-weight="bold" text-anchor="middle">空き教室や敷地に置くだけ</text>
+<rect x="420" y="350" width="400" height="66" rx="5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-dasharray="7 5"/>
+<text x="620" y="391" font-size="18" font-weight="bold" text-anchor="middle">人が出入りする複合は少ない</text>
+</svg>
+</div></div>
+
+<h2>4-3　事例</h2>
+<h3>志木市「いろは遊学館」（埼玉県、2003年）</h3>
+<p>志木小学校と、公民館「いろは遊学館」、図書館「いろは遊学図書館」を一つの複合施設にした。小学校の教室棟と、公民館・図書館の入る生涯学習棟を、広いピロティと渡り廊下でつないでいる。研修室、ホール、体育館は、子どもと市民が共有する。</p>
+<p>計画の前に、学校関係者、保護者、地域の人でつくる検討委員会を1999年に設け、<strong>2年半をかけて施設の計画と管理・運営の方法を話し合った。</strong>文部科学省は、小学校の学習環境の質が上がり、公民館と図書館も学校と連携した使い方が進んだと紹介している。</p>
+<h3>京都市「京都御池中学校・複合施設」（京都府、2006年3月供用）</h3>
+<p>都心で学校の統合を重ねて開校した中学校に、乳幼児保育所、老人デイサービスセンター、在宅介護支援センター、オフィススペース、備蓄倉庫、にぎわい施設を一つの建物にまとめた。延床面積は約20,000㎡である。</p>
+<p>整備はPFI（BTO方式・サービス購入型）で、事業費は約63億円（提案金額）、事業期間は約17年である。費用の削減効果（VFM）は、事業者選定の時点で29.8%と見込まれた。にぎわい施設は、民間の提案に基づく店舗として、御池通に面して置いた。</p>
+<p>中学生が保育所や高齢者施設、にぎわい施設で職業体験をし、学校行事に園児や高齢者が加わる。<strong>同じ建物にあることで、行事ではなく日常の交流になっている。</strong></p>
+<p>もう一つ学べることがある。オフィススペースは、2011年度から教室に転用された。</p>
+<blockquote>
+<p><strong>複合施設の中身は、時間とともに変わる。</strong>用途を入れ替えられる造りにしておくことが、長く使う条件である。</p>
+</blockquote>
+<h3>さいたま市「いーよの」（2020年4月）</h3>
+<p>小学校に、子育て支援センター、放課後児童クラブ、郷土資料館、地域サロンを複合化した。約2年間の市民ワークショップを経て開設している（第2章）。</p>
+<h3>佐倉市の学校プールの再編（千葉県）——学校の機能を外に出す</h3>
+<p>ここまでは、学校に他の施設を入れる話だった。逆に、<strong>学校の機能を外の施設に移す</strong>のも、学校を核にした組み替えである。</p>
+<p>佐倉市は、市内32校の学校プールの再編を検討した。屋外プールの31校は廃止し、屋内プールのある中学校を拠点校として残す。市民プールは、通年使える屋内温水プールに改築する。授業は拠点校や民間のプールで行い、送迎のバスを市が用意する。</p>
+<p>先に試したのは、佐倉小学校（2013年度から）と西志津小学校（2014年度から）である。耐震工事で学校のプールが使えなくなった代わりに、民間のプールで専門の指導員による授業を始めた。教職員と児童の満足度は高いとされる。</p>
+<p>市の試算では、65年間の市の実質負担は、従来どおり学校ごとにプールを持ち続ける場合より<strong>約14.1億円少ない</strong>。支出は増えるが、市民プールの利用料の収入が増えるからである。</p>
+
+<h2>4-4　安全管理——「境目」を設計で決める</h2>
+<p>学校を核にすると、必ず安全管理が問題になる。子どもがいる時間に、地域の人が出入りするからである。</p>
+<p>文部科学省の協力者会議の報告（2015年11月）は、学校の複合化で気をつける点として、次のことを挙げている。不特定多数の人が使うことを前提に、建物（ハード）と運用（ソフト）の両面で安全対策を考える。児童生徒と施設の利用者の動線が交わらないよう、また音で互いに支障が出ないよう配慮する。</p>
+<p>本書では、これを<strong>四つの「境目」を決める作業</strong>として整理する。</p>
+<table>
+<thead>
+<tr>
+<th>境目</th>
+<th>決めること</th>
+<th>例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>場所の境目</td>
+<td>学校だけの区域、地域だけの区域、共有する区域を分ける</td>
+<td>教室棟と地域棟を分け、渡り廊下やピロティでつなぐ（志木市）</td>
+</tr>
+<tr>
+<td>時間の境目</td>
+<td>共有する区域を、誰がいつ使うかを決める</td>
+<td>体育館や特別教室は、授業の時間は学校、放課後と休日は地域</td>
+</tr>
+<tr>
+<td>管理の境目</td>
+<td>専用部分と共有部分ごとに、鍵、清掃、警備、事故の責任を持つ者を決める</td>
+<td>施設ごとの担当者が集まる連絡協議の場を置く</td>
+</tr>
+<tr>
+<td>お金の境目</td>
+<td>電気、ガス、水道の系統を施設ごとに分け、費用の負担を決める</td>
+<td>会計の異なる施設どうしで、光熱費を按分しなくて済むようにする</td>
+</tr>
+</tbody>
+</table>
+<p>場所と時間の境目は、設計で決まる。後から変えるのは難しい。<strong>管理とお金の境目は、開館の前に協定で決める。</strong>決めないまま開館すると、「誰が鍵を閉めるのか」「誰の予算で直すのか」という小さな揉めごとが、毎日のように起きる。</p>
+<blockquote>
+<p><strong>安全管理は、複合化をやめる理由ではない。設計の最初に決めるべき条件である。</strong></p>
+</blockquote>
+
+<h2>4-5　制度の壁は、思われているより低い</h2>
+<h3>学校は、もともと地域に開いてよい</h3>
+<p>学校教育法は、学校教育に支障がない限り、学校に社会教育の施設を付けたり、学校の施設を社会教育その他の公共のために使わせたりできると定めている（第137条）。<strong>学校を地域と分け合うことは、法律が最初から想定している。</strong></p>
+<h3>財産処分の手続</h3>
+<p>国の補助を受けて建てた学校を、他の用途に転用したり、貸したりするときは、国への財産処分の手続が要る。補助金の一部を国に返す（国庫納付）場合もある。</p>
+<p>ただし、手続は段階的に軽くなっている。文部科学省の資料による主な扱いは次のとおりである。</p>
+<table>
+<thead>
+<tr>
+<th>場合</th>
+<th>扱い</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>施設の改変を伴わない一時的な転用・貸与で、公益のために使う</td>
+<td>財産処分に当たらず、手続は不要</td>
+</tr>
+<tr>
+<td>補助事業の完了から10年以上たった建物を、無償で転用・貸与・譲渡する</td>
+<td>国庫納付は原則不要</td>
+</tr>
+<tr>
+<td>10年以上たった建物を、有償で貸与・譲渡する</td>
+<td>国庫納付金に当たる額を、学校施設整備の基金に積み立てることで対応できる</td>
+</tr>
+</tbody>
+</table>
+<p>放課後の体育館の地域開放のような使い方は、手続そのものが要らない。空き教室を公民館の分室にするような転用も、建物が古ければ、国に返すお金はふつう生じない。</p>
+<h3>本当の壁は、縦割り</h3>
+<p>制度より重いのは、庁内の縦割りである。学校は教育委員会の所管、公民館も多くは教育委員会、放課後児童クラブや保育所は首長部局、高齢者施設は福祉部局である。</p>
+<ul>
+<li><strong>計画の段階</strong>で、施設マネジメントの担当課が、教育委員会と各部局を一つの検討の場に集める。</li>
+<li><strong>設計の段階</strong>で、4-4の四つの境目を、各部局の合意として文書にする。</li>
+<li><strong>運営の段階</strong>で、施設ごとの担当者による連絡協議の場を常設する。</li>
+</ul>
+<blockquote>
+<p><strong>学校の複合化は、建物の話である前に、組織の話である。</strong></p>
+</blockquote>
+
+<h2>4-6　統合と同時に考える</h2>
+<p>学校の統合は、複合化の最大の好機である。統合で新しく建てる、または大きく改修する学校には、周りの施設を組み込める。京都御池中学校も、統合を重ねた末に生まれた。</p>
+<p>ただし、統合と複合化を一度に住民に示すと、話が重くなる。統合は「学校がなくなる」話、複合化は「学校に何かが来る」話である。</p>
+<p><strong>順序は、統合の合意が先、複合化はその後である。</strong>統合の話し合いの中で、「新しい学校に何があればよいか」を住民に聞いておく。その答えが、複合化の中身になる。</p>
+<p>統合で空く校舎の扱いも、同時に決める。「残す・束ねる・転じる・畳む」で言えば、空く校舎は「転じる」か「畳む」の候補になる。転じる場合は、第2章の類型 C（働く場）が候補になる。五城目町の BABAME BASE がその例である。</p>
+
+<h2>4-7　規模別の現実解——理想・次善・最低限</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>理想</th>
+<th>次善</th>
+<th>最低限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>人口20万人以上</td>
+<td>学校の建て替えに合わせ、保育所・高齢者施設・図書館の分館・店舗までを一つの建物に組む（京都御池中学校型）</td>
+<td>学校と公民館・図書館を棟で分け、渡り廊下でつなぐ（志木市型）</td>
+<td>空き教室に放課後児童クラブや地域の集会室を入れる</td>
+</tr>
+<tr>
+<td>人口5万〜20万人</td>
+<td>統合で建てる学校に、公民館・図書館・子育て支援を組み込む</td>
+<td>学校のプールや体育館を、拠点の施設や民間の施設にまとめる（佐倉市型）</td>
+<td>体育館・特別教室の放課後と休日の地域開放を、鍵と予約の仕組みごと整える</td>
+</tr>
+<tr>
+<td>人口5万人未満</td>
+<td>統合後の学校を、支所・公民館・図書館・診療所の窓口を束ねた地域の拠点にする</td>
+<td>学校に公民館の機能を移し、地域の人が日常的に出入りする場にする</td>
+<td>空き教室を、地域の会合や子育て広場に期間を区切って開放する</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>どの規模でも、最初の一歩は「学校の空いている時間を、地域に開く」ことである。</strong>建物を建てなくても、鍵と予約の仕組みを整えるだけで始められる。</p>
+</blockquote>
+
+<h2>4-8　デベロッパーから見ると</h2>
+<p><strong>稼げるか。</strong>学校を核にした複合化の大半は、公共どうしの組み合わせ（類型 A）である。民間の施設と複合している学校は、全国で15校にとどまる。民間が床を借りて商売をする余地は小さい。</p>
+<p><strong>どこに仕事があるか。</strong>それでも、民間の出番はある。</p>
+<ul>
+<li><strong>整備と運営をまとめて請け負う。</strong>京都御池中学校のように、PFI で設計・建設・維持管理を一括で受ける。</li>
+<li><strong>学校の中や周りの小さな商業。</strong>京都御池中学校のにぎわい施設は、通りに面した店舗である。学校の敷地の外周、通りに面した部分なら、安全管理の制約を受けにくい。</li>
+<li><strong>学校の機能を引き受ける。</strong>佐倉市の例のように、民間のプールやスポーツ施設が、授業の受け皿になる。放課後児童クラブ、給食、施設管理の運営事業者として入る道もある。</li>
+</ul>
+<p><strong>どこにリスクがあるか。</strong>学校の中の商業は、学校の安全管理と行事の都合を背負う。入口を通り側に分け、学校の区域と交わらない形にできるかを、最初に確かめる。</p>
+<p><strong>自治体に何を確かめるか。</strong>三つある。①その学校は統合の計画とどう関係するか、②四つの境目のうち、どこまで決まっているか、③民間に求めるのは整備か、運営か、床の利用か、である。</p>
+
+<h2>4-9　この章で覚えておくこと</h2>
+<p>複合化の候補地を探すなら、<strong>まず学校の一覧を見る。</strong>どの学校が、いつ建て替えや統合の時期を迎えるかを並べれば、複合化の順番が見えてくる。</p>
+<p>そして、学校を核にすると決めたら、<strong>設計の前に、場所・時間・管理・お金の四つの境目を決める。</strong></p></section><section class="ch" style="page:c5"><h1><span class="no">第5章</span>公共×商業——床を借りるか、持つか</h1>
+<div class="point"><div class="label">ポイント</div><ol>
+<li>商業施設に公共施設を入れるとき、自治体の選択は<strong>床を借りるか、床を持つか</strong>の二つに分かれる。費用の出方とリスクの持ち方が、まったく違う。</li>
+<li><strong>借りれば、早く始められ、動きやすい。その代わり、賃料が毎年かかり続ける。</strong>駅前の商業施設に図書館を移した藤沢市は、年に約1億円の賃料を払っている。</li>
+<li><strong>持てば、腰を据えられ、商業施設の存続も支えられる。その代わり、建物の将来を他の所有者と一緒に決めることになる。</strong></li>
+<li>選ぶ基準は五つある。いつまでいたいか、相手はいつまで続くか、総額はどちらが安いか、修繕と建て替えを誰が決めるか、財源は何か。</li>
+<li>どちらを選んでも、<strong>「商業施設が閉じたらどうするか」を、入る前に契約で決める。</strong></li>
+</ol></div>
+
+<h2>5-1　二つの入り方</h2>
+<table>
+<thead>
+<tr>
+<th>入り方</th>
+<th>仕組み</th>
+<th>利点</th>
+<th>注意点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>床を借りる（テナントとして入居）</td>
+<td>既存の商業施設の区画を自治体が借り、図書館・行政窓口・子育て支援などを置く</td>
+<td>建物を建てずに早く始められる。人が集まる場所に公共サービスを置ける。移転もしやすい</td>
+<td>賃料が毎年かかり続ける。商業施設が閉店すると、公共サービスも移転を迫られる</td>
+</tr>
+<tr>
+<td>床を持つ（区分所有）</td>
+<td>商業施設の一部の床を自治体が買い取って持つ</td>
+<td>賃料がかからず、長く腰を据えられる。商業施設の存続を下支えできる</td>
+<td>建物全体の修繕や建て替えには、他の所有者との合意が要る。商業部分が衰退しても抜け出しにくい</td>
+</tr>
+</tbody>
+</table>
+<p>「持つ」には、今ある床を買う形と、建てる前に「完成したら買う」と約束する形がある。後者は、紫波町のオガールプラザが使った形で、公共部分の広さと仕様を最初から設計に入れられる（第17章の②と③）。</p>
+<p>本章は、自治体の側からこの二つを比べる。デベロッパーの側から見た利点と注意点は、第17章で扱う。</p>
+<blockquote>
+<p><strong>借りるか持つかは、お金の問題である前に、「その場所にどれだけ長くいるつもりか」の問題である。</strong></p>
+</blockquote>
+
+<h2>5-2　借りる——藤沢市 南市民図書館（神奈川県、2019年7月）</h2>
+<p>藤沢市は、市民図書館の分館の一つを、藤沢駅前の商業施設「ODAKYU 湘南 GATE」の6階に移した。平日は夜8時まで開いている。買い物や、学校・仕事の帰りに立ち寄れる場所に、図書館を置いた。</p>
+<p>市の施設カルテ（2023年度）では、建物も土地も賃借である。延床面積は1,389㎡、来館者は年約95.7万人である。来館者は、2021年度の約77.5万人から、2022年度に約94.0万人、2023年度に約95.7万人と伸びている。</p>
+<p>一方、同じ年度の使用料・賃借料は約1億355万円で、維持管理費全体（約1億3,404万円）の約8割を占める。</p>
+<blockquote>
+<p><strong>借りる場合の費用は、ほとんどが賃料である。</strong>年に約1億円なら、10年で約10億円、20年で約20億円になる。建物を一棟建てられる額である。</p>
+</blockquote>
+<p>それでも借りる理由はある。駅前の商業施設の上の階という、自前では確保できない立地を、建物を建てずに手に入れた。来館者の数がそれを示している。<strong>賃料は、立地の対価である。</strong></p>
+
+<h2>5-3　持つ——土浦市役所（茨城県、2015年9月）</h2>
+<p>土浦駅西口の再開発ビル「ウララ」は、1997年10月に完成した。核の大型店が2012年2月に撤退を表明し、2013年2月に閉店した。</p>
+<p>大型店をはじめ複数の店舗から、市に床の買い取りの打診があった。市は床を取得し、ビルを改修して市役所を移した。2015年9月に開庁している。それまで市役所は4つの棟に分かれ、本庁舎は古く、耐震性も足りなかった。</p>
+<p>改修後のビルでは、庁舎と店舗の床を市が持つ。地下1階には食品スーパーや雑貨店を入れ、その床は市が有償で貸している。1階と2階には市民ラウンジを置き、無料の Wi-Fi を夜9時まで開放している。駅からはペデストリアンデッキで段差なく入れる。</p>
+<p>この例から学べることは三つある。</p>
+<ul>
+<li><strong>空いた床を、公共が買って埋めた。</strong>放っておけば空きビルになった床を、市役所という最大の公共施設で埋めた（第3章3-7）。</li>
+<li><strong>買った床の一部を、商業に貸している。</strong>持つことと貸すことは両立する。買い物の便利さを残したまま、庁舎にした。</li>
+<li><strong>新築ではなく改修である。</strong>窓の少ない店舗ビルの気密性を、冬の暖房の負荷を減らすことに生かしている。</li>
+</ul>
+<p>ただし、取得と改修の費用、新築した場合との比較は、本書が当たった公開資料では確認できていない【要確認】。</p>
+
+<h2>5-4　どちらを選ぶか——五つの問い</h2>
+<table>
+<thead>
+<tr>
+<th>問い</th>
+<th>借りるが向く</th>
+<th>持つが向く</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>① いつまでいたいか</td>
+<td>10年程度で見直す可能性がある。試してから決めたい</td>
+<td>20年以上、その場所に置き続けると決めている</td>
+</tr>
+<tr>
+<td>② 相手はいつまで続くか</td>
+<td>商業施設の先行きが読みにくい</td>
+<td>商業施設が続かなくても、公共だけで建物を使い切れる</td>
+</tr>
+<tr>
+<td>③ 総額はどちらが安いか</td>
+<td>賃料が相場より安い。期間が短い</td>
+<td>期間が長く、賃料の総額が取得と修繕の費用を上回る</td>
+</tr>
+<tr>
+<td>④ 修繕と建て替えを誰が決めるか</td>
+<td>建物の将来の判断は、持ち主に任せたい</td>
+<td>管理組合で十分な議決権を持てる。建て替えまで見通せる</td>
+</tr>
+<tr>
+<td>⑤ 財源は何か</td>
+<td>毎年の一般財源で賄える</td>
+<td>起債や国の支援を使って、一度にまとまった額を出せる（第13章）</td>
+</tr>
+</tbody>
+</table>
+<p>①が最も大事である。<strong>迷ったら、まず借りる。</strong>数年使って、その場所に人が来ることを確かめてから、持つかどうかを決める。借りて始めた施設を、あとから買い取ることもできる。</p>
+<p>②は、見落としやすい。持つ場合でも、商業施設が先に閉じれば、残るのは「公共だけが入った大きな建物」である。土浦市は、それを庁舎で使い切った。図書館の分館だけで同じことはできない。<strong>持つなら、商業が抜けたあとの床の使い道まで考えておく。</strong></p>
+<p>④は、区分所有の宿命である。区分所有の建物を建て替えるには、原則として区分所有者と議決権の各5分の4以上の賛成が要る（建物の区分所有等に関する法律第62条）。2026年4月施行の改正で、この決め方の一部が見直された【要確認】。</p>
+<div class="fig"><span class="cap">図5-1　借りるか、持つか——お金の出方の違い</span><div class="art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 412" width="100%" role="img"
+ aria-label="図5-1　借りるか、持つか——お金の出方の違い"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<line x1="90" y1="300" x2="780" y2="300" stroke="currentColor" stroke-width="2" stroke-opacity="1.0"/>
+<line x1="90" y1="300" x2="90" y2="30" stroke="currentColor" stroke-width="2" stroke-opacity="1.0"/>
+<text x="76" y="46" font-size="16" text-anchor="end">累計の</text>
+<text x="76" y="68" font-size="16" text-anchor="end">支出</text>
+<text x="780" y="330" font-size="16" text-anchor="end">年数</text>
+<polyline points="90,300 780,40" fill="none" stroke="currentColor" stroke-width="3.2"/>
+<polyline points="90,300 90,190 550,165 550,135 780,120" fill="none" stroke="currentColor" stroke-width="3.2" stroke-dasharray="10 6"/>
+<text x="770" y="28" font-size="17" font-weight="bold" text-anchor="end">借りる（賃料が毎年）</text>
+<text x="770" y="108" font-size="17" font-weight="bold" text-anchor="end">持つ</text>
+<text x="104" y="180" font-size="16" text-anchor="start">取得・改修</text>
+<text x="562" y="160" font-size="16" text-anchor="start">大規模修繕</text>
+<line x1="431" y1="300" x2="431" y2="172" stroke="currentColor" stroke-width="1.6" stroke-opacity="0.6"/>
+<text x="431" y="330" font-size="16" font-weight="bold" text-anchor="middle">分かれ目</text>
+<text x="265" y="288" font-size="16" text-anchor="middle">短いなら借りる</text>
+<text x="650" y="240" font-size="16" text-anchor="middle">長いなら持つ</text>
+<rect x="0" y="340" width="820" height="56" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="410" y="376" font-size="18" font-weight="bold" text-anchor="middle">先に「何年いるか」を決めれば、総額で比べられる</text>
+</svg>
+</div></div>
+
+<h2>5-5　総額で比べる</h2>
+<p>借りるか持つかの比較は、<strong>同じ期間の総額で行う。</strong>初年度の支出だけで比べると、必ず「借りるほうが安い」に見える。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>借りる場合に積み上げるもの</th>
+<th>持つ場合に積み上げるもの</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>最初に</td>
+<td>内装工事の費用（自治体の負担分）、敷金など</td>
+<td>床の取得費、改修費</td>
+</tr>
+<tr>
+<td>毎年</td>
+<td>賃料、共益費</td>
+<td>管理費、修繕積立金</td>
+</tr>
+<tr>
+<td>途中で</td>
+<td>賃料の改定</td>
+<td>大規模修繕の負担金</td>
+</tr>
+<tr>
+<td>最後に</td>
+<td>原状回復の費用</td>
+<td>床の残りの価値（売れる場合）、または取り壊しの負担</td>
+</tr>
+</tbody>
+</table>
+<p>比べる期間は、その場所に置き続けるつもりの年数とする。10年なら借りるほうが安く、30年なら持つほうが安い、という結果はよくある。だからこそ、①の「いつまでいたいか」が先に決まっていないと、比較そのものができない。</p>
+<blockquote>
+<p><strong>総額の比較表は、議会への説明の骨格になる。</strong>「なぜ借りるのか」「なぜ買うのか」を、同じ表で答えられるようにする。</p>
+</blockquote>
+
+<h2>5-6　契約で決めておくこと</h2>
+<h3>借りる場合</h3>
+<ul>
+<li><strong>期間と中途解約。</strong>何年借りるか。どちらが、どの条件で、何か月前の予告で解約できるか。</li>
+<li><strong>賃料の改定。</strong>何年ごとに、何を基準に見直すか。</li>
+<li><strong>内装と原状回復。</strong>図書館の床の補強や窓口の区画など、公共の仕様に合わせる工事を、誰の負担でするか。出るときに元に戻す範囲をどうするか。</li>
+<li><strong>時間と入口。</strong>商業施設の営業時間と、公共施設の開館時間が違うときの出入りと警備。</li>
+<li><strong>商業施設が閉じるとき。</strong>閉店や建物の売却のときに、何か月前に知らせるか。移転の費用をどう扱うか。</li>
+</ul>
+<p>複数年にわたる賃貸借は、債務負担行為として議会の議決を得るのが基本である。不動産を借りる契約は、条例の定めにより長期継続契約とすることもできる（地方自治法第234条の3）。どちらの扱いにするかを、契約の前に財政課と決めておく。</p>
+<h3>持つ場合</h3>
+<ul>
+<li><strong>管理規約での発言力。</strong>床の広さに応じた議決権を持つことになる。修繕や用途の変更をどう決めるかを、取得の前に規約で確かめる。</li>
+<li><strong>修繕積立金と大規模修繕。</strong>建物全体の修繕の計画と、自治体の負担の見通し。</li>
+<li><strong>商業の床が空いたとき。</strong>他の所有者の床が長く空いたとき、誰がどう埋めるか。公共が買い増すことになるのか。</li>
+<li><strong>建て替えのとき。</strong>建て替えの決議に、自治体がどう関わるか。仮移転の先をどうするか。</li>
+</ul>
+<blockquote>
+<p><strong>どちらの場合も、最後の項目が最も大事である。</strong>商業施設が閉じる日、建物が建て替わる日は、いつか必ず来る。その日の扱いを、入る前に決めておく。</p>
+</blockquote>
+
+<h2>5-7　何を入れるか</h2>
+<p>商業施設に入れて効く公共機能は、<strong>商業施設の弱い時間に人を呼び、ついでの買い物を生むもの</strong>である（第1章、第2章）。</p>
+<table>
+<thead>
+<tr>
+<th>機能</th>
+<th>効く理由</th>
+<th>気をつける点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>図書館（分館）</td>
+<td>平日の昼と夕方に、幅広い世代が来る。滞在時間が長い</td>
+<td>床の重さ。静かな環境と、館内放送や音楽との兼ね合い</td>
+</tr>
+<tr>
+<td>子育て支援・こども家庭センター</td>
+<td>親子が平日の昼に来る。食料品や日用品の買い物と重なる</td>
+<td>授乳室やベビーカーの動線。相談の場の個室</td>
+</tr>
+<tr>
+<td>行政窓口・証明書の発行</td>
+<td>用のある人が確実に来る。夜や休日に開ければ便利さが伝わる</td>
+<td>個人情報を扱う区画の仕様。住民票などのシステムの回線</td>
+</tr>
+<tr>
+<td>健診・相談の会場</td>
+<td>決まった日に人がまとまって来る</td>
+<td>期間を区切った利用で足りることが多い</td>
+</tr>
+</tbody>
+</table>
+<p>逆に、大きなホールや体育館のように、<strong>決まった時間に大人数が出入りし、それ以外は空く施設</strong>は、商業施設の床に向かない。駐車場が一時に埋まり、商業の客と取り合いになる。</p>
+
+<h2>5-8　企業版ふるさと納税で床を整えるとき</h2>
+<p>商業施設の中の子育て支援や交流のスペースを、企業版ふるさと納税の寄附で整える例が出てきている。このとき、<strong>寄附する企業が、その商業施設の開発者や運営者でもある</strong>という構図になりやすい。</p>
+<p>寄附企業に経済的な見返りを与えることは禁止されている。違反すると、計画の認定取消の対象になる。自治体がその企業の施設の床を買う、または借りる場合は、見返りと受け取られないよう、価格の根拠と選定の経緯を特に丁寧に示す。</p>
+<blockquote>
+<p><strong>寄附金は、自治体が持つか管理する公益の部分に充てる。</strong>公益の部分と営利の部分は、お金の流れ、所有、契約を分ける。寄附の額は約束せず、集まった範囲で充実させる前提にする。</p>
+</blockquote>
+<p>詳しくは第13章で扱う。</p>
+
+<h2>5-9　規模別の現実解——理想・次善・最低限</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>理想</th>
+<th>次善</th>
+<th>最低限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>人口20万人以上</td>
+<td>駅前の再編で、公共部分を建てる前に買う約束をし、民間部分は独立採算にする</td>
+<td>駅前の商業施設の上の階に、図書館や子育て支援を借りて入れる（藤沢市型）</td>
+<td>商業施設の一角に、証明書の発行や相談の窓口を置く</td>
+</tr>
+<tr>
+<td>人口5万〜20万人</td>
+<td>核の店が抜けた駅前のビルの床を買い、庁舎などの大きな公共施設で埋める（土浦市型）</td>
+<td>郊外の商業施設に、子育て支援や図書館の分館を借りて入れる</td>
+<td>商業施設の空き区画を、期間を区切って借り、健診や相談会に使う</td>
+</tr>
+<tr>
+<td>人口5万人未満</td>
+<td>スーパーや道の駅の建て替えに合わせ、支所・図書館の分室・子育て相談の床を一緒に整える</td>
+<td>地域のスーパーの一角を借り、支所の窓口と図書の貸し出しを置く</td>
+<td>店の前の駐車場や休憩所で、移動図書館や出張窓口を定期的に開く</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>どの規模でも、最初の一歩は「期間を区切って借りてみる」ことである。</strong>人が来るかどうかを確かめてから、長く借りるか、持つかを決める。</p>
+</blockquote>
+
+<h2>5-10　デベロッパーから見ると</h2>
+<p><strong>稼げるか。</strong>公共テナントの賃料は、売上の不振では減らない固定の収入になる。床を自治体に売れば、代金が一度に入る。どちらも、空きの多い商業施設にとっては大きな支えである（第17章）。</p>
+<p><strong>どこにリスクがあるか。</strong>自治体は、借りるか持つかを「その場所にどれだけ長くいるか」で決める。<strong>長くいる理由を一緒に示せない提案は、短期の賃貸借にとどまる。</strong>一方、床を売った場合は、自治体が建物の将来を決める仲間になる。修繕や建て替えのたびに、議会の議決を待つことになる。</p>
+<p><strong>自治体に何を確かめるか。</strong>三つある。①その公共施設は、どの施設を畳んで移ってくるのか、②何年いるつもりか、借りるのか持つのか、③商業施設が閉じるときや建て替えのときの扱いを、どこまで契約に書けるか、である。</p>
+
+<h2>5-11　この章で覚えておくこと</h2>
+<p>商業施設に公共施設を入れる話が来たら、<strong>「何年、そこにいるつもりか」を最初に決める。</strong>それが決まれば、借りるか持つかは、同じ期間の総額で比べられる。</p>
+<p>そして、どちらを選んでも、<strong>商業施設が閉じる日の扱いを、入る前に契約に書く。</strong></p></section><section class="ch" style="page:c6"><h1><span class="no">第6章</span>文化×商業——入口に商業、奥に文化</h1>
+<div class="point"><div class="label">ポイント</div><ol>
+<li>図書館・美術館・ホールは、<strong>誰でも無料か安く来られ、長く過ごせる施設</strong>である。商業から見れば強い集客の装置であり、文化の側から見れば、商業は来館のきっかけと運営費の支えになる。</li>
+<li>ただし、<strong>文化施設を入れれば商業が救える、とは限らない。</strong>青森市のアウガは、図書館を入れても商業を救えなかった（第3章）。</li>
+<li>融合には四つの型がある。文化の中に商業、商業の中に文化、公共が商業の形をとる、隣り合わせて回遊させる、である。</li>
+<li>設計の基本は、<strong>入口に商業、奥に文化</strong>である。カフェや書店で気軽に入れるようにし、奥や上の階で静かに読み、学べるようにする。</li>
+<li><strong>選書や企画など、文化の中身は公共が責任を持つ。</strong>それを契約に書く。</li>
+</ol></div>
+
+<h2>6-1　文化施設は、強い集客の装置である</h2>
+<p>文化施設には、商業施設にない強みがある。</p>
+<ul>
+<li><strong>入るのにお金がかからない。</strong>図書館は無料である。目的がなくても入れる。</li>
+<li><strong>長く過ごせる。</strong>本を読む、勉強する、展示を見る。滞在が数時間に及ぶ。</li>
+<li><strong>何度も来る。</strong>本を借りれば、返しに来る。講座は毎週ある。</li>
+</ul>
+<p>商業施設が欲しいのは、まさにこの「目的がなくても来て、長くいて、何度も来る」人の流れである。逆に、文化施設の側にとっては、カフェや書店があることが、ふだん文化施設に来ない人が入ってくるきっかけになる。</p>
+<blockquote>
+<p><strong>ただし、文化施設は商業の救命具ではない。</strong>アウガは、商業の売上の見込みが外れたあと、図書館があっても持ち直せなかった。文化と商業の融合は、商業が自分の足で立てる規模であることが前提である（第3章）。</p>
+</blockquote>
+
+<h2>6-2　融合の四つの型</h2>
+<table>
+<thead>
+<tr>
+<th>型</th>
+<th>中身</th>
+<th>例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>① 文化施設の中に商業を入れる</td>
+<td>図書館や美術館に、カフェ、書店、ショップを入れる</td>
+<td>武雄市図書館、ヘルシンキ中央図書館 Oodi</td>
+</tr>
+<tr>
+<td>② 商業施設の中に文化施設を入れる</td>
+<td>商業施設の床を借りるか持って、図書館や交流の場を置く</td>
+<td>Idea Store、藤沢市南市民図書館（第5章）</td>
+</tr>
+<tr>
+<td>③ 公共が商業の形をとる</td>
+<td>市営の書店、ミュージアムショップ、公設の市場</td>
+<td>八戸ブックセンター</td>
+</tr>
+<tr>
+<td>④ 隣り合わせて回遊させる</td>
+<td>広場や通路を分け合い、文化と商業を行き来させる</td>
+<td>紫波町オガール、延岡市エンクロス（第3章）</td>
+</tr>
+</tbody>
+</table>
+<p>①と②は、どちらが主でどちらが従かの違いである。①は文化施設が建物を持ち、商業はテナントとして入る。②は商業施設が建物を持ち、文化施設がテナントとして入る。</p>
+<p>③は、逆向きの融合である。公共が、商業の手法を借りて人を呼ぶ。</p>
+<p>④は、建物を分けたまま、広場でつなぐ形である。第1章の「広場」の考え方を、最も素直に形にしたものである。</p>
+
+<h2>6-3　事例</h2>
+<h3>武雄市図書館（佐賀県、2013年改装）——①文化の中に商業</h3>
+<p>民間企業が指定管理者として運営し、書店とカフェを併せて置いた。2013年度からは、年中無休で開いている。</p>
+<p>来館者は、改装前の2011年度の約25.6万人から、2013年度には約92.3万人に増えた。2014年度も約80.1万人である。<strong>集客の効果は大きい。</strong></p>
+<p>一方で、選書や郷土資料の扱いについては批判も受けた。この点は6-5で扱う。</p>
+<h3>Idea Store（イギリス・ロンドン、タワーハムレッツ区、2002年〜）——②商業の中に文化</h3>
+<p>図書館、大人と家族向けの学びの講座、区の窓口、カフェを一つにした施設である。最初の館は2002年に開き、いまは5館ある。講座は年に約900ある。</p>
+<p>区は、<strong>人通りの多い商店街に館を置くこと</strong>を最も重視した。「本を借りることを、パンや牛乳を買うのと同じくらい手軽にする」という考え方である。5館のうち1館は、にぎわうショッピングセンターの中にある。</p>
+<p>来館者は、1998年に区の図書館全体で年55万人だった。いまは年約160万人である。</p>
+<h3>八戸ブックセンター（青森県、2016年12月）——③公共が商業の形をとる</h3>
+<p>八戸市が直営する書店である。中心市街地に置いた。約8,000冊の本は、見本を除いてすべて買える。選書は、書店で働いた経験を持つ人を市の職員として雇って行っている。飲み物も出す。</p>
+<p>扱うのは、地域の書店では置かれにくい海外文学、人文書、自然科学の本などである。<strong>地域の書店と競わず、補い合う</strong>ことを狙いに掲げている。執筆のための無料の席も用意した。</p>
+<p>開館の日には、3,200人を超える人が訪れた。</p>
+<h3>ヘルシンキ中央図書館 Oodi（フィンランド、2018年12月）——①を建物全体で</h3>
+<p>投資額は9,800万ユーロである。3階建ての各階に、役割をはっきり分けた。</p>
+<table>
+<thead>
+<tr>
+<th>階</th>
+<th>中身</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1階</td>
+<td>カフェ、レストラン、映画館、案内</td>
+</tr>
+<tr>
+<td>2階</td>
+<td>音楽やメディアの部屋、3Dプリンターやミシンを置いた工房</td>
+</tr>
+<tr>
+<td>3階</td>
+<td>約10万冊の本と、静かに読める場所</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>下から上へ、にぎやかから静かへ。</strong>Oodi は、「入口に商業、奥に文化」を、建物の縦の並びで形にした例である。</p>
+</blockquote>
+<div class="fig"><span class="cap">図6-1　入口に商業、奥に文化——にぎやかさの順に並べる</span><div class="art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 392" width="100%" role="img"
+ aria-label="図6-1　入口に商業、奥に文化——にぎやかさの順に並べる"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="170" height="78" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="85" y="47" font-size="18" font-weight="bold" text-anchor="middle">奥・上の階</text>
+<rect x="190" y="0" width="470" height="78" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="425" y="47" font-size="18" font-weight="bold" text-anchor="middle">閲覧席・学習席・郷土資料</text>
+<rect x="0" y="92" width="170" height="78" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="85" y="139" font-size="18" font-weight="bold" text-anchor="middle">中ほど</text>
+<rect x="190" y="92" width="470" height="78" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2"/>
+<text x="425" y="139" font-size="18" font-weight="bold" text-anchor="middle">交流の場・工房・講座・子どもの本</text>
+<rect x="0" y="184" width="170" height="78" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="85" y="231" font-size="18" font-weight="bold" text-anchor="middle">入口・1階</text>
+<rect x="190" y="184" width="470" height="78" rx="5" fill="currentColor" fill-opacity="0.38" stroke="currentColor" stroke-width="2"/>
+<text x="425" y="231" font-size="18" font-weight="bold" text-anchor="middle">カフェ・書店・新刊の棚・展示</text>
+<text x="740" y="40" font-size="19" font-weight="bold" text-anchor="middle">静か</text>
+<text x="740" y="248" font-size="19" font-weight="bold" text-anchor="middle">にぎやか</text>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="740" y1="225" x2="740" y2="64" stroke="currentColor" stroke-width="2.6" marker-end="url(#a1)"/>
+<rect x="0" y="296" width="820" height="80" rx="5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-dasharray="7 5"/>
+<text x="410" y="330" font-size="18" font-weight="bold" text-anchor="middle">通りから入った人が、ついでに奥へ進む</text>
+<text x="410" y="360" font-size="16" text-anchor="middle">音と人の流れは、静かな場所に届きにくい</text>
+</svg>
+</div></div>
+
+<h2>6-4　入口に商業、奥に文化</h2>
+<p>文化と商業を一つの建物に入れるときの、配置の基本を整理する。</p>
+<ul>
+<li><strong>入口と1階には、にぎやかなものを置く。</strong>カフェ、書店、新刊や話題の本の棚、展示、案内。通りから中が見え、気軽に入れるようにする。</li>
+<li><strong>中ほどには、人と人が交わるものを置く。</strong>交流の場、工房、講座の部屋、子どもの本のコーナー。</li>
+<li><strong>奥や上の階には、静かなものを置く。</strong>閲覧席、学習席、郷土資料、専門書。</li>
+</ul>
+<p>この順に並べると、<strong>商業の音や人の流れが、静かな場所に届きにくい。</strong>同時に、ふだん本を読まない人も、カフェに入ったついでに、少しずつ奥へ進む。</p>
+<p>逆に置くと、どちらも損をする。静かな閲覧室を通らないとカフェに行けなければ、カフェの客は増えない。カフェの音が閲覧室に響けば、本を読みに来た人が離れる。</p>
+<blockquote>
+<p><strong>動線は、にぎやかさの順に並べる。</strong>これは建物の大小を問わない。公民館の一室でも、入口側に飲み物の棚を置き、奥に読書の席を置けば、同じ考え方が使える。</p>
+</blockquote>
+
+<h2>6-5　文化の中身は、公共が責任を持つ</h2>
+<p>文化と商業の融合で最も強い懸念は、<strong>「文化の中身が商業に飲み込まれる」</strong>ことである。武雄市図書館への批判も、この点に向けられた。</p>
+<p>民間に運営を任せること自体は問題ではない。問題は、<strong>何を任せ、何を任せないかを決めないまま任せる</strong>ことである。契約で決めておくべきことは、次のとおりである。</p>
+<table>
+<thead>
+<tr>
+<th>決めること</th>
+<th>中身</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>選書の方針</td>
+<td>何を集め、何を残すかの基本を、公共が定める。運営者は方針に沿って選び、結果を報告する</td>
+</tr>
+<tr>
+<td>郷土資料と地域の記録</td>
+<td>地域の資料は、売れる・売れないと関係なく集め、守る。扱いを運営者任せにしない</td>
+</tr>
+<tr>
+<td>企画と講座</td>
+<td>展示や講座の年間の計画を、公共が確認する。商業の宣伝と、学びの場の区別をつける</td>
+</tr>
+<tr>
+<td>評価の物差し</td>
+<td>来館者数だけで評価しない。貸出、講座の参加、地域の資料の利用など、文化の側の指標を並べる</td>
+</tr>
+<tr>
+<td>商業の区画</td>
+<td>店の広さと場所を、契約で固定する。運営の途中で、閲覧の場所が売り場に変わらないようにする</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>民間の稼ぐ力は借りる。文化の中身の舵は、公共が握る。</strong></p>
+</blockquote>
+
+<h2>6-6　地域の書店や飲食店と、競わない</h2>
+<p>公共の施設の中に書店やカフェを入れると、地域の書店や飲食店の客を奪う、という心配が出る。</p>
+<p>八戸ブックセンターは、この心配に正面から答えた例である。地域の書店で置かれにくい分野に絞り、<strong>地域の書店を補う</strong>ことを最初から狙いにした。</p>
+<p>カフェや飲食でも、同じ考え方が使える。</p>
+<ul>
+<li><strong>地元の店に出店してもらう。</strong>公募の条件に、地域の事業者であることを加点として入れる。</li>
+<li><strong>品ぞろえや営業時間で、すみ分ける。</strong>昼の軽食に絞る、夜は営業しない、など。</li>
+<li><strong>賃料を相場に合わせる。</strong>公共の床を安く貸せば、周りの店が不利になる。</li>
+</ul>
+
+<h2>6-7　規模別の現実解——理想・次善・最低限</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>理想</th>
+<th>次善</th>
+<th>最低限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>人口20万人以上</td>
+<td>中心部の図書館の建て替えに合わせ、1階にカフェ・書店・映画や催しの場、上の階に閲覧の場を重ねる（Oodi 型）</td>
+<td>駅前の商業施設に、図書館の分館と講座の部屋を借りて入れる（Idea Store 型）</td>
+<td>図書館の入口にカフェを公募で入れる</td>
+</tr>
+<tr>
+<td>人口5万〜20万人</td>
+<td>図書館の改装に合わせ、民間の運営者と書店・カフェを入れる。選書と郷土資料は公共が持つ</td>
+<td>中心市街地に、地域の書店を補う公設の書店や本の拠点を置く（八戸型）</td>
+<td>図書館や美術館のロビーで、地元の店に期間を区切って出店してもらう</td>
+</tr>
+<tr>
+<td>人口5万人未満</td>
+<td>図書館・公民館・カフェを一つの建物にまとめ、地域の人が日常に立ち寄る場にする</td>
+<td>公民館の一室を、本と飲み物のある「ブックカフェ」にする</td>
+<td>移動図書館の巡回日に、地元の店の出店を合わせる</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>どの規模でも、最初の一歩は「入口にカフェ、奥に本」の並びをつくることである。</strong>建て替えを待たなくても、家具の配置と、出店の公募だけで始められる。</p>
+</blockquote>
+
+<h2>6-8　デベロッパーから見ると</h2>
+<p><strong>稼げるか。</strong>図書館や文化施設の来館者は、滞在が長く、何度も来る。カフェや書店にとっては、安定した客である。武雄市図書館のように、改装で来館者が3倍を超えた例もある。</p>
+<p><strong>どこにリスクがあるか。</strong>二つある。一つは、<strong>文化の中身への批判</strong>である。選書や郷土資料の扱いで住民の信頼を失えば、事業そのものが政治の問題になる。もう一つは、<strong>評価の物差しのずれ</strong>である。民間は来館者数や売上で成果を語りたいが、自治体と住民は文化の質で評価する。</p>
+<p><strong>自治体に何を確かめるか。</strong>三つある。①選書・郷土資料・企画のうち、公共が握るものと任せるものの線引き、②評価の物差しに何を並べるか、③地域の書店や飲食店とのすみ分けをどう求めるか、である。<strong>線引きを先に示してくれる自治体ほど、批判されにくい運営ができる。</strong></p>
+
+<h2>6-9　この章で覚えておくこと</h2>
+<p>文化と商業を組み合わせるときは、<strong>図面を引く前に、「にぎやかなものから静かなものへ」の順に機能を並べる。</strong>それが動線になる。</p>
+<p>そして、民間に運営を任せるなら、<strong>選書と郷土資料と企画のどこまでを公共が握るかを、契約に書く。</strong></p></section><section class="ch" style="page:c7"><h1><span class="no">第7章</span>公民館×カフェ・居酒屋</h1>
+<div class="point"><div class="label">ポイント</div><ol>
+<li>公民館は、昼の高齢者とサークルが中心で、<strong>夜の時間、働く世代、若い世代がほとんど来ない。</strong>カフェや居酒屋は、「用がなくても立ち寄れる」入口になる。</li>
+<li>公民館は営利の事業を禁じられている、と思われがちである。しかし文部科学省は、<strong>営利の事業に関わることを全面的に禁じるものではない</strong>としている（2018年12月の事務連絡）。問題は、特定の事業者だけを優遇することである。</li>
+<li>商業を入れる道筋は三つある。<strong>公民館のまま公募で区画を貸す、コミュニティセンターに切り替える、住民の組織が運営して稼ぎを地域に回す</strong>、である。</li>
+<li>お酒を出すには、許可より先に<strong>使用の規則</strong>が壁になる。多くの公民館は飲酒を禁じている。</li>
+<li><strong>毎日の営業から始めない。</strong>週末の夜や月1回の営業で、利用者と近所の反応を確かめる。</li>
+</ol></div>
+
+<h2>7-1　なぜ公民館に、カフェや居酒屋なのか</h2>
+<p>公民館は、地域の学びと集まりの拠点である。全国の多くの市町村が、地区ごとに置いている。</p>
+<p>しかし、使っている人は偏っている。昼の時間に、高齢者とサークルが部屋を予約して使う。夜の時間、働く世代、若い世代は、ほとんど来ない。<strong>予約して使う場所であって、ふらりと立ち寄る場所ではない。</strong></p>
+<p>カフェや居酒屋は、その逆である。用がなくても入れる。一人でも入れる。そこで顔見知りができ、地域の話が耳に入る。</p>
+<blockquote>
+<p><strong>公民館に足りないのは、部屋ではなく「入口」である。</strong>カフェや居酒屋は、予約をしない人を地域につなぐ入口になる。</p>
+</blockquote>
+<p>第1章の言葉で言えば、公民館の外部経済効果（地域の人と人をつなぐ力）は、昼のサークルの中に閉じている。飲食の場は、それを夜と若い世代に広げる。</p>
+
+<h2>7-2　法律の枠——思われているより広い</h2>
+<h3>社会教育法第23条</h3>
+<p>社会教育法第23条は、公民館が「もっぱら営利を目的として事業を行う」ことや、特定の営利事業に公民館の名前を使わせたり、援助したりすることを禁じている。この規定から、「公民館では商売ができない」と受け止められてきた。</p>
+<h3>文部科学省の解釈</h3>
+<p>文部科学省は、この規定の解釈を二度にわたって示している。</p>
+<table>
+<thead>
+<tr>
+<th>時期</th>
+<th>文書</th>
+<th>中身</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2013年3月</td>
+<td>社会教育法第23条第1項第1号の解釈について（通知）</td>
+<td>施設の名前を付ける権利（ネーミングライツ）を入札などで公正に売ることは、禁止に当たらない。公民館が主催する個展で、作品を販売することもできる</td>
+</tr>
+<tr>
+<td>2018年12月21日</td>
+<td>社会教育法第23条第1項の解釈について（事務連絡）</td>
+<td>公民館が営利の事業に関わることを、全面的に禁じるものではない。問題になるのは、特定の営利事業に、使用回数・時間・料金などで便宜を図り、利益を与えることである</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>禁じられているのは「えこひいき」であって、「商売」そのものではない。</strong>事業者を公正に選び、相場の賃料で貸せば、公民館の中にカフェを置く道は開いている。</p>
+</blockquote>
+
+<h2>7-3　三つの道筋</h2>
+<table>
+<thead>
+<tr>
+<th>道筋</th>
+<th>中身</th>
+<th>利点</th>
+<th>気をつける点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>① 公民館のまま、区画を貸す</td>
+<td>カフェや売店の区画を切り出し、公募で選んだ事業者に貸し付ける</td>
+<td>公民館の役割と所管を変えずに済む</td>
+<td>公募の手続と、相場に合った賃料が要る</td>
+</tr>
+<tr>
+<td>② コミュニティセンターに切り替える</td>
+<td>社会教育法上の公民館から外し、首長部局の地域施設にする</td>
+<td>収益の事業を組み立てる自由度が上がる</td>
+<td>学びの場としての役割を、どう守るかを決める必要がある</td>
+</tr>
+<tr>
+<td>③ 住民の組織が運営する</td>
+<td>地域運営組織（住民がつくる地域の自治の組織）が指定管理者になり、カフェや物販の利益を見守りや行事に回す</td>
+<td>稼ぎが地域に残る。担い手が育つ</td>
+<td>運営の負担が一部の住民に偏りやすい</td>
+</tr>
+</tbody>
+</table>
+<p>②と③は、組み合わせて使われることが多い。</p>
+<h3>雲南市（島根県）——公民館を交流センターに切り替える</h3>
+<p>雲南市は、2010年度に、それまでの公民館を地域自主組織の活動の拠点として「交流センター」に移した。市内には30の地域自主組織があり、交流センターも30ある。そのうち29は、指定管理で運営している（2026年5月改定の市の施設計画）。</p>
+<h3>出雲市「鳶巣コミュニティセンター」（島根県、2016年10月）——住民がカフェを開く</h3>
+<p>住民の有志が、センターの一部を自分たちで改装し、カフェを開いた。ふだんは誰でも自由に使える場所で、月1回の営業日とセンターの催しの日に、コーヒーと手づくりの菓子を出す。地区に住む大工やデザイナー、菓子づくりの得意な人を講師に、寄せ植えや男性向けの料理の教室も開いている。</p>
+<p>隣の幼稚園の保護者が交流の場として使うようになり、育児のサークルが生まれた。</p>
+<blockquote>
+<p><strong>毎日開かなくても、場は育つ。</strong>月1回の営業でも、「あそこに行けば誰かいる」という場所になれば、新しいつながりが生まれる。</p>
+</blockquote>
+<div class="fig"><span class="cap">図7-1　公民館に商業を入れる三つの道筋</span><div class="art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 342" width="100%" role="img"
+ aria-label="図7-1　公民館に商業を入れる三つの道筋"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="260" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="130.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">① 公民館のまま</text>
+<rect x="0" y="58" width="260" height="116" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="130.0" y="104" font-size="18" font-weight="bold" text-anchor="middle">区画を公募で貸す</text>
+<text x="130.0" y="144" font-size="16" text-anchor="middle">所管は変えない</text>
+<rect x="280" y="0" width="260" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="410.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">② コミセンに</text>
+<rect x="280" y="58" width="260" height="116" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="410.0" y="104" font-size="18" font-weight="bold" text-anchor="middle">首長部局の施設へ</text>
+<text x="410.0" y="144" font-size="16" text-anchor="middle">稼ぐ自由が増える</text>
+<rect x="560" y="0" width="260" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="690.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">③ 住民の組織が</text>
+<rect x="560" y="58" width="260" height="116" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2"/>
+<text x="690.0" y="104" font-size="18" font-weight="bold" text-anchor="middle">指定管理で運営</text>
+<text x="690.0" y="144" font-size="16" text-anchor="middle">稼ぎが地域に残る</text>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="410" y1="186" x2="410" y2="222" stroke="currentColor" stroke-width="2" marker-end="url(#a1)"/>
+<rect x="0" y="234" width="820" height="90" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="410" y="270" font-size="18" font-weight="bold" text-anchor="middle">どの道でも、事業者は公正に選び、賃料は相場に</text>
+<text x="410" y="304" font-size="16" text-anchor="middle">禁じられているのは、特定の事業者への優遇</text>
+</svg>
+</div></div>
+
+<h2>7-4　居酒屋という入口——イギリスのコミュニティパブ</h2>
+<p>カフェは昼の入口になる。夜の入口になるのは、居酒屋である。</p>
+<p>参考になるのは、イギリスの<strong>コミュニティパブ</strong>である。住民が出資して所有し、運営するパブで、2026年7月時点で237軒ある。法人の形は、地域の利益のための協同組合のような組織が多い。</p>
+<p>後押ししたのは、2012年に始まった制度である。住民が地域の大切な場所を「地域にとって価値のある資産」として登録しておくと、その場所が売りに出たとき、住民が買い取りに名乗り出る時間が与えられる。パブの閉店が続く業界の中で、住民が所有するパブは、ほとんどが続いている。</p>
+<p>イギリスの村では、パブが集会所の役割を担ってきた。<strong>飲む場所と集まる場所は、もともと一つだった。</strong>日本の公民館と居酒屋の融合を考えるときのヒントになる。</p>
+
+<h2>7-5　進めるときの確認点</h2>
+<table>
+<thead>
+<tr>
+<th>確認すること</th>
+<th>中身</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>許可</td>
+<td>飲食を出すには、食品衛生法の飲食店営業の許可が要る。店の中でお酒を出すのは、この許可の範囲でできる。持ち帰り用にお酒を売るなら、酒類販売業の免許が別に要る。主にお酒を出す店が深夜0時を過ぎて営業するなら、別に届出が要る</td>
+</tr>
+<tr>
+<td>使用の規則</td>
+<td>多くの公民館は、使用の規則で飲酒を禁じている。たとえば川口市の公民館は、町会の総会のあとの懇親会でも、飲み物をソフトドリンクとノンアルコールに限っている。規則を改めるか、飲食の区画を貸付で切り出す</td>
+</tr>
+<tr>
+<td>小さく試す</td>
+<td>毎日の営業ではなく、週末の夜の「公民館バル」や、月1回の営業から始める。利用者と近所の反応を確かめる</td>
+</tr>
+<tr>
+<td>担い手</td>
+<td>地元の飲食店に出店してもらうか、地域運営組織が運営する</td>
+</tr>
+<tr>
+<td>地元の店との関係</td>
+<td>賃料を相場に合わせる。公共の床を安く貸して、地元の飲食店の商売を圧迫しない</td>
+</tr>
+<tr>
+<td>配慮</td>
+<td>子どもが使う時間と分ける。音に気を配る。車で来る地方では、飲酒運転を防ぐ仕組み（送迎や乗り合い）を用意する</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>許可は取れる。難しいのは、規則と住民の受け止め方である。</strong>だから、規則を変える前に、期間を区切って試し、反応を確かめる。</p>
+</blockquote>
+
+<h2>7-6　規模別の現実解——理想・次善・最低限</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>理想</th>
+<th>次善</th>
+<th>最低限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>人口20万人以上</td>
+<td>地区の公民館の建て替えに合わせ、通りに面した区画をカフェや飲食店として公募で貸す</td>
+<td>公民館の一室を、夜は地元の飲食店が営む「公民館バル」として定期的に開く</td>
+<td>ロビーに飲み物と本の棚を置き、予約なしで座れる席をつくる</td>
+</tr>
+<tr>
+<td>人口5万〜20万人</td>
+<td>公民館をコミュニティセンターに切り替え、住民の組織が指定管理でカフェと物販を営む</td>
+<td>公民館のまま、喫茶の区画を公募で貸す</td>
+<td>月1回、地元の店に出張してもらい、夜の集まりを開く</td>
+</tr>
+<tr>
+<td>人口5万人未満</td>
+<td>地域運営組織が、公民館・売店・食堂を一体で営み、稼ぎを見守りや行事に回す（雲南市型）</td>
+<td>住民の有志が、公民館の一部を改装してカフェを開く（鳶巣型）</td>
+<td>祭りや総会のあとに、住民が営む屋台や持ち寄りの場を開く</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>どの規模でも、最初の一歩は「予約しなくても座れる席」をつくることである。</strong>飲み物が一杯あれば、入口になる。</p>
+</blockquote>
+
+<h2>7-7　デベロッパーから見ると</h2>
+<p><strong>稼げるか。</strong>公民館のカフェや居酒屋は、大きな売上を生む事業ではない。民間の大手が入る規模ではなく、<strong>地元の飲食店や小さな事業者の出番</strong>である。</p>
+<p><strong>どこに仕事があるか。</strong>それでも、仕組みをつくる側の仕事はある。</p>
+<ul>
+<li><strong>地区の公民館を束ねて運営する。</strong>一つひとつは小さくても、複数の館の区画をまとめて引き受ければ、事業になる。</li>
+<li><strong>建て替えの際の、通り側の区画。</strong>公民館を建て替えるとき、通りに面した1階を飲食店として設計し、民間に貸す。</li>
+<li><strong>住民の組織を支える。</strong>内装、厨房の設備、許可の手続、仕入れの仕組みなど、住民の組織が苦手な部分を引き受ける。</li>
+</ul>
+<p><strong>どこにリスクがあるか。</strong>お酒を出すことへの住民の反発である。一度でも騒ぎや事故が起きれば、取り組みそのものが止まる。<strong>最初は小さく、期間を区切り、反応を記録する。</strong></p>
+<p><strong>自治体に何を確かめるか。</strong>三つある。①公民館のままか、コミュニティセンターに切り替えるか、②使用の規則の飲酒の扱いを、いつ、どう見直すか、③地元の飲食店とのすみ分けをどう求めるか、である。</p>
+
+<h2>7-8　この章で覚えておくこと</h2>
+<p>公民館に人が来ないと悩んだら、<strong>部屋を増やすのではなく、入口をつくる。</strong>予約しなくても座れる席と、一杯の飲み物から始める。</p>
+<p>そして、「公民館では商売ができない」と言われたら、<strong>2018年の文部科学省の事務連絡を示す。</strong>禁じられているのは、特定の事業者へのえこひいきである。</p></section><section class="ch" style="page:c8"><h1><span class="no">第8章</span>福祉×商業・文化——幼老複合をまちの居場所に</h1>
+<div class="point"><div class="label">ポイント</div><ol>
+<li>高齢者施設と保育施設を一つにする「幼老複合」には、すでに<strong>半世紀を超える実績</strong>がある。</li>
+<li>そこに温泉、食堂、カフェ、本のある場所などを足すと、福祉施設は<strong>「一部の人だけが通う閉じた施設」から「まちの居場所」に変わる。</strong></li>
+<li>福祉施設の多くは、社会福祉法人や民間が運営する。<strong>自治体は自ら運営するより、土地・建物・床を出して融合を誘導する立場</strong>に立つ。</li>
+<li>効く理由は四つある。来る理由が生まれる、支えられる側が支える側になる、人手不足を補う、稼ぎで福祉を支える。</li>
+<li>注意点は、<strong>設備と人員の基準、子どもと高齢者の安全、補助金の按分</strong>である。設計の最初に、所管の部署と詰める。</li>
+</ol></div>
+
+<h2>8-1　閉じた施設を、まちに開く</h2>
+<p>高齢者施設、保育所、障害のある人の施設は、利用する人が限られている。地域の住民から見れば、前を通っても中が見えない施設である。</p>
+<p>一方で、福祉施設には、地域にとって大切な力がある。毎日決まった人が通い、職員がいて、昼の時間にいつも人の気配がある。<strong>まちの中で、最も「人がいる」施設の一つである。</strong></p>
+<p>ここに、福祉と関係のない住民が来る理由を足す。温泉、食堂、カフェ、売店、本のある場所である。そうすれば、福祉施設は、利用者と地域の住民が日常的に出会う場所になる。</p>
+<blockquote>
+<p><strong>福祉施設を「まちの居場所」にする鍵は、福祉と無縁の住民が来る理由をつくることである。</strong></p>
+</blockquote>
+<p>ただし、福祉施設の多くは、社会福祉法人や民間の事業者が運営する。自治体が自ら建てて運営する公共施設とは違う。<strong>自治体の役割は、公有地や廃校、再開発ビルの空いた床を出し、その条件に「地域に開く機能」を入れることである</strong>（8-6）。</p>
+
+<h2>8-2　融合の三つの段階</h2>
+<table>
+<thead>
+<tr>
+<th>段階</th>
+<th>中身</th>
+<th>例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>① 福祉×福祉</td>
+<td>高齢者・子ども・障害のある人の施設を、一つの建物や事業所にまとめる</td>
+<td>江東園（東京都江戸川区）、共生型サービス（国の制度）</td>
+</tr>
+<tr>
+<td>② 福祉×商業</td>
+<td>福祉施設に、温泉・食堂・売店・ジムなど、地域の住民が使う商業の機能を足す</td>
+<td>Share 金沢、B's 行善寺（石川県）</td>
+</tr>
+<tr>
+<td>③ 福祉×文化</td>
+<td>図書館、公民館、再開発ビルなどに、子育て支援や高齢者の通いの場を置く</td>
+<td>商業施設や図書館の中の子育て支援（第5章、第17章）</td>
+</tr>
+</tbody>
+</table>
+<p>①は、福祉の中での複合である。②と③は、福祉の外の人を呼び込む複合である。<strong>本書が重視するのは②と③である。</strong>①だけでは、施設はまだ閉じている。</p>
+<div class="fig"><span class="cap">図8-1　閉じた施設から、まちの居場所へ</span><div class="art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 352" width="100%" role="img"
+ aria-label="図8-1　閉じた施設から、まちの居場所へ"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="240" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="120.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">① 福祉×福祉</text>
+<rect x="0" y="58" width="240" height="120" rx="5" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="120.0" y="106" font-size="18" font-weight="bold" text-anchor="middle">高齢者＋子ども</text>
+<text x="120.0" y="146" font-size="16" text-anchor="middle">まだ閉じている</text>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="246" y1="118" x2="284" y2="118" stroke="currentColor" stroke-width="2" marker-end="url(#a1)"/>
+<rect x="290" y="0" width="240" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="410.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">② 福祉×商業</text>
+<rect x="290" y="58" width="240" height="120" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2"/>
+<text x="410.0" y="106" font-size="18" font-weight="bold" text-anchor="middle">温泉・食堂・売店</text>
+<text x="410.0" y="146" font-size="16" text-anchor="middle">住民が来る理由</text>
+<defs><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="536" y1="118" x2="574" y2="118" stroke="currentColor" stroke-width="2" marker-end="url(#a2)"/>
+<rect x="580" y="0" width="240" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="700.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">③ 福祉×文化</text>
+<rect x="580" y="58" width="240" height="120" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2"/>
+<text x="700.0" y="106" font-size="18" font-weight="bold" text-anchor="middle">図書館・公民館に</text>
+<text x="700.0" y="146" font-size="16" text-anchor="middle">日常の動線に乗る</text>
+<defs><marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="410" y1="190" x2="410" y2="226" stroke="currentColor" stroke-width="2" marker-end="url(#a3)"/>
+<rect x="0" y="238" width="820" height="96" rx="5" fill="currentColor" fill-opacity="0.38" stroke="currentColor" stroke-width="2.2"/>
+<text x="410" y="276" font-size="19" font-weight="bold" text-anchor="middle">自治体は、土地・床・条件を出す</text>
+<text x="410" y="310" font-size="17" text-anchor="middle">公募の条件に「地域に開く機能」の一行</text>
+</svg>
+</div></div>
+
+<h2>8-3　事例</h2>
+<h3>江東園（東京都江戸川区）——①福祉×福祉の原点</h3>
+<p>1962年に養護老人ホームとして開設した。1976年に隣に保育園を建て、1987年に二つの施設を統合した。いまは、養護老人ホーム、特別養護老人ホーム、デイサービス、保育園を一体で運営している。</p>
+<p>1〜5歳の幼児約100人と、65〜101歳の入居者約100人が、同じ場所で過ごす。朝の運動やごみ拾いを一緒にし、昼食のときは高齢者が子どもを見守る。折り紙を教え、昔の話をする。</p>
+<p>高齢者は子どもとの交流で活気づき、食事への意欲も高まるとされる。<strong>保育士の負担も軽くなっている。</strong></p>
+<h3>共生型サービス（国の制度、2018年度）——①を制度にする</h3>
+<p>2018年度の介護保険制度の改正で、共生型サービスができた。障害福祉の事業所が、同じ事業所で介護保険のサービスの指定も受けやすくする特例である。逆に、介護保険の事業所が障害福祉のサービスの指定を受けることもできる。</p>
+<p>対象は、通所介護（デイサービス）、訪問介護、短期入所などである。障害福祉の側では、生活介護、児童発達支援、放課後等デイサービスなどが対象になる。<strong>年齢や障害で利用者を分けない</strong>地域の実践が、制度になった。</p>
+<h3>Share 金沢（石川県金沢市、2014年3月）——②福祉×商業のまち</h3>
+<p>社会福祉法人佛子園が、約1万1,000坪の敷地に、一つの「まち」をつくった。</p>
+<ul>
+<li>サービス付き高齢者向け住宅（32世帯。約半分は県外の都市部からの移住者）</li>
+<li>障害のある子どもの入所施設、学童保育</li>
+<li>学生向けの住宅（施設の中で月30時間のボランティアをする条件で、家賃は相場の半分）</li>
+<li>天然温泉、レストラン、共同売店</li>
+</ul>
+<p>学生は家賃が安くなる代わりに、地域の担い手になる。<strong>住まいと福祉と商業を、互いに支え合う形に組んだ。</strong></p>
+<h3>B's 行善寺（石川県白山市、2016年秋）——②の都市版</h3>
+<p>佛子園が本部の周りに整えた拠点である。高齢者のデイサービスや小さな保育園に、温泉、そば店、ジム、屋内プールなどを併せた。近くの120世帯は、温泉の入浴料が無料である。2017年4月には、診療所も開いた。</p>
+<p>1か月に約3万人、1日に約1,000人が訪れる。<strong>地域の住民の利用は、福祉の利用者の約2倍</strong>である。従業員120人のうち60人は地域から雇っている。</p>
+<blockquote>
+<p><strong>福祉施設に人を集めているのは、福祉ではなく、温泉とそばとプールである。</strong>その人の流れの中に、福祉がある。</p>
+</blockquote>
+
+<h2>8-4　なぜ融合が効くのか</h2>
+<table>
+<thead>
+<tr>
+<th>効く理由</th>
+<th>中身</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>来る理由が生まれる</td>
+<td>温泉や食堂、カフェ、本のある場所があれば、福祉と無縁の住民も気軽に来る。施設が地域から見えるようになる</td>
+</tr>
+<tr>
+<td>支えられる側が支える側になる</td>
+<td>高齢者が売店を営み、子どもを見守る。役割と生きがいが生まれる</td>
+</tr>
+<tr>
+<td>人手不足を補う</td>
+<td>世代を超えた見守りや、住民の参加が、職員の負担を軽くする（江東園）</td>
+</tr>
+<tr>
+<td>稼ぎで福祉を支える</td>
+<td>社会福祉法人は、法律の範囲で収益の事業を行い、その利益を福祉の事業に充てられる。温泉や飲食の稼ぎを福祉の運営に回す</td>
+</tr>
+</tbody>
+</table>
+<p>四つめは、第12章で扱う「収益還元」（商業の稼ぎで公共を支える）の福祉版である。公園の Park-PFI が飲食の稼ぎで公園を支えるのと同じ形を、社会福祉法人が自分の事業の中で組んでいる。</p>
+
+<h2>8-5　制度と運営の注意点</h2>
+<table>
+<thead>
+<tr>
+<th>注意点</th>
+<th>中身</th>
+<th>備え</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>設備と人員の基準</td>
+<td>保育所や特別養護老人ホームには、面積、避難、職員の配置の基準がある</td>
+<td>共用部分の扱い（基準の面積に数えられるか）を、設計の段階で所管の部署と詰める</td>
+</tr>
+<tr>
+<td>安全と感染症の対策</td>
+<td>不特定多数の人が来る商業の部分と、子どもや高齢者の生活の場が近くなる</td>
+<td>動線を分け、交流の場だけを重ねる。感染症がはやったときに閉じられる区切りをつくる</td>
+</tr>
+<tr>
+<td>補助金の按分</td>
+<td>福祉施設の整備の補助は、商業の部分を対象にしない</td>
+<td>面積と費用の分け方を、補助の申請の前に決める</td>
+</tr>
+<tr>
+<td>運営の責任</td>
+<td>福祉の事業者と、商業の運営者が別のことが多い</td>
+<td>共用部分の管理、事故の責任、費用の負担を協定で決める（第4章の四つの境目と同じ考え方）</td>
+</tr>
+</tbody>
+</table>
+<p>安全の考え方は、学校を核にした複合（第4章）とよく似ている。<strong>場所・時間・管理・お金の四つの境目を、設計の前に決める。</strong></p>
+
+<h2>8-6　自治体の関わり方——土地と床を出し、条件をつける</h2>
+<p>福祉施設の整備は、社会福祉法人や民間が主役である。自治体が関われるのは、主に次の場面である。</p>
+<ul>
+<li><strong>公有地や廃校を貸すとき。</strong>公募の条件に、地域に開く機能（食堂、カフェ、入浴、交流の場など）を入れる。評価の項目に、地域の住民の利用の見込みを入れる。</li>
+<li><strong>再開発ビルや商業施設の空いた床を使うとき。</strong>子育て支援や高齢者の通いの場を、商業の流れの中に置く（第5章）。</li>
+<li><strong>公共施設を建て替えるとき。</strong>公民館や図書館に、高齢者の通いの場や子どもの居場所を組み込む。</li>
+</ul>
+<blockquote>
+<p><strong>自治体が出すのは、お金より土地と床と条件である。</strong>条件の一行が、閉じた福祉施設と、開いた居場所の分かれ目になる。</p>
+</blockquote>
+<p>福祉施設は、公共施設の再編計画（公共施設等総合管理計画）の外に置かれがちである。しかし地域から見れば、保育所も高齢者施設も、日常の拠点である。<strong>再編の計画を立てるときは、民間が運営する福祉施設の場所と更新の時期も、同じ地図に載せる。</strong></p>
+
+<h2>8-7　規模別の現実解——理想・次善・最低限</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>理想</th>
+<th>次善</th>
+<th>最低限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>人口20万人以上</td>
+<td>公有地の大きな区画を定期借地で貸し、高齢者住宅・子どもの施設・学生の住まい・温泉や食堂を一体で整える事業者を公募する（Share 金沢型）</td>
+<td>駅前の商業施設や再開発ビルの床に、子育て支援と高齢者の通いの場を並べて置く</td>
+<td>保育所や高齢者施設の公募の条件に、地域に開く交流の場を入れる</td>
+</tr>
+<tr>
+<td>人口5万〜20万人</td>
+<td>廃校や統合で空く施設を、福祉の事業者に貸し、食堂や入浴など地域の住民が使う機能を条件にする</td>
+<td>保育所と高齢者のデイサービスを、同じ建物に置く事業者を公募する（江東園型）</td>
+<td>公民館に、高齢者の通いの場と子どもの居場所を同じ時間帯に置く</td>
+</tr>
+<tr>
+<td>人口5万人未満</td>
+<td>支所・診療所・デイサービス・売店を一か所に束ね、地域の小さな拠点にする</td>
+<td>共生型サービスを使い、高齢者と障害のある人、子どもが同じ事業所に通えるようにする</td>
+<td>高齢者施設の食堂やホールを、地域の会合や子ども食堂に開く</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>どの規模でも、最初の一歩は「福祉施設の食堂やホールを、地域に開く」ことである。</strong>新しく建てなくても、使い方の取り決めだけで始められる。</p>
+</blockquote>
+
+<h2>8-8　デベロッパーから見ると</h2>
+<p><strong>稼げるか。</strong>福祉施設そのものは、介護報酬や保育の給付で運営される。商業の稼ぎは、温泉、飲食、ジムなど、地域の住民が使う部分から生まれる。B's 行善寺のように、地域の住民の利用が福祉の利用者を上回る例もある。</p>
+<p><strong>どこに仕事があるか。</strong>三つある。</p>
+<ul>
+<li><strong>福祉の事業者と組んで、商業の部分を引き受ける。</strong>温泉、飲食、売店などは、福祉の事業者が苦手とする分野である。</li>
+<li><strong>商業施設の床に、福祉の機能を入れる。</strong>子育て支援や高齢者の通いの場は、平日の昼に人を呼ぶテナントになる（第17章）。</li>
+<li><strong>住まいと組み合わせる。</strong>高齢者向け住宅や学生の住まいを、福祉と商業の間に置く。</li>
+</ul>
+<p><strong>どこにリスクがあるか。</strong>福祉の基準と補助の制約である。共用部分が基準の面積に数えられない、商業の部分が補助の対象から外れる、といった点で、計画が後から崩れることがある。<strong>基準と補助の扱いは、事業計画の前に所管の部署に確かめる。</strong></p>
+<p><strong>自治体に何を確かめるか。</strong>三つある。①公有地や床を出すときに、地域に開く機能を条件にするか、②福祉の基準と補助の扱いを、所管の部署がどう判断するか、③福祉施設を公共施設の再編の計画にどう位置付けるか、である。</p>
+
+<h2>8-9　この章で覚えておくこと</h2>
+<p>福祉施設を計画するときは、<strong>「福祉と関係のない住民が、ここに来る理由は何か」</strong>を先に考える。温泉でも、食堂でも、そば店でもよい。</p>
+<p>そして、自治体が土地や床を出すなら、<strong>公募の条件に「地域に開く機能」の一行を入れる。</strong></p></section><section class="ch" style="page:c9"><h1><span class="no">第9章</span>公園×収益施設——Park-PFIの先へ</h1>
+<div class="point"><div class="label">ポイント</div><ol>
+<li>公園は、本来「建物をできるだけ建てない」公共空間である。<strong>複合化の対象として、最も慎重さが要る。</strong></li>
+<li>Park-PFI（公園の飲食店などの収益で、公園の整備費を賄う制度）は、2026年3月末で203か所で使われている。<strong>ただし大都市圏に偏り、人が集まらない地域では成り立ちにくい。</strong></li>
+<li>地方で先に必要なのは、大きな収益施設を呼ぶことより、<strong>公園の使い方の規制を緩め、小さな活用を積み重ねやすくする</strong>ことである。</li>
+<li>公園のレストランは<strong>主役ではなく脇役</strong>である。芝生や広場の質を高めるための規模にとどめる。</li>
+<li>総合運動公園は、強い核があれば大きな複合の舞台になる。<strong>核がなければ、まず既存の施設の再編から考える。</strong></li>
+</ol></div>
+
+<h2>9-1　公園は、最も慎重に扱う</h2>
+<p>公園は、建物を建てないことに価値がある公共空間である。都市公園法は、公園の中に建てられる建物の面積を、原則として敷地の2%を基準に条例で定めるとしている。</p>
+<p>だから、公園の複合化は、ほかの公共施設の複合化とは向きが逆になる。<strong>建物をまとめて減らす話ではなく、空いている空間に、少しだけ建物を足す話である。</strong></p>
+<p>足しすぎれば、公園は公園でなくなる。足さなければ、公園は使われず、管理費だけがかかる。その間の、ちょうどよい量を探すのが、この章の主題である。</p>
+<blockquote>
+<p><strong>公園に建物を足すのは、公園をもっと使ってもらうためである。</strong>建物が主役になったら、足しすぎである。</p>
+</blockquote>
+
+<h2>9-2　Park-PFI の仕組み</h2>
+<p>2017年の都市公園法の改正で、Park-PFI（公募設置管理制度）ができた。</p>
+<p>民間の事業者が、公園の中にカフェやレストランなどの収益施設を建てて営む。その代わりに、<strong>収益の一部で、周りの園路や広場などを整備する。</strong>自治体は、整備費を抑えられる。事業者は、次の特例を受けられる。</p>
+<table>
+<thead>
+<tr>
+<th>特例</th>
+<th>通常</th>
+<th>Park-PFI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>設置の期間</td>
+<td>設置管理の許可は最長10年</td>
+<td>認定の期間（上限20年）の中で、許可の更新が保証される</td>
+</tr>
+<tr>
+<td>建てられる量</td>
+<td>便益施設などの建物は、原則として敷地の2%</td>
+<td>公募で選んだ収益施設には10%が上乗せされ、12%になる（条例で定める）</td>
+</tr>
+<tr>
+<td>置けるもの</td>
+<td>公園の占用は限られる</td>
+<td>自転車駐車場、看板、広告塔を置ける</td>
+</tr>
+</tbody>
+</table>
+<p>同じ改正で、保育所や学童クラブなどの通所型の福祉施設を、公園に置くこと（占用）も全国でできるようになった。広場の面積の30%以内が基準である。</p>
+<div class="fig"><span class="cap">図9-1　Park-PFI のお金の流れ——収益施設の稼ぎを公園に戻す</span><div class="art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 372" width="100%" role="img"
+ aria-label="図9-1　Park-PFI のお金の流れ——収益施設の稼ぎを公園に戻す"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="40" width="250" height="110" rx="5" fill="currentColor" fill-opacity="0.38" stroke="currentColor" stroke-width="2.2"/>
+<text x="125" y="88" font-size="19" font-weight="bold" text-anchor="middle">収益施設</text>
+<text x="125" y="120" font-size="16" text-anchor="middle">カフェ・レストラン</text>
+<rect x="570" y="40" width="250" height="110" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="695" y="88" font-size="19" font-weight="bold" text-anchor="middle">公園の広場・園路</text>
+<text x="695" y="120" font-size="16" text-anchor="middle">誰でも無料で使う</text>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="256" y1="80" x2="562" y2="80" stroke="currentColor" stroke-width="2.6" marker-end="url(#a1)"/>
+<text x="410" y="66" font-size="17" font-weight="bold" text-anchor="middle">稼ぎの一部で整備・運営</text>
+<defs><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="562" y1="124" x2="256" y2="124" stroke="currentColor" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#a2)"/>
+<text x="410" y="150" font-size="16" text-anchor="middle">人が来て、長くいる</text>
+<rect x="150" y="196" width="520" height="76" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2"/>
+<text x="410" y="228" font-size="17" font-weight="bold" text-anchor="middle">代わりに受ける特例</text>
+<text x="410" y="258" font-size="16" text-anchor="middle">期間 最長20年／建物 12%まで</text>
+<rect x="0" y="296" width="820" height="60" rx="5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-dasharray="7 5"/>
+<text x="410" y="334" font-size="18" font-weight="bold" text-anchor="middle">人が集まる場所でしか回りにくい</text>
+</svg>
+</div></div>
+<h3>使われ方の偏り</h3>
+<p>国土交通省の調べでは、2026年3月末時点で、Park-PFI は203か所で使われ、187か所で検討中である。</p>
+<p>都道府県別では、東京都18、福岡県17、神奈川県14、愛知県13、大阪府13と、大都市圏に偏っている。<strong>収益で整備費を賄う仕組みだから、人が集まる場所でしか回りにくい。</strong></p>
+<p>なお、国の一覧には、公募が不調に終わった事業や、撤退した事業は載っていない。不調の全体の数は公表されていない。</p>
+
+<h2>9-3　事例</h2>
+<h3>天王寺公園「てんしば」（大阪市、2015年から20年間）——有料の公園を無料で開く</h3>
+<p>公募で選ばれた近鉄不動産が、自らの負担で約7,000㎡の芝生広場と園路を整備し、市に寄付した。そのうえで、カフェ、レストラン、子どもの遊び場、フットサルコート、ドッグラン、コンビニ、駐車場を営む。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>再整備の前</th>
+<th>再整備の後</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>入園者</td>
+<td>約150万人（2012年度、有料の区域だった時期）</td>
+<td>約440万人（2018年度）</td>
+</tr>
+<tr>
+<td>市の維持管理費</td>
+<td>年3,700万円</td>
+<td>年700万円</td>
+</tr>
+<tr>
+<td>市の使用料の収入</td>
+<td>0円</td>
+<td>年3,200万円</td>
+</tr>
+</tbody>
+</table>
+<p><strong>効果の大きな部分は、有料で閉じていた公園を、無料で開いたことにある。</strong>収益施設は、芝生広場を支える脇役にとどまっている。</p>
+<h3>佐世保中央公園（長崎県佐世保市、2022年4月）——地方の都市で、公園を核にする</h3>
+<p>Park-PFI で、約5.4ha の公園に、屋内の遊び場、芝生広場、駐車場を置き、民間がレストラン、カフェ、バーベキュー場、オートキャンプ場などを足した。代表企業と構成企業は市内の企業である。詳しくは第3章で扱った。</p>
+<h3>南池袋公園（東京都豊島区、2016年再整備）——小さな店と、地域への還元</h3>
+<p>芝生の広場に、カフェ・レストランを一つ置いた公園である。出店する事業者は、都市公園法の設置の許可を受けて店を営む。許可の期間は5年である。</p>
+<p>出店者は、地域の住民などがつくる「南池袋公園をよくする会」に加わり、<strong>売上の0.5%以上を毎月負担して、公園のにぎわいをつくる活動に充てる。</strong>事務局の仕事も出店者が担う（2025年の出店者募集の要項）。</p>
+<blockquote>
+<p><strong>Park-PFI の重い手続を使わなくても、設置の許可と、地域への小さな還元の仕組みで、公園は動く。</strong></p>
+</blockquote>
+<h3>Hisaya-odori Park（名古屋市、2020年9月）と MIYASHITA PARK（東京都渋谷区、2020年）——大都市の例として</h3>
+<p>Hisaya-odori Park は、Park-PFI で、南北約1km、約5.4ha の公園を再整備し、35店舗の商業施設を置いた。MIYASHITA PARK は、立体都市公園の制度を使い、屋上に約1ha の公園、その下に商業施設とホテルを置いた。</p>
+<p>どちらも、<strong>都心の一等地だから成り立った。</strong>地方の都市の公園に、そのまま当てはめることはできない。MIYASHITA PARK には、「実質は商業施設ではないか」という批判や、もとの公園で暮らしていた野宿者を退かせて建てたという批判もある。</p>
+
+<h2>9-4　規制緩和を、先に行う</h2>
+<p>Park-PFI は、収益が上がる場所でしか回りにくい。<strong>地方で必要なのは、大きな収益施設を呼ぶ前に、公園の使い方の規制を緩め、小さな活用を積み重ねやすくすること</strong>である。</p>
+<table>
+<thead>
+<tr>
+<th>論点</th>
+<th>いま</th>
+<th>検討の方向</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>建てられる量</td>
+<td>建物の面積は敷地の2%を基準に条例で定める。Park-PFI では上乗せできる</td>
+<td>小さなカフェや売店なら、Park-PFI の重い手続によらずに置けるよう、条例の基準を見直す</td>
+</tr>
+<tr>
+<td>期間</td>
+<td>設置の許可は通常10年まで</td>
+<td>地方の小さな店でも投資を回収できる期間を、手続を軽くしたまま確保する</td>
+</tr>
+<tr>
+<td>使い方</td>
+<td>催しや物販には、そのつど公園の使用・占用の許可が要る</td>
+<td>広場、野外音楽堂、飲食の使い方を、公園ごとに「活用のルール」として先に決め、許可をまとめる</td>
+</tr>
+</tbody>
+</table>
+<p>三つめが、最も手を付けやすい。<strong>催しのたびに許可を取る仕組みは、小さな事業者や住民の団体にとって最大の壁である。</strong>あらかじめ「この広場では、この時間帯に、この種類の催しができる」と決めて公表すれば、申し込むだけで使えるようになる。</p>
+
+<h2>9-5　レストラン、イベント広場、野外音楽堂</h2>
+<table>
+<thead>
+<tr>
+<th>施設</th>
+<th>考え方</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>レストラン</td>
+<td>公園の利用者のための施設であり、公園の主役ではない。芝生や広場の質を高める脇役として、規模を決める（てんしばの教訓）</td>
+</tr>
+<tr>
+<td>イベント広場</td>
+<td>ふだんは誰でも使える空き地にし、催しのときだけ有料・貸切にする。日常の利用と催しの利用の時間の配分を、先に決めておく</td>
+</tr>
+<tr>
+<td>野外音楽堂</td>
+<td>古くなった音楽堂は、専用の施設として建て替えるより、広場と一体で多目的に使える形にする選択肢がある。運営を民間に任せる場合も、市民が使える枠を残す</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>公園の収益施設は、「公園がなくても繁盛する店」にしない。</strong>公園があるから人が来て、店があるから公園に長くいる。その関係を保つ規模にとどめる。</p>
+</blockquote>
+
+<h2>9-6　総合運動公園を核にする</h2>
+<p>総合運動公園は、面積が広い。スタジアムやアリーナを核に、商業施設、市場、図書館、文化施設などを組み合わせる余地がある。</p>
+<p>北海道北広島市の「北海道ボールパーク F ビレッジ」は、市の総合運動公園の計画地（36.7ha）に、プロ野球の球団が新しい球場を建て、2023年3月に開業した。来場者は年300万人に達し、市は球場から約300mの位置に JR の新駅（概算85〜90億円、2027年度の開業が目標）の整備を進めている。</p>
+<p><strong>人口約5.7万人の市でも、プロ野球の本拠地という強い核があれば成り立った。</strong>主な論点は三つある。</p>
+<ol>
+<li><strong>核の施設を、誰が建てて持つか。</strong>民間が持つ場合、公共は駅や道路などのアクセスと、周りの公園の部分に負担を絞れる。</li>
+<li><strong>試合のない日のにぎわいを、どうつくるか。</strong>市場、図書館、子どもの遊び場など、日常に人が来る機能を組み合わせる。</li>
+<li><strong>核のない総合運動公園では、同じことは起きにくい。</strong>核がない場合は、まず既存の体育館やグラウンドの再編（「束ねる」）から考える。</li>
+</ol>
+
+<h2>9-7　規模別の現実解——理想・次善・最低限</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>理想</th>
+<th>次善</th>
+<th>最低限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>人口20万人以上</td>
+<td>中心部の公園で Park-PFI を使い、芝生広場と遊び場を核に、飲食の稼ぎで公園の運営を支える（てんしば型）</td>
+<td>設置の許可でカフェを一つ置き、売上の一部を地域の活動に還元する仕組みをつくる（南池袋公園型）</td>
+<td>広場の「活用のルール」を決め、催しの許可をまとめる</td>
+</tr>
+<tr>
+<td>人口5万〜20万人</td>
+<td>中心市街地に近い公園を、遊び場・芝生・飲食で組み直し、地元の企業で事業を組む（佐世保型）</td>
+<td>キッチンカーや仮設の店を、期間を区切って置き、売れるかを確かめる</td>
+<td>公園の使用の許可の手続を簡単にし、申し込むだけで使える広場をつくる</td>
+</tr>
+<tr>
+<td>人口5万人未満</td>
+<td>総合運動公園や道の駅に近い公園で、体育館やグラウンドの再編と合わせて、売店や休憩所を整える</td>
+<td>地域の団体が、週末に公園で市（いち）を開けるようにする</td>
+<td>公園の一角に、住民が使える日陰とベンチと水場を整える</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>どの規模でも、最初の一歩は「公園の使い方のルールを先に決め、許可を軽くする」ことである。</strong>予算も議決も要らない。</p>
+</blockquote>
+
+<h2>9-8　デベロッパーから見ると</h2>
+<p><strong>稼げるか。</strong>大都市の中心部の公園なら、Park-PFI で大きな商業施設を組める。地方では、<strong>公園の飲食は単体で大きな利益を生みにくい。</strong>設置の期間（最長20年）の中で投資を回収できる規模に抑える。</p>
+<p><strong>どこにリスクがあるか。</strong>三つある。</p>
+<ul>
+<li><strong>公園の商業化への批判。</strong>収益施設が公園の主役に見えた瞬間に、住民と議会の支持を失う。</li>
+<li><strong>公募の不調。</strong>国の一覧に載らない不調の事業がある。収益の見込みが立たない公園で、無理に応募しない。</li>
+<li><strong>還元の重さ。</strong>収益の一部を整備や運営に回す約束は、売上が落ちたときに重くなる。還元の額を固定にするか、売上に連動させるかを、提案の段階で詰める。</li>
+</ul>
+<p><strong>自治体に何を確かめるか。</strong>三つある。①公園の中で、民間が使える面積と期間、②芝生や広場の維持の負担を、どこまで事業者が持つのか、③「活用のルール」など、手続を軽くする用意があるか、である。<strong>手続の軽い自治体ほど、小さな事業者でも入れる。</strong></p>
+
+<h2>9-9　この章で覚えておくこと</h2>
+<p>公園に収益施設を入れる話が出たら、<strong>「この店は、公園がなくても繁盛するか」</strong>を問う。答えが「はい」なら、店が主役になりすぎている。</p>
+<p>そして、地方の公園なら、<strong>Park-PFI の前に、使い方のルールと許可の手続を見直す。</strong></p></section><section class="ch" style="page:c10"><h1><span class="no">第10章</span>食を核にする</h1>
+<div class="point"><div class="label">ポイント</div><ol>
+<li>食は、<strong>毎日の需要があり、誰でも関われ、滞在の時間を生む</strong>テーマである。市場、飲食、学び、研究を一つの拠点にまとめやすい。</li>
+<li>食の拠点は、<strong>市場、フードホール、人材育成、研究開発、交流</strong>の五つの要素で組み立てる。全部をそろえる必要はない。</li>
+<li>最も自然な機会は、<strong>公設市場の建て替え</strong>である。那覇市の第一牧志公設市場は、建て替えで1階に市場、2階に食堂、3階に調理体験と交流の部屋を重ねた。</li>
+<li>飲食と物販は民間の独立採算、人材育成と研究は公共や大学の投資、と<strong>役割をはっきり分ける。</strong></li>
+<li><strong>観光客に寄せすぎない。</strong>地元の台所としての日常の利用が離れれば、拠点は続かない。</li>
+</ol></div>
+
+<h2>10-1　なぜ食なのか</h2>
+<p>食は、ほかのどのテーマより、毎日の需要がはっきりしている。誰もが毎日食べる。買い物に行き、外で食べ、ときには料理を習う。</p>
+<p>食の拠点には、第1章の外部経済効果がそろって現れる。</p>
+<ul>
+<li><strong>毎日来る理由がある。</strong>市場は、図書館と同じように、日常の用事で人を呼ぶ。</li>
+<li><strong>滞在の時間が長い。</strong>買い、食べ、話す。一か所で数時間を過ごせる。</li>
+<li><strong>地域の産業につながる。</strong>農家や漁師、加工の事業者、飲食店が、同じ場所で客と出会う。</li>
+</ul>
+<blockquote>
+<p><strong>食は、地域の暮らしと産業が、一番近くで重なるテーマである。</strong></p>
+</blockquote>
+
+<h2>10-2　食の拠点の五つの要素</h2>
+<table>
+<thead>
+<tr>
+<th>要素</th>
+<th>役割</th>
+<th>担い手の例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>市場（卸売・小売）</td>
+<td>毎日の需要と、新鮮な食材</td>
+<td>公設市場、生産者</td>
+</tr>
+<tr>
+<td>マルシェ・フードホール</td>
+<td>訪れるきっかけと、滞在の時間</td>
+<td>民間の運営者、地元の飲食店</td>
+</tr>
+<tr>
+<td>人材育成（学校・研修）</td>
+<td>料理人、生産者、経営者を育てる</td>
+<td>県、大学、専門学校</td>
+</tr>
+<tr>
+<td>研究開発</td>
+<td>加工品や新しい商品を生む</td>
+<td>大学、食品の企業、公設の試験研究機関</td>
+</tr>
+<tr>
+<td>交流（広場・調理室・催し）</td>
+<td>日常の居場所</td>
+<td>自治体、住民の団体</td>
+</tr>
+</tbody>
+</table>
+<p>五つを全部そろえる必要はない。<strong>市場と飲食の二つがあれば、拠点は始められる。</strong>人材育成や研究は、県や大学が持つ既存の施設と組めばよい。</p>
+<div class="fig"><span class="cap">図10-1　食の拠点の五つの要素——市場と飲食から始める</span><div class="art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 342" width="100%" role="img"
+ aria-label="図10-1　食の拠点の五つの要素——市場と飲食から始める"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="400" height="130" rx="5" fill="currentColor" fill-opacity="0.38" stroke="currentColor" stroke-width="2.4"/>
+<text x="200" y="56" font-size="21" font-weight="bold" text-anchor="middle">市場</text>
+<text x="200" y="96" font-size="16" text-anchor="middle">毎日の需要・新鮮な食材</text>
+<rect x="420" y="0" width="400" height="130" rx="5" fill="currentColor" fill-opacity="0.38" stroke="currentColor" stroke-width="2.4"/>
+<text x="620" y="56" font-size="21" font-weight="bold" text-anchor="middle">飲食・フードホール</text>
+<text x="620" y="96" font-size="16" text-anchor="middle">訪れるきっかけ・滞在</text>
+<rect x="0" y="160" width="260" height="100" rx="5" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="130.0" y="202" font-size="19" font-weight="bold" text-anchor="middle">人材育成</text>
+<text x="130.0" y="236" font-size="16" text-anchor="middle">県・大学・学校</text>
+<rect x="280" y="160" width="260" height="100" rx="5" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="410.0" y="202" font-size="19" font-weight="bold" text-anchor="middle">研究開発</text>
+<text x="410.0" y="236" font-size="16" text-anchor="middle">大学・試験研究機関</text>
+<rect x="560" y="160" width="260" height="100" rx="5" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="690.0" y="202" font-size="19" font-weight="bold" text-anchor="middle">交流</text>
+<text x="690.0" y="236" font-size="16" text-anchor="middle">広場・調理室・催し</text>
+<text x="410" y="300" font-size="18" font-weight="bold" text-anchor="middle">まず二つで始め、あとから既存の施設と組む</text>
+</svg>
+</div></div>
+
+<h2>10-3　事例</h2>
+<h3>那覇市 第一牧志公設市場（沖縄県、2023年3月建て替え）——市場・食堂・交流を縦に重ねる</h3>
+<p>戦後の混乱期に自然に広がった市場を母体に、1950年12月に市営の市場として開設された。古くなった建物を建て替えるため、仮設の市場に移って営業を続け、2023年3月に元の場所で新しい市場として再開した。</p>
+<p>新しい建物は、三つの階に役割を分けた。</p>
+<table>
+<thead>
+<tr>
+<th>階</th>
+<th>中身</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1階</td>
+<td>鮮魚、精肉、野菜などの生鮮食品、乾物、酒、土産品の75店舗</td>
+</tr>
+<tr>
+<td>2階</td>
+<td>沖縄料理などの飲食店を中心とする12店舗</td>
+</tr>
+<tr>
+<td>3階</td>
+<td>調理体験室と、催しや会議に使える多目的室</td>
+</tr>
+</tbody>
+</table>
+<p>1990年に始まった<strong>「持ち上げ」</strong>の仕組みも続いている。1階で買った食材を、2階の飲食店で調理してもらう。食材の代金は1階の店に、調理の代金は2階の店に払う。<strong>市場と食堂が、一人の客を分け合う仕組み</strong>である。</p>
+<p>観光の拠点として多くの観光客が訪れる一方で、市民と県民の「台所」として70年以上親しまれてきた。</p>
+<h3>Time Out Market Lisboa（ポルトガル・リスボン、2014年5月）——市場の半分を残す</h3>
+<p>公設のリベイラ市場の建物の半分を、約36の飲食店と売店が入るフードホールにした。残りの半分は、これまでどおり魚や青果の市場である。来場者は、2018年に約400万人に達した。</p>
+<blockquote>
+<p><strong>市場を壊さず、半分だけを飲食と観光に向けた。</strong>地元の買い物の場を残したことが、観光客にとっての本物らしさにもなっている。</p>
+</blockquote>
+<h3>Markthal（オランダ・ロッテルダム、2014年10月）——市場と住まいを一つに</h3>
+<p>アーチ形の建物の内側に市場と飲食店、外側に228戸の住宅、地下に1,200台を超える駐車場を置いた。日々の買い物の場と住まいを一体にした、第2章の類型 D（住まい）との複合である。</p>
+<h3>人材育成を核にする——バスク・カリナリー・センターと、なら食と農の魅力創造国際大学校</h3>
+<p>スペインのサン・セバスティアンにあるバスク・カリナリー・センター（2011年開校）は、大学と地元のシェフが設立した食の大学である。学位の課程と、新しい事業づくりの支援を、一つの拠点で行う。</p>
+<p>奈良県桜井市の「なら食と農の魅力創造国際大学校」（2016年4月）は、県の農業大学校を再編し、料理人と農業の経営者を育てる学校にした。校内に、実際に営業する宿泊付きのレストランを持ち、実習の場にしている。<strong>教育の施設に営業する飲食を組み込み、実習とにぎわいを両立させた。</strong></p>
+<h3>反面の例——豊洲「千客万来」（東京都江東区、2024年2月）</h3>
+<p>豊洲市場の隣に、飲食・物販の棟と温浴の棟を民間が整備した。当初決まっていた事業者の辞退など、曲折を経て開業している。</p>
+<p><strong>市場のにぎわいを民間に任せる場合は、事業者の撤退や遅れを織り込んでおく。</strong></p>
+
+<h2>10-4　市場の建て替えを、好機にする</h2>
+<p>公設市場の建て替えや再整備は、食の拠点への複合化を考える最も自然な機会である。</p>
+<p>建て替えのとき、次の三つを検討する。</p>
+<ul>
+<li><strong>上の階に何を重ねるか。</strong>第一牧志公設市場は、2階に食堂、3階に調理体験と交流の部屋を置いた。市場の上は、食に関わる学びと交流の場所にできる。</li>
+<li><strong>仮設の期間をどう乗り切るか。</strong>建て替えのあいだに客と店が離れないよう、近くに仮設の市場を置いて営業を続ける。</li>
+<li><strong>店の入れ替えをどう扱うか。</strong>長く続いた店と、新しく入りたい店の両方に、入居の道を用意する。</li>
+</ul>
+<blockquote>
+<p><strong>市場の建て替えは、建物を新しくする機会である前に、市場の役割を組み替える機会である。</strong></p>
+</blockquote>
+
+<h2>10-5　民間のにぎわいと、公共の投資を分ける</h2>
+<p>食の拠点では、稼ぐ部分と、稼がない部分がはっきりしている。</p>
+<table>
+<thead>
+<tr>
+<th>部分</th>
+<th>お金の出し方</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>飲食、物販、フードホール</td>
+<td>民間の独立採算。公共は床か土地を貸す</td>
+</tr>
+<tr>
+<td>市場（卸売・小売）</td>
+<td>公設なら公共が持ち、店に貸す。使用料で運営費を賄う</td>
+</tr>
+<tr>
+<td>人材育成、研究開発</td>
+<td>県、大学、公設の試験研究機関の投資</td>
+</tr>
+<tr>
+<td>交流の場、広場、調理室</td>
+<td>自治体の負担。飲食の稼ぎの一部を回す仕組みも考える（第12章）</td>
+</tr>
+</tbody>
+</table>
+<p><strong>稼ぐ部分に公費を入れない。稼がない部分を民間に背負わせない。</strong>この線引きが、第3章の再開発の失敗を避ける条件である。</p>
+
+<h2>10-6　観光客に寄せすぎない</h2>
+<p>食の拠点は、観光客を呼びやすい。だから、観光客向けに寄せすぎる危険がある。</p>
+<p>観光客向けの店ばかりになれば、地元の人は買い物に来なくなる。値段が上がり、品ぞろえが土産物に偏る。そして、観光客が減った年に、拠点そのものが揺らぐ。</p>
+<p>リスボンは、建物の半分を従来の市場に残した。那覇は、観光客が増えても、市民の台所としての役割を保っている。</p>
+<ul>
+<li><strong>生鮮食品の店を、一定の割合で残す。</strong>床の配分を、公募や契約の条件に書く。</li>
+<li><strong>地元の人が来る時間帯をつくる。</strong>朝の市場、夕方の総菜など、観光客が少ない時間に地元の需要を置く。</li>
+<li><strong>評価の物差しに、地元の利用を入れる。</strong>来場者数だけでなく、地元の人の利用や、地域の生産者の出荷額を見る。</li>
+</ul>
+
+<h2>10-7　小さく始める——公園と組み合わせる</h2>
+<p>大きな市場がなくても、食の拠点は始められる。</p>
+<ul>
+<li><strong>公園の広場で、マルシェを開く。</strong>マルシェや食の催しは、公園の広場と相性がよい（第9章）。月1回から始め、出店者と客が集まるかを確かめる。</li>
+<li><strong>キッチンカーを、期間を区切って置く。</strong>公共施設の駐車場や広場に、曜日を決めてキッチンカーを呼ぶ。</li>
+<li><strong>公民館の調理室を開く。</strong>料理教室や、地域の食材を使った催しの場にする（第7章）。</li>
+</ul>
+<blockquote>
+<p><strong>「公園×食」は、建物を建てずに始められる食の拠点である。</strong>売れるかどうかを、マルシェで確かめてから、常設の店を考える。</p>
+</blockquote>
+
+<h2>10-8　規模別の現実解——理想・次善・最低限</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>理想</th>
+<th>次善</th>
+<th>最低限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>人口20万人以上</td>
+<td>公設市場の建て替えに合わせ、市場・飲食・調理体験・交流の場を縦に重ねる（第一牧志公設市場型）</td>
+<td>市場の建物の一部を、フードホールに転じる（リスボン型）</td>
+<td>市場の休日や夕方に、広場でマルシェを開く</td>
+</tr>
+<tr>
+<td>人口5万〜20万人</td>
+<td>中心市街地の空き店舗や公共の床に、地域の食材を使う飲食店と産直を集める</td>
+<td>公園の広場で、月1回の定期のマルシェを開く</td>
+<td>公共施設の駐車場に、曜日を決めてキッチンカーを呼ぶ</td>
+</tr>
+<tr>
+<td>人口5万人未満</td>
+<td>道の駅や産直を、診療所・支所・交流の場と束ね、地域の小さな拠点にする</td>
+<td>廃校の調理室や家庭科室を、加工品づくりや料理教室の場にする</td>
+<td>公民館の調理室を、地域の食材を使った催しに開く</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>どの規模でも、最初の一歩は「広場でマルシェを開く」ことである。</strong>出店者と客が集まるかを確かめてから、常設を考える。</p>
+</blockquote>
+
+<h2>10-9　デベロッパーから見ると</h2>
+<p><strong>稼げるか。</strong>フードホールや飲食は、民間が独立採算で組める部分である。市場や地元の店が持つ「本物らしさ」が、集客の核になる。</p>
+<p><strong>どこにリスクがあるか。</strong>三つある。</p>
+<ul>
+<li><strong>観光の需要の波。</strong>観光客に頼る店の構成は、観光が落ちた年に崩れる。地元の日常の需要を、床の一定の割合で確保する。</li>
+<li><strong>市場の店との関係。</strong>長く続いた市場の店と、新しく入る飲食店の利害がぶつかる。第一牧志公設市場の「持ち上げ」のように、互いに客を分け合う仕組みを組む。</li>
+<li><strong>事業者の撤退や遅れ。</strong>豊洲の千客万来のように、民間の側の事情で計画が揺れることがある。</li>
+</ul>
+<p><strong>自治体に何を確かめるか。</strong>三つある。①市場の床のうち、生鮮食品の店に残す割合、②人材育成や研究の部分を、県や大学がどこまで担うか、③交流の場や広場の運営の費用を、誰が持つか、である。</p>
+
+<h2>10-10　この章で覚えておくこと</h2>
+<p>食の拠点を考えるなら、<strong>まず公設市場と産直の場所と、建て替えの時期を調べる。</strong>それが、最も自然な出発点である。</p>
+<p>そして、計画の最初に、<strong>地元の台所としての役割を、床の割合で守ると決める。</strong></p></section><section class="ch" style="page:c11"><h1><span class="no">第11章</span>地域公共交通×複合施設</h1>
+<div class="point"><div class="label">ポイント</div><ol>
+<li>施設をまとめると、必ず<strong>「遠くなる人」</strong>が出る。統廃合への反対の多くは、「通えなくなる」という不安である。</li>
+<li>一方、交通の側から見れば、行き先がばらばらに散っているほど路線を組みにくい。<strong>複合化は、行き先を一か所にまとめることであり、交通を組み立て直す好機でもある。</strong></li>
+<li>国も、この方向で制度を整えている。2026年の法改正で、<strong>学校・病院・福祉施設・商業施設の送迎が、地域交通の協力者に位置付けられた。</strong></li>
+<li>交通と複合施設の組み合わせ方は四つある。<strong>結節型、拠点型、回遊型、共有型</strong>である。小さな自治体ほど、拠点型と共有型が現実的である。</li>
+<li>住民への説明は、<strong>「距離」ではなく「行きやすさ」</strong>で行う。乗り換えなしで行けるか、何分かかるか、1日何便あるかを示す。</li>
+</ol></div>
+
+<h2>11-1　施設の再編と交通の再編は、表と裏</h2>
+<p>施設を一つにまとめると、それまで歩いて行けた人が、歩いて行けなくなる。統廃合の住民説明会で最も多く出る声は、「通えなくなる」である。</p>
+<p>交通の側にも、悩みがある。行き先が地域にばらばらに散っていると、路線を組みにくく、便数も減る。役所、病院、図書館、スーパーが別々の場所にあれば、一本の路線で全部を回ることはできない。</p>
+<p><strong>複合化は、行き先を一か所にまとめることである。</strong>行き先がまとまれば、路線は組みやすくなり、便数を増やせる。</p>
+<blockquote>
+<p><strong>施設の再編と交通の再編は、同じ問題の表と裏である。</strong>施設を束ねるなら、交通も束ね直す。</p>
+</blockquote>
+
+<h2>11-2　制度の動き</h2>
+<table>
+<thead>
+<tr>
+<th>時期</th>
+<th>動いたこと</th>
+<th>中身</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023年10月施行</td>
+<td>地域公共交通活性化再生法の改正（令和5年法律第18号）</td>
+<td>地域の関係者の「連携と協働」と、まちづくりとの連携が、基本方針に書き込まれた</td>
+</tr>
+<tr>
+<td>2026年</td>
+<td>同法の再改正（令和8年法律第35号）</td>
+<td>学校、病院、福祉施設、商業施設などの送迎を行う者を、「施設利用者用運送サービス提供者」として地域の関係者に加えた。事業への協力に努めることとした</td>
+</tr>
+<tr>
+<td>2025〜2027年度</td>
+<td>「交通空白」の集中対策期間</td>
+<td>国土交通省は、全国の交通空白を約2,500地区・地点と数えている</td>
+</tr>
+</tbody>
+</table>
+<p>2026年の改正の意味は大きい。<strong>病院や福祉施設、学校、商業施設が持っている送迎の車が、地域の足の一部として法律に位置付けられた。</strong>複合施設の計画は、これらの送迎とあわせて考えられるようになった。</p>
+
+<h2>11-3　四つの組み合わせ方</h2>
+<table>
+<thead>
+<tr>
+<th>型</th>
+<th>考え方</th>
+<th>向く規模</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>① 結節型</td>
+<td>駅やバスターミナルの真上・隣に複合施設を置き、乗り換えの時間を施設の利用につなげる</td>
+<td>大都市、県庁所在地</td>
+</tr>
+<tr>
+<td>② 拠点型</td>
+<td>支所・診療所・図書館などを束ねた複合施設を、集落を結ぶバスやデマンド交通の起点にする</td>
+<td>町村、中山間地域</td>
+</tr>
+<tr>
+<td>③ 回遊型</td>
+<td>散らばった施設を、短い間隔の循環バスでつなぎ、全体を一つの施設のように使う</td>
+<td>中規模の市町</td>
+</tr>
+<tr>
+<td>④ 共有型</td>
+<td>病院・福祉施設・学校・企業が持つ送迎の車を、空いている時間に地域の足として使う</td>
+<td>町村、企業や病院のある地域</td>
+</tr>
+</tbody>
+</table>
+<div class="fig"><span class="cap">図11-1　交通と複合施設の四つの組み合わせ方</span><div class="art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 342" width="100%" role="img"
+ aria-label="図11-1　交通と複合施設の四つの組み合わせ方"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="400" height="150" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="200" y="46" font-size="20" font-weight="bold" text-anchor="middle">① 結節型</text>
+<text x="200" y="88" font-size="17" text-anchor="middle">駅・ターミナルの隣に置く</text>
+<text x="200" y="124" font-size="16" text-anchor="middle">向く規模：大都市</text>
+<rect x="420" y="0" width="400" height="150" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="620" y="46" font-size="20" font-weight="bold" text-anchor="middle">② 拠点型</text>
+<text x="620" y="88" font-size="17" text-anchor="middle">束ねた施設を交通の起点に</text>
+<text x="620" y="124" font-size="16" text-anchor="middle">向く規模：町村</text>
+<rect x="0" y="165" width="400" height="150" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="200" y="211" font-size="20" font-weight="bold" text-anchor="middle">③ 回遊型</text>
+<text x="200" y="253" font-size="17" text-anchor="middle">散らばった施設を循環で結ぶ</text>
+<text x="200" y="289" font-size="16" text-anchor="middle">向く規模：中規模の市</text>
+<rect x="420" y="165" width="400" height="150" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="620" y="211" font-size="20" font-weight="bold" text-anchor="middle">④ 共有型</text>
+<text x="620" y="253" font-size="17" text-anchor="middle">病院・学校・企業の送迎を開く</text>
+<text x="620" y="289" font-size="16" text-anchor="middle">向く規模：町村</text>
+</svg>
+</div></div>
+
+<h2>11-4　事例</h2>
+<h3>① 結節型——熊本市 桜町再開発（2019年9月）と、宇都宮市 ライトキューブ宇都宮（2022年11月）</h3>
+<p>熊本市の桜町再開発は、古くなったバスターミナルを建て替え、商業・ホテル・住宅と、市の「熊本城ホール」を一体で整備した。宇都宮市のライトキューブ宇都宮は、JR 宇都宮駅の東口に直結するコンベンション施設で、隣の交流広場と一体で使える。紫波町のオガールも、駅前に立地している。</p>
+<p>ただし、熊本の桜町再開発は、市の支出が総額で400億円を超えたと報じられている。<strong>交通結節点の大型再開発を、地方の中小都市がそのまま真似することはできない。</strong></p>
+<h3>② 拠点型——新見市「きらめき広場・哲西」（岡山県、2001年）</h3>
+<p>市の支局と防災センター、生涯学習センター、文化ホールと図書館、保健福祉センター、内科と歯科の診療所を、一つの建物に集めた。道の駅と隣り合っている。</p>
+<p>役所、図書館、文化の施設と、診療所が同じ建物にある。<strong>一度の外出で、用事がまとめて済む。</strong>内閣府の「地域くらしサービス拠点」も、こうした拠点にバスやデマンド交通の停留所を置くことを、機能の一つに挙げている。</p>
+<h3>③ 回遊型——茨城県境町の自動運転バス（2020年11月）</h3>
+<p>境町は、2020年11月26日、町の施設「境シンパシーホール NA・KA・MA」と「河岸の駅さかい」を結ぶ往復約5kmで、自動運転バスの定時の運行を始めた。自治体として国内初の公道での定時運行で、運賃は無料である。</p>
+<p>町長は、これを<strong>「横に動くエレベーター」</strong>と表現している。散らばった施設を、一つの建物の中を移動するように結ぶという考え方である。</p>
+<p>町は、車両3台の導入と5年間の運行を合わせて、5年分で5億2,000万円の予算を組んだ。</p>
+<h3>④ 共有型——岐阜県白川町、静岡県湖西市、青森県八戸市</h3>
+<table>
+<thead>
+<tr>
+<th>自治体</th>
+<th>取り組み</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>白川町</td>
+<td>病院のバスと、路線バス・デマンドバスを統合し、スクールバスと一体で運行を管理している</td>
+</tr>
+<tr>
+<td>湖西市</td>
+<td>企業の従業員の送迎車を、公共ライドシェアとして住民に開いている。運賃は100円である</td>
+</tr>
+<tr>
+<td>八戸市</td>
+<td>企業のシャトルバスの空き時間に、駅・病院・スーパーを回る住民向けの運行をしている</td>
+</tr>
+</tbody>
+</table>
+<p><strong>新しく車を買わなくても、地域にはすでに多くの送迎の車が走っている。</strong>その空いている時間を、地域の足に回す。</p>
+
+<h2>11-5　設計の五つのポイント</h2>
+<ol>
+<li><strong>施設の計画と交通の計画を、同じ机でつくる。</strong>個別施設計画、立地適正化計画、地域公共交通計画は、担当課が別々である。複合化の候補地を決める段階で、バスの路線と便数を一緒に検討する。</li>
+<li><strong>バスの待合を、施設のロビーにする。</strong>屋根もトイレもないバス停で待つ時間が、図書館やカフェで過ごす時間に変わる。高齢者の見守りや、子どもの放課後の居場所にもなる。第1章の「広場」の考え方を、交通の側から形にする方法である。</li>
+<li><strong>開館の時間とダイヤを合わせる。</strong>最終便のあとも開いている、始発の前は閉まっている、というずれをなくす。窓口や診療の時間と、バスの着く時刻をそろえるだけで、使いやすさは大きく変わる。</li>
+<li><strong>送迎の予算をまとめて見る。</strong>福祉・教育・医療の送迎の費用、コミュニティバスの赤字の補填、統廃合で浮いた施設の維持費は、別々の課の予算に分かれている。これを一つの表にすると、交通に回せるお金が見えてくる。</li>
+<li><strong>「距離」ではなく「行きやすさ」で説明する。</strong>統廃合の住民説明では、施設までの距離だけでなく、乗り換えなしで行けるか、何分かかるか、1日何便あるかで示す。</li>
+</ol>
+<blockquote>
+<p><strong>待合をロビーにすれば、バスを待つ時間が、施設を使う時間に変わる。</strong></p>
+</blockquote>
+
+<h2>11-6　注意すべき点</h2>
+<ul>
+<li><strong>地域交通は、運賃だけでは赤字になるのが普通である。</strong>赤字の額だけで判断せず、通院・買い物・施設の利用が増える効果と合わせて評価する。</li>
+<li><strong>自動運転や無料の運行は、話題になりやすい。</strong>補助金が終わったあとの財源を、最初に確かめておく。境町のように、複数年の運行の費用を最初から予算に見込む。</li>
+<li><strong>送迎の車を地域の足に使うときは、責任と保険を分ける。</strong>事故のときに誰が責任を持つか、車の持ち主と運行の担い手の役割を、協定で決める。</li>
+</ul>
+
+<h2>11-7　規模別の現実解——理想・次善・最低限</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>理想</th>
+<th>次善</th>
+<th>最低限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>人口20万人以上</td>
+<td>駅やバスターミナルの建て替えに合わせ、図書館や窓口を乗り換えの動線に置く（結節型）</td>
+<td>複合施設の玄関にバスの待合を組み込み、ダイヤと開館の時間をそろえる</td>
+<td>複合施設の前のバス停に、屋根とベンチと時刻の表示を整える</td>
+</tr>
+<tr>
+<td>人口5万〜20万人</td>
+<td>中心部に散らばった施設を、短い間隔の循環バスで結ぶ（回遊型）</td>
+<td>複合化の候補地を決める段階で、バスの路線と便数を見直す</td>
+<td>統廃合の説明で、「乗り換えの有無・所要時間・便数」を示す</td>
+</tr>
+<tr>
+<td>人口5万人未満</td>
+<td>支所・診療所・図書館・店を束ねた拠点を、デマンド交通の起点にする（拠点型）</td>
+<td>病院・福祉施設・スクールバスの送迎を統合し、空き時間を住民に開く（共有型）</td>
+<td>送迎の予算を一つの表にまとめ、交通に回せるお金を見える化する</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>どの規模でも、最初の一歩は「送迎の予算を一つの表にする」ことである。</strong>交通に回せるお金は、すでに庁内のどこかにある。</p>
+</blockquote>
+
+<h2>11-8　デベロッパーから見ると</h2>
+<p><strong>稼げるか。</strong>交通そのものは、ほとんど稼げない。しかし、<strong>交通の結節点に置いた商業施設は、乗り換えの人の流れを客にできる。</strong>バスの待合を商業施設の中に置けば、待つ時間が買い物の時間になる。</p>
+<p><strong>どこに仕事があるか。</strong>三つある。</p>
+<ul>
+<li><strong>商業施設の送迎バスを、地域の足に開く。</strong>2026年の法改正で、商業施設の送迎は地域交通の協力者に位置付けられた。自治体と協定を結べば、地域への貢献として説明できる。</li>
+<li><strong>待合を床に組み込む。</strong>バスの乗り場の前に、屋根のある待合とカフェを置く。自治体が待合の部分を借りる、または整備の費用を持つ形もある。</li>
+<li><strong>拠点の中の店を引き受ける。</strong>拠点型の複合施設に入る売店や食堂は、交通の起点として毎日人が来る場所にある。</li>
+</ul>
+<p><strong>どこにリスクがあるか。</strong>送迎の車を地域に開くときの、事故の責任と保険である。協定で役割を分けないまま始めると、一度の事故で取り組みが止まる。</p>
+<p><strong>自治体に何を確かめるか。</strong>三つある。①複合施設の計画と地域公共交通計画を、同じ場で検討しているか、②待合や乗り継ぎの空間の整備費と運営費を、誰が持つか、③送迎の車を地域に開く場合の、責任と保険の分け方、である。</p>
+
+<h2>11-9　この章で覚えておくこと</h2>
+<p>複合化の候補地を決めるときは、<strong>地図の上に、施設とバスの路線と便数を重ねる。</strong>行き先をまとめる場所は、路線をまとめやすい場所でもある。</p>
+<p>そして、住民に説明するときは、<strong>距離ではなく、乗り換え・所要時間・便数で「行きやすさ」を示す。</strong></p></section><div class="partpage">第5部　デベロッパーの実務</div><section class="ch" style="page:c12"><h1><span class="no">第17章</span>公共テナントは商業施設に何をもたらすか</h1>
+<div class="point"><div class="label">ポイント</div><ol>
+<li>図書館、子育て支援、行政窓口などの公共施設は、商業施設から見れば<strong>平日の昼に人を呼ぶテナント</strong>である。</li>
+<li>利点は4つある。<strong>集客、長く続く賃料、埋めにくい床の活用、施設の信用</strong>である。</li>
+<li>一方で、<strong>民間テナントにはない制約がある。</strong>賃料の水準、単年度の予算、開館時間、公共の仕様、政策が変わったときの撤退である。</li>
+<li>入り方は4つある。どれを選ぶかで、<strong>誰がどのリスクを負うかが決まる。</strong></li>
+<li>事業計画では、<strong>公共の賃料を固定の収入、集客の効果を上振れの要素</strong>として分けて見込む。</li>
+</ol></div>
+
+<h2>17-1　なぜ今、公共テナントなのか</h2>
+<p>人口が減り、ネット通販が広がるなかで、商業施設は「物を売る場所」だけでは人を呼びにくくなった。とくに地方の大型店や駅前のビルでは、空いた区画や、物販では埋めにくい広い床が出ている。</p>
+<p>自治体の側にも事情がある。古くなった公共施設を同じ場所に建て替える余裕がなく、施設をまとめて数を減らす計画を進めている（第2章）。建物を新しく建てずに、人の集まる場所に公共サービスを置けるなら、自治体にとっても利点がある。</p>
+<p><strong>両者の事情が重なるところに、公共テナントという選択肢がある。</strong>本章では、デベロッパーや商業施設の運営者の立場から、これを検討する。</p>
+
+<h2>17-2　公共テナントがもたらす4つの利点</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>利点</th>
+<th>中身</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>集客</td>
+<td>図書館、子育て支援、行政窓口、健診などは、生活の必要から人を呼ぶ。平日の昼にも人が来て、景気の影響を受けにくい</td>
+</tr>
+<tr>
+<td>2</td>
+<td>長く続く賃料</td>
+<td>自治体が撤退するのは、施設の再編など政策上の理由が中心である。売上の不振では撤退しない</td>
+</tr>
+<tr>
+<td>3</td>
+<td>埋めにくい床の活用</td>
+<td>図書館や子育て広場は、広い床や上の階でも使える。物販のテナントが入りにくい区画を埋められる</td>
+</tr>
+<tr>
+<td>4</td>
+<td>施設の信用</td>
+<td>公共サービスがあることで、施設が「地域の拠点」として認められる。地域との関係も築きやすくなる</td>
+</tr>
+</tbody>
+</table>
+<p>1つめの集客は、<strong>時間帯の補い合いに価値がある。</strong>商業施設の人出は、週末と夕方に波がある。公共施設は、平日の昼に安定して人を呼ぶ。子育て中の親が、子育て広場の帰りに食料品を買う。図書館に来た高齢者が、カフェで休む。互いの弱い時間帯を、相手が埋める（第1章）。</p>
+<p>ただし、公共施設の来館者が実際にどれだけ買い物をするかを示す公開データは、本書の執筆時点では見つけられていない【要確認】。<strong>集客の効果は、事業計画では上振れの要素として扱う</strong>（17-6）。</p>
+
+<h2>17-3　公共テナントの制約</h2>
+<p>公共テナントには、民間テナントとは違う制約がある。参入の前に知っておくべき点を並べる。</p>
+<table>
+<thead>
+<tr>
+<th>制約</th>
+<th>何が起きるか</th>
+<th>備え</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>賃料の水準</td>
+<td>自治体は相場を超える賃料を払えない。逆に安すぎると「民間への優遇」と批判される</td>
+<td>不動産鑑定などで賃料の根拠を示せるようにする</td>
+</tr>
+<tr>
+<td>単年度の予算</td>
+<td>自治体の予算は年度ごとに議会で決まる。複数年の賃貸借には、議会の議決（債務負担行為など）が要る</td>
+<td>契約の前に、議決の時期と見通しを確かめる</td>
+</tr>
+<tr>
+<td>開館時間</td>
+<td>公共施設の開館時間と休館日は条例などで決まる。商業施設の営業時間と合わないことがある</td>
+<td>入口や動線を分け、時間外の出入りと警備の分担を決める</td>
+</tr>
+<tr>
+<td>公共の仕様</td>
+<td>図書館の床の重さ、バリアフリー、個人情報を扱う窓口の区画など、求められる仕様が商業より厳しいことがある</td>
+<td>内装工事の範囲と費用の分担を、募集の段階で確かめる</td>
+</tr>
+<tr>
+<td>政策が変わったときの撤退</td>
+<td>首長の交代や再編方針の見直しで、計画の凍結や撤退が起こりうる</td>
+<td>中途解約の条件と、原状回復の扱いを契約に書く</td>
+</tr>
+<tr>
+<td>公平性</td>
+<td>特定の民間施設を選ぶ理由を、住民と議会に説明する必要がある</td>
+<td>公募や選定の経緯を記録し、立地を選んだ根拠を示す</td>
+</tr>
+<tr>
+<td>企業版ふるさと納税</td>
+<td>寄附企業に経済的な見返りを与えることは禁止で、違反すると計画の認定取消の対象になる</td>
+<td>寄附する企業と床を貸す（売る）企業が同じなら、価格の根拠と選定の経緯を特に丁寧に示す（第13章）</td>
+</tr>
+</tbody>
+</table>
+<p>政策が変わったときの撤退は、デベロッパーが見落としやすいリスクである。愛知県西尾市では、約198億円・約30年の包括PFIの契約が、市長交代後に凍結され、協議が長期化した。</p>
+<blockquote>
+<p><strong>公共テナントは、売上の不振では撤退しない。しかし、政策の変化では動く。</strong>その条件を、契約で決めておく。</p>
+</blockquote>
+
+<h2>17-4　4つの入り方</h2>
+<table>
+<thead>
+<tr>
+<th>入り方</th>
+<th>仕組み</th>
+<th>民間の利点</th>
+<th>民間の注意点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>① 賃貸借</td>
+<td>自治体が商業施設の区画を借り、公共サービスを置く</td>
+<td>床を持ったまま、賃料を得られる。始めるまでが早い</td>
+<td>賃料が毎年の予算に左右される。自治体が移転すると空く</td>
+</tr>
+<tr>
+<td>② 今の床を買う（区分所有）</td>
+<td>すでにある商業施設の一部の床を、自治体が買って持つ</td>
+<td>売却代金が一度に入る。公共が長く腰を据える</td>
+<td>修繕や建て替えに、自治体との合意が要る。商業部分が衰退しても自治体が抜け出しにくく、話し合いが重くなる</td>
+</tr>
+<tr>
+<td>③ 新築で買う（建てる前に約束する）</td>
+<td>着工の前に、自治体が「この広さと仕様の公共部分を、完成したら買う」と約束し、民間がそれに合わせて建てる</td>
+<td>買い手が先に決まるので、建設資金を集めやすい</td>
+<td>着工の前に自治体の予算の議決が要る。議決が遅れると、資金計画が狂う</td>
+</tr>
+<tr>
+<td>④ 定期借地</td>
+<td>自治体が公有地を期限付きで民間に貸し、民間が商業施設を建てる</td>
+<td>土地を買わずに済み、初期投資が軽い</td>
+<td>期限が来たら更地にして返すのが原則。投資を期限内に回収する必要がある</td>
+</tr>
+</tbody>
+</table>
+<p>②と③は、どちらも自治体が床を買う。<strong>違いは、床がいつ、誰の注文でできるかである。</strong></p>
+<ul>
+<li><strong>②は、今ある床を買う。</strong>床の広さや形は、商業施設の都合ですでに決まっている。自治体は、空いた区画などを選んで買う。</li>
+<li><strong>③は、建てる前に「完成したら買う」と約束する。</strong>自治体が公共部分の広さと仕様を先に示し、民間はそれに合わせて設計して建てる。図書館の床の重さや窓口の区画を、最初から設計に入れられる。</li>
+</ul>
+<p>③で買った公共部分が商業と同じ建物にあれば、買ったあとは②と同じく区分所有になる。違うのは入口の段階である。</p>
+<div class="fig"><span class="cap">図17-1　4つの入り方と、お金・床の流れ</span><div class="art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 404" width="100%" role="img"
+ aria-label="図17-1　4つの入り方と、お金・床の流れ"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="150" y="0" width="80" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="190.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">自治体</text>
+<rect x="490" y="0" width="80" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="530.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">民間</text>
+<rect x="590" y="0" width="230" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="705.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">床・土地を持つのは</text>
+<rect x="150" y="52" width="80" height="300" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="0"/>
+<rect x="490" y="52" width="80" height="300" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="0"/>
+<rect x="0" y="60" width="140" height="62" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="70" y="98" font-size="17" font-weight="bold" text-anchor="middle">① 賃貸借</text>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="484" y1="82" x2="236" y2="82" stroke="currentColor" stroke-width="2" marker-end="url(#a1)"/>
+<defs><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="236" y1="112" x2="484" y2="112" stroke="currentColor" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#a2)"/>
+<text x="360" y="75" font-size="15" font-weight="bold" text-anchor="middle">床を貸す</text>
+<text x="360" y="105" font-size="15" text-anchor="middle">賃料を毎年払う</text>
+<rect x="590" y="60" width="230" height="62" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+<text x="705" y="98" font-size="16" font-weight="bold" text-anchor="middle">民間</text>
+<rect x="0" y="134" width="140" height="62" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="70" y="172" font-size="17" font-weight="bold" text-anchor="middle">② 今の床を買う</text>
+<defs><marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="484" y1="156" x2="236" y2="156" stroke="currentColor" stroke-width="2" marker-end="url(#a3)"/>
+<defs><marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="236" y1="186" x2="484" y2="186" stroke="currentColor" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#a4)"/>
+<text x="360" y="149" font-size="15" font-weight="bold" text-anchor="middle">できている床を売る</text>
+<text x="360" y="179" font-size="15" text-anchor="middle">代金を一度払う</text>
+<rect x="590" y="134" width="230" height="62" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+<text x="705" y="172" font-size="16" font-weight="bold" text-anchor="middle">自治体（建物の一部）</text>
+<rect x="0" y="208" width="140" height="62" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="70" y="246" font-size="17" font-weight="bold" text-anchor="middle">③ 新築で買う</text>
+<defs><marker id="a5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="484" y1="230" x2="236" y2="230" stroke="currentColor" stroke-width="2" marker-end="url(#a5)"/>
+<defs><marker id="a6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="236" y1="260" x2="484" y2="260" stroke="currentColor" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#a6)"/>
+<text x="360" y="223" font-size="15" font-weight="bold" text-anchor="middle">注文どおり建てて渡す</text>
+<text x="360" y="253" font-size="15" text-anchor="middle">完成時に代金を払う</text>
+<rect x="590" y="208" width="230" height="62" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+<text x="705" y="246" font-size="16" font-weight="bold" text-anchor="middle">公共部分は自治体</text>
+<rect x="0" y="282" width="140" height="62" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="70" y="320" font-size="17" font-weight="bold" text-anchor="middle">④ 定期借地</text>
+<defs><marker id="a7" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="236" y1="304" x2="484" y2="304" stroke="currentColor" stroke-width="2" marker-end="url(#a7)"/>
+<defs><marker id="a8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="484" y1="334" x2="236" y2="334" stroke="currentColor" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#a8)"/>
+<text x="360" y="297" font-size="15" font-weight="bold" text-anchor="middle">土地を貸す</text>
+<text x="360" y="327" font-size="15" text-anchor="middle">地代を払う</text>
+<rect x="590" y="282" width="230" height="62" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+<text x="705" y="320" font-size="16" font-weight="bold" text-anchor="middle">土地は自治体、建物は民間</text>
+<text x="410" y="384" font-size="15" text-anchor="middle">実線は床・土地の動き、点線はお金の動き</text>
+</svg>
+</div></div>
+<p>③と④は、組み合わせて使える。紫波町のオガールプラザがその例である（17-5）。</p>
+
+<h2>17-5　事例</h2>
+<h3>紫波町 オガールプラザ（岩手県、2012年6月開業）——③と④の組み合わせ</h3>
+<p>民間の会社が、図書館・地域交流センター・子育て応援センターなどの公共部分と、産直・飲食・医療の民間部分を一体で建てた。工事費約11億円のうち、公共部分の約8億円を町が買い取り、民間部分の約2.7億円は民間が借入れでまかなった。民間部分の土地は32年の事業用定期借地で、地代は年348万円である。地代と税で、年約3千万円が町の収入になっている。</p>
+<p><strong>テナントを先に決め、その賃料から建設費を逆算して資金を調達した</strong>とされる。公共部分が集客の核になり、民間部分は「稼げる規模しか建てない」設計である。</p>
+<h3>ホルトホール大分（大分市、2013年7月開館）——公共と民間を事業方式で切り分ける</h3>
+<p>大分駅南に、市民ホール、市民図書館、社会福祉保健センター、保育所、子育て交流センターなどを集め、約1,500㎡の店舗・事務所も併設した。延床面積は約36,500㎡である。</p>
+<p>公共部分は民間が建てて運営し、市が対価を払う。<strong>民間部分は独立採算である。</strong>募集のときには、民間部分を「別棟（土地を借りる）・合築・公共施設内のテナント」のどの形でも提案できるようにしていた（市の募集要項による）。「市が対価を払う部分」と「民間が自ら稼ぐ部分」を分けたことで、それぞれのリスクの持ち方がはっきりしている。</p>
+<h3>旧大宮図書館「Bibli」（さいたま市、2021年12月供用開始）——公共の建物に民間が入る</h3>
+<p>図書館の移転で空いた建物を、民間事業者が約2.5億円で改修し、飲食などのテナントに転貸している。市には年約900万円の賃料が入る。約10年の賃貸借である。</p>
+<p>公共テナントの「逆向き」の例である。民間から見ると、<strong>自治体が手放した建物は、立地のよい床を改修費だけで手に入れる機会</strong>になる。</p>
+<h3>秦野市（神奈川県）——小さな床と敷地から</h3>
+<p>保健福祉センターに郵便局を誘致し（年200万円の賃料）、庁舎の敷地には独立店舗型のコンビニを定期借地で置いた。大きな再開発でなくても、小さな床や敷地の貸し借りから、公共と民間の組み合わせは始められる。</p>
+<h3>南アルプス市 南アルプスIC周辺整備事業（山梨県、2028年度開業予定）——公募で選ばれた商業施設に子育て・交流の場</h3>
+<p>市が進める同事業の中央エリア活用の公募で、株式会社IDOMが選ばれ、2026年5月に市と立地協定を結んだ。敷地約3.3haに、リユース商品の店舗と、屋内外のキッズエリア、絵本・児童書をそろえるブックミュージアム、地域の祭りやイベントに使う広場を備えた複合商業施設を計画している（IDOM社の発表による）。公共の関わり方の詳細は公表されていない。</p>
+<h3>反面の例——青森市 アウガ</h3>
+<p>商業と図書館などの公共施設が一つのビルに入った例である。しかし、商業の売上が計画の半分以下にとどまり、運営する第三セクターが事実上破綻した（第3章）。</p>
+<blockquote>
+<p><strong>公共テナントがいても、商業の規模が需要を超えていれば、ビルは支えられない。</strong>公共テナントは集客の核になるが、商業の見込み違いを埋め合わせるものではない。</p>
+</blockquote>
+
+<h2>17-6　事業計画での見込み方</h2>
+<p>公共テナントを入れた事業計画では、収入を分けて見込む。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>見込み方</th>
+<th>理由</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>公共の賃料（または売却代金）</td>
+<td>固定の収入として見込む</td>
+<td>契約で額と期間が決まる。売上の不振では減らない</td>
+</tr>
+<tr>
+<td>公共施設による集客の効果</td>
+<td>上振れの要素として見込み、確実な収入には入れない</td>
+<td>来館者の買い回りを示す公開データが乏しい【要確認】</td>
+</tr>
+<tr>
+<td>政策変更による撤退</td>
+<td>中途解約の条件を契約で決め、その場合の空き期間を感応度分析に入れる</td>
+<td>首長の交代や再編方針の見直しで起こりうる</td>
+</tr>
+</tbody>
+</table>
+<p><strong>集客の効果を確実な収入として織り込まない。</strong>これが、アウガと逆の側に立つための条件である。</p>
+<p>開業後は、公共施設の来館者数と、同じ時間帯の商業の客数や売上を記録しておく。次の案件の根拠になる。公表できる形で記録を残すことを、自治体と協定で決めておくのも一つの方法である。</p>
+
+<h2>17-7　規模別の現実解——理想・次善・最低限</h2>
+<p>デベロッパーの立場から、自治体の規模ごとに狙える形を整理する。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>理想</th>
+<th>次善</th>
+<th>最低限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>人口20万人以上</td>
+<td>駅前の再編で、公共部分を自治体が取得し、民間部分を独立採算で建てる（③、または事業方式での切り分け）</td>
+<td>既存の商業施設に、図書館や子育て支援を賃貸借で入れる（①）</td>
+<td>移転で空く公共の建物を借りて改修し、テナントに転貸する</td>
+</tr>
+<tr>
+<td>人口5万〜20万人</td>
+<td>公有地の定期借地と公共部分の買い取りを組み合わせ、テナントを先に決めて規模を逆算する（③＋④）</td>
+<td>商業施設の空き区画や上の階に、子育て広場や行政窓口を賃貸借で入れる（①）</td>
+<td>商業施設の一角に、出張窓口や相談会を期間を区切って置く</td>
+</tr>
+<tr>
+<td>人口5万人未満</td>
+<td>スーパーや道の駅に、支所・図書館の分室・子育て相談をまとめて入れる</td>
+<td>公共施設の空き床や敷地に、郵便局やコンビニを入れる（秦野市型）</td>
+<td>店の前や駐車場で、自治体と共催の市（いち）や催しを開く</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>小さな自治体ほど、商業施設は数少ない「人が集まる場所」である。</strong>大きな開発でなくても、窓口や相談会を置くところから始められる。</p>
+</blockquote>
+
+<h2>17-8　自治体から見ると</h2>
+<p>この章はデベロッパーに向けて書いた。自治体の担当者は、裏返して読んでいただきたい。</p>
+<p><strong>民間は何を気にしているか。</strong>三つある。①賃料と期間が契約でどこまで確かになるか、②政策が変わったときに何が起きるか、③開館時間や仕様の制約がどこまで重いか。<strong>これらを募集の段階で示せる自治体ほど、提案が集まる。</strong></p>
+<p><strong>どこで失敗するか。</strong>商業施設に入ること自体を目的にすると、その場所に置く理由が薄くなる。第3章の「穴埋め」と同じ形になる。入居は、施設を畳んで移すための手段として計画に位置付ける。</p>
+<p><strong>何を先に決めるか。</strong>四つある。①移す施設と畳む施設、②借りるか買うか、③予算の見通しと議会への諮り方、④撤退のときのルールである。</p>
+
+<h2>17-9　この章で覚えておくこと</h2>
+<p>公共テナントの話が来たら、まず<strong>「この施設は、どの施設を畳んで移ってくるのか」</strong>を自治体に聞く。答えが計画に書いてあれば、その入居は長く続く。書いてなければ、政策が変わったときに動く。</p>
+<p>そして、事業計画の表では、<strong>公共の賃料と集客の効果を別の行に書く。</strong></p></section></body></html>

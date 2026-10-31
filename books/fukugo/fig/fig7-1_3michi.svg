@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 342" width="100%" role="img"
+ aria-label="図7-1　公民館に商業を入れる三つの道筋"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="260" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="130.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">① 公民館のまま</text>
+<rect x="0" y="58" width="260" height="116" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="130.0" y="104" font-size="18" font-weight="bold" text-anchor="middle">区画を公募で貸す</text>
+<text x="130.0" y="144" font-size="16" text-anchor="middle">所管は変えない</text>
+<rect x="280" y="0" width="260" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="410.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">② コミセンに</text>
+<rect x="280" y="58" width="260" height="116" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="410.0" y="104" font-size="18" font-weight="bold" text-anchor="middle">首長部局の施設へ</text>
+<text x="410.0" y="144" font-size="16" text-anchor="middle">稼ぐ自由が増える</text>
+<rect x="560" y="0" width="260" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="690.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">③ 住民の組織が</text>
+<rect x="560" y="58" width="260" height="116" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2"/>
+<text x="690.0" y="104" font-size="18" font-weight="bold" text-anchor="middle">指定管理で運営</text>
+<text x="690.0" y="144" font-size="16" text-anchor="middle">稼ぎが地域に残る</text>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="410" y1="186" x2="410" y2="222" stroke="currentColor" stroke-width="2" marker-end="url(#a1)"/>
+<rect x="0" y="234" width="820" height="90" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="410" y="270" font-size="18" font-weight="bold" text-anchor="middle">どの道でも、事業者は公正に選び、賃料は相場に</text>
+<text x="410" y="304" font-size="16" text-anchor="middle">禁じられているのは、特定の事業者への優遇</text>
+</svg>

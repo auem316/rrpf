@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 342" width="100%" role="img"
+ aria-label="図11-1　交通と複合施設の四つの組み合わせ方"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="400" height="150" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="200" y="46" font-size="20" font-weight="bold" text-anchor="middle">① 結節型</text>
+<text x="200" y="88" font-size="17" text-anchor="middle">駅・ターミナルの隣に置く</text>
+<text x="200" y="124" font-size="16" text-anchor="middle">向く規模：大都市</text>
+<rect x="420" y="0" width="400" height="150" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="620" y="46" font-size="20" font-weight="bold" text-anchor="middle">② 拠点型</text>
+<text x="620" y="88" font-size="17" text-anchor="middle">束ねた施設を交通の起点に</text>
+<text x="620" y="124" font-size="16" text-anchor="middle">向く規模：町村</text>
+<rect x="0" y="165" width="400" height="150" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="200" y="211" font-size="20" font-weight="bold" text-anchor="middle">③ 回遊型</text>
+<text x="200" y="253" font-size="17" text-anchor="middle">散らばった施設を循環で結ぶ</text>
+<text x="200" y="289" font-size="16" text-anchor="middle">向く規模：中規模の市</text>
+<rect x="420" y="165" width="400" height="150" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="620" y="211" font-size="20" font-weight="bold" text-anchor="middle">④ 共有型</text>
+<text x="620" y="253" font-size="17" text-anchor="middle">病院・学校・企業の送迎を開く</text>
+<text x="620" y="289" font-size="16" text-anchor="middle">向く規模：町村</text>
+</svg>
