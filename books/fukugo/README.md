@@ -14,6 +14,8 @@
 | manuscript/03_saikaihatsu.md | 第3章 地方の再開発はなぜ失敗したか |
 | manuscript/04_gakko.md | 第4章 公共×公共——学校を核にする |
 | manuscript/05_shogyo.md | 第5章 公共×商業——床を借りるか、持つか |
+| manuscript/06_bunka.md | 第6章 文化×商業——入口に商業、奥に文化 |
+| manuscript/07_kominkan.md | 第7章 公民館×カフェ・居酒屋 |
 | manuscript/17_kokyo-tenant.md | 第17章 公共テナントは商業施設に何をもたらすか |
 | manuscript/konkyo.md | 根拠資料——章別 |
 | manuscript/checklist.md | 章別チェックリスト |

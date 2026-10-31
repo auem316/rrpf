@@ -266,6 +266,45 @@ def fig5_1():
     return f
 
 
+def fig6_1():
+    f = Fig("図6-1　入口に商業、奥に文化——にぎやかさの順に並べる", 380)
+    rows = [("奥・上の階", "閲覧席・学習席・郷土資料", 0.0),
+            ("中ほど", "交流の場・工房・講座・子どもの本", 0.13),
+            ("入口・1階", "カフェ・書店・新刊の棚・展示", 0.38)]
+    for i, (pos, what, fill) in enumerate(rows):
+        y = i * 92
+        f.box(0, y, 170, 78, fill=0.13, sw=2.2)
+        f.text(85, y + 47, pos, 18, True)
+        f.box(190, y, 470, 78, fill=fill, sw=2)
+        f.text(425, y + 47, what, 18, True)
+    f.text(740, 40, "静か", 19, True)
+    f.text(740, 248, "にぎやか", 19, True)
+    f.arrow(740, 225, 740, 64, sw=2.6)
+    f.box(0, 296, 820, 80, sw=2.2, dash=True)
+    f.text(410, 330, "通りから入った人が、ついでに奥へ進む", 18, True)
+    f.text(410, 360, "音と人の流れは、静かな場所に届きにくい", 16)
+    return f
+
+
+def fig7_1():
+    f = Fig("図7-1　公民館に商業を入れる三つの道筋", 330)
+    cols = [("① 公民館のまま", "区画を公募で貸す", "所管は変えない"),
+            ("② コミセンに", "首長部局の施設へ", "稼ぐ自由が増える"),
+            ("③ 住民の組織が", "指定管理で運営", "稼ぎが地域に残る")]
+    w, gap = 260, 20
+    for i, (a, b, c) in enumerate(cols):
+        x = i * (w + gap)
+        f.head(x, 0, w, a)
+        f.box(x, 58, w, 116, sw=2, fill=0.13 if i == 2 else 0)
+        f.text(x + w / 2, 104, b, 18, True)
+        f.text(x + w / 2, 144, c, 16)
+    f.arrow(410, 186, 410, 222)
+    f.box(0, 234, 820, 90, fill=0.13, sw=2.2)
+    f.text(410, 270, "どの道でも、事業者は公正に選び、賃料は相場に", 18, True)
+    f.text(410, 304, "禁じられているのは、特定の事業者への優遇", 16)
+    return f
+
+
 def check(f):
     import re
     s = f.svg()
@@ -282,7 +321,8 @@ def main():
     OUT.mkdir(exist_ok=True)
     for name, fn in [("fig2-1_ruikei", fig2_1), ("fig2-2_toi", fig2_2), ("fig1-1_haichi", fig1_1), ("fig1-2_hiroba", fig1_2), ("fig3-1_rensa", fig3_1),
                      ("fig3-2_junjo", fig3_2), ("fig17-1_4hairikata", fig17_1),
-                     ("fig4-1_aite", fig4_1), ("fig5-1_kariru-motsu", fig5_1)]:
+                     ("fig4-1_aite", fig4_1), ("fig5-1_kariru-motsu", fig5_1),
+                     ("fig6-1_dousen", fig6_1), ("fig7-1_3michi", fig7_1)]:
         f = fn()
         n, c = check(f)
         (OUT / f"{name}.svg").write_text(f.svg(), encoding="utf-8")

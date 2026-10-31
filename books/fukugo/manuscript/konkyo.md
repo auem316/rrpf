@@ -95,6 +95,28 @@
 | 不動産を借りる契約の長期継続契約 | 地方自治法第234条の3 | — |
 | 企業版ふるさと納税の見返り禁止と認定取消 | [内閣府 制度説明資料](https://www.chisou.go.jp/tiiki/tiikisaisei/portal/pdf/dai8/seidosetsumei.pdf) | 適用期限2028年3月31日 |
 
+## 第6章　文化×商業——入口に商業、奥に文化
+
+| 本文の記述 | 出所 | 版・基準日 |
+| --- | --- | --- |
+| 武雄市図書館：来館者 2011年度255,828人、2013年度923,036人、2014年度800,736人、2013年度から無休、CCCが指定管理 | [CCC発表資料](https://www.ccc.co.jp/pdf/news/20151001_ccc_takeo.pdf) | 2015年10月 |
+| Idea Store：2002年にBow開館、5館、年約900講座、年約160万人（1998年は55万人）、商店街に置く方針、1館はショッピングセンター内 | [Idea Store factsheet](https://www.ideastore.co.uk/asset-library/idea-store-factsheet-2023.pdf) | 2023年 |
+| 八戸ブックセンター：2016年12月4日開設、市直営、約8,000冊、書店経験者を市職員として雇用、地域の書店で置かれにくい分野、初日3,200人超 | [カレントアウェアネス](https://current.ndl.go.jp/e1876) | 2016年 |
+| Oodi：2018年12月5日開館、9,800万ユーロ、1階カフェ・映画館、2階工房、3階約10万冊 | [finland.fi](https://finland.fi/?p=63986) | 2018年 |
+| 武雄市図書館への選書・郷土資料をめぐる批判 | 報道・専門誌の論評。紙版を確定する前に代表的な出典を選ぶ【要確認】 | — |
+
+## 第7章　公民館×カフェ・居酒屋
+
+| 本文の記述 | 出所 | 版・基準日 |
+| --- | --- | --- |
+| ネーミングライツの公正な売却、個展での作品販売は禁止に当たらない | 文部科学省「社会教育法第23条第1項第1号の解釈について（通知）」（[内閣府掲載](https://www.cao.go.jp/bunken-suishin/doc/4-2-monbukagaku-tuuchi.pdf)） | 2013年3月 |
+| 営利事業に関わることを全面的に禁止するものではない。問題は使用回数・時間・料金での優遇 | 文部科学省 事務連絡「社会教育法第23条第1項の解釈について」（[山梨県掲載](https://www.pref.yamanashi.jp/documents/88284/23zyou_kaisyaku.pdf)） | 2018年12月21日 |
+| 雲南市：2010年度に公民館を交流センターへ移行、30施設・30の地域自主組織、29施設が指定管理 | [雲南市 交流センター施設整備計画](https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/files/kouryuusenta-seibikeikaku.pdf) | 2026年5月改定 |
+| 鳶巣コミュニティセンター：2016年10月、住民有志が改装・運営、月1回の営業、育児サークルの発足 | [島根県 フォトしまね](https://www.pref.shimane.lg.jp/admin/seisaku/koho/photo/photoshimane210/2.html) | — |
+| コミュニティパブ：237軒（2026年7月）、うちCommunity Benefit Society 139、地域の価値ある資産の制度、ほぼ全てが存続 | [CAMRA](https://camra.org.uk/community-pubs/about-2) | 2026年7月 |
+| 川口市の公民館：飲酒禁止、懇親会の飲み物はソフトドリンク・ノンアルコールに限る | [川口市](https://www.city.kawaguchi.lg.jp/material/files/group/180/inshoku.pdf) | — |
+| 飲食店営業許可、酒類販売業免許、深夜酒類提供飲食店営業の届出 | 食品衛生法、酒税法、風営法第33条 | — |
+
 ## 第17章　公共テナントは商業施設に何をもたらすか
 
 | 本文の記述 | 出所 | 版・基準日 |
