@@ -380,6 +380,46 @@ def fig11_1():
     return f
 
 
+def fig12_1():
+    f = Fig("図12-1　収益還元の取引——見返りと還元は釣り合う", 340)
+    f.box(0, 0, 330, 200, sw=2.2)
+    f.head(0, 0, 330, "公共が渡す見返り")
+    f.text(165, 92, "営業できる期間", 17)
+    f.text(165, 128, "建てられる量", 17)
+    f.text(165, 164, "使い方の自由", 17)
+    f.box(490, 0, 330, 200, fill=0.13, sw=2.2)
+    f.head(490, 0, 330, "民間が返す還元")
+    f.text(655, 92, "整備・地代・使用料", 17)
+    f.text(655, 128, "運営の肩代わり", 17)
+    f.text(655, 164, "売上の一部", 17)
+    f.arrow(338, 80, 482, 80, sw=2.6)
+    f.arrow(482, 150, 338, 150, sw=2.6)
+    f.text(410, 120, "取引", 18, True)
+    f.box(0, 240, 820, 96, fill=0.38, sw=2.2)
+    f.text(410, 280, "見返りが小さければ、還元も小さい", 19, True)
+    f.text(410, 314, "足りない分は市の負担と組み合わせる（混合型）", 16)
+    return f
+
+
+def fig13_1():
+    f = Fig("図13-1　寄附企業が商業施設の事業者でもある場合の三つの形", 340)
+    cols = [("① 自治体が整備", "自治体が持ち、運営", "最も安全", 0.0),
+            ("② 民間が整備し譲渡", "完成後に自治体へ", "代金と寄附を分ける", 0.13),
+            ("③ 民間に補助", "民間が持ち、運営", "最も慎重に", 0.38)]
+    w, gap = 260, 20
+    for i, (a, b, c, fill) in enumerate(cols):
+        x = i * (w + gap)
+        f.head(x, 0, w, a)
+        f.box(x, 58, w, 130, fill=fill, sw=2)
+        f.text(x + w / 2, 108, b, 17, True)
+        f.text(x + w / 2, 150, c, 17)
+    f.box(0, 214, 820, 120, sw=2.2, dash=True)
+    f.text(410, 254, "寄附は公益の部分に充て、額を約束しない", 18, True)
+    f.text(410, 290, "お金の流れ・所有・契約を、営利の部分と分ける", 16)
+    f.text(410, 320, "集まらなくても成り立つ財源を用意する", 16)
+    return f
+
+
 def check(f):
     import re
     s = f.svg()
@@ -399,7 +439,8 @@ def main():
                      ("fig4-1_aite", fig4_1), ("fig5-1_kariru-motsu", fig5_1),
                      ("fig6-1_dousen", fig6_1), ("fig7-1_3michi", fig7_1),
                      ("fig8-1_hiraku", fig8_1), ("fig9-1_parkpfi", fig9_1),
-                     ("fig10-1_shoku", fig10_1), ("fig11-1_kotsu", fig11_1)]:
+                     ("fig10-1_shoku", fig10_1), ("fig11-1_kotsu", fig11_1),
+                     ("fig12-1_torihiki", fig12_1), ("fig13-1_kifu", fig13_1)]:
         f = fn()
         n, c = check(f)
         (OUT / f"{name}.svg").write_text(f.svg(), encoding="utf-8")

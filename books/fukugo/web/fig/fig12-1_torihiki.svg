@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 352" width="100%" role="img"
+ aria-label="図12-1　収益還元の取引——見返りと還元は釣り合う"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="330" height="200" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<rect x="0" y="0" width="330" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="165.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">公共が渡す見返り</text>
+<text x="165" y="92" font-size="17" text-anchor="middle">営業できる期間</text>
+<text x="165" y="128" font-size="17" text-anchor="middle">建てられる量</text>
+<text x="165" y="164" font-size="17" text-anchor="middle">使い方の自由</text>
+<rect x="490" y="0" width="330" height="200" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<rect x="490" y="0" width="330" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="655.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">民間が返す還元</text>
+<text x="655" y="92" font-size="17" text-anchor="middle">整備・地代・使用料</text>
+<text x="655" y="128" font-size="17" text-anchor="middle">運営の肩代わり</text>
+<text x="655" y="164" font-size="17" text-anchor="middle">売上の一部</text>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="338" y1="80" x2="482" y2="80" stroke="currentColor" stroke-width="2.6" marker-end="url(#a1)"/>
+<defs><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="482" y1="150" x2="338" y2="150" stroke="currentColor" stroke-width="2.6" marker-end="url(#a2)"/>
+<text x="410" y="120" font-size="18" font-weight="bold" text-anchor="middle">取引</text>
+<rect x="0" y="240" width="820" height="96" rx="5" fill="currentColor" fill-opacity="0.38" stroke="currentColor" stroke-width="2.2"/>
+<text x="410" y="280" font-size="19" font-weight="bold" text-anchor="middle">見返りが小さければ、還元も小さい</text>
+<text x="410" y="314" font-size="16" text-anchor="middle">足りない分は市の負担と組み合わせる（混合型）</text>
+</svg>

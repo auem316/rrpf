@@ -32,6 +32,8 @@ CHAPTERS = [
     ("09_koen", "第2部　組み合わせ別"),
     ("10_shoku", "第2部　組み合わせ別"),
     ("11_kotsu", "第2部　組み合わせ別"),
+    ("12_kangen", "第3部　仕組み"),
+    ("13_okane", "第3部　仕組み"),
     ("17_kokyo-tenant", "第5部　デベロッパーの実務"),
 ]
 
@@ -118,7 +120,7 @@ def main():
     OUT.mkdir(exist_ok=True)
     pages, body = [], []
     body.append(f'<div class="title"><h1>{BOOK}</h1><p class="sub">{SUB}</p><p class="sub2">{SUB2}</p>'
-                f'<p class="au">{AUTHOR}</p><div class="note">見本紙面（序章・第1章〜第11章・第17章）<br>'
+                f'<p class="au">{AUTHOR}</p><div class="note">見本紙面（序章・第1章〜第13章・第17章）<br>'
                 'A5判。本文は明朝、見出し・表・柱はゴシック。ページ番号は見本用の通し番号です。'
                 '</div></div>')
     last_part = None

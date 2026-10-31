@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 352" width="100%" role="img"
+ aria-label="図13-1　寄附企業が商業施設の事業者でもある場合の三つの形"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="260" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="130.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">① 自治体が整備</text>
+<rect x="0" y="58" width="260" height="130" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="130.0" y="108" font-size="17" font-weight="bold" text-anchor="middle">自治体が持ち、運営</text>
+<text x="130.0" y="150" font-size="17" text-anchor="middle">最も安全</text>
+<rect x="280" y="0" width="260" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="410.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">② 民間が整備し譲渡</text>
+<rect x="280" y="58" width="260" height="130" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2"/>
+<text x="410.0" y="108" font-size="17" font-weight="bold" text-anchor="middle">完成後に自治体へ</text>
+<text x="410.0" y="150" font-size="17" text-anchor="middle">代金と寄附を分ける</text>
+<rect x="560" y="0" width="260" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="690.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">③ 民間に補助</text>
+<rect x="560" y="58" width="260" height="130" rx="5" fill="currentColor" fill-opacity="0.38" stroke="currentColor" stroke-width="2"/>
+<text x="690.0" y="108" font-size="17" font-weight="bold" text-anchor="middle">民間が持ち、運営</text>
+<text x="690.0" y="150" font-size="17" text-anchor="middle">最も慎重に</text>
+<rect x="0" y="214" width="820" height="120" rx="5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-dasharray="7 5"/>
+<text x="410" y="254" font-size="18" font-weight="bold" text-anchor="middle">寄附は公益の部分に充て、額を約束しない</text>
+<text x="410" y="290" font-size="16" text-anchor="middle">お金の流れ・所有・契約を、営利の部分と分ける</text>
+<text x="410" y="320" font-size="16" text-anchor="middle">集まらなくても成り立つ財源を用意する</text>
+</svg>
