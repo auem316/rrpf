@@ -22,6 +22,8 @@
 | manuscript/11_kotsu.md | 第11章 地域公共交通×複合施設 |
 | manuscript/12_kangen.md | 第12章 商業の稼ぎで公共を支える（収益還元） |
 | manuscript/13_okane.md | 第13章 お金をどう用意するか |
+| manuscript/14_unei.md | 第14章 誰がどう運営するか |
+| manuscript/15_goui.md | 第15章 試してから決める（合意形成） |
 | manuscript/17_kokyo-tenant.md | 第17章 公共テナントは商業施設に何をもたらすか |
 | manuscript/konkyo.md | 根拠資料——章別 |
 | manuscript/checklist.md | 章別チェックリスト |

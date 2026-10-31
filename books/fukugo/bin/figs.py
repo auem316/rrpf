@@ -420,6 +420,44 @@ def fig13_1():
     return f
 
 
+def fig14_1():
+    f = Fig("図14-1　四つの運営モデル——まとめる力と、行政が直接決められること", 330)
+    cols = [("① 担当課別", 0.0), ("② 一体の指定管理", 0.13), ("③ 指定管理＋賃貸", 0.13), ("④ 民間が持つ", 0.38)]
+    w, gap = 190, 20
+    for i, (a, fill) in enumerate(cols):
+        x = i * (w + gap)
+        f.box(x, 0, w, 90, fill=fill, sw=2.2)
+        f.text(x + w / 2, 52, a, 17, True)
+    f.arrow(10, 130, 806, 130, sw=2.6)
+    f.text(410, 166, "運営をまとめる力が強くなる", 17, True)
+    f.arrow(806, 200, 10, 200, sw=2, dash=True)
+    f.text(410, 236, "行政が直接決められることが多い", 17)
+    f.box(0, 264, 820, 62, fill=0.13, sw=2.2)
+    f.text(410, 303, "どのモデルでも、館長役一人と包括管理を土台に", 18, True)
+    return f
+
+
+def fig15_1():
+    f = Fig("図15-1　合意の三つの原則と、試してから決める流れ", 340)
+    for i, (a, b) in enumerate([("順序", "材料が先、案は一度に"), ("回数", "地区ごとに複数回"), ("等価性", "できなくなることも")]):
+        x = i * 280
+        f.head(x, 0, 260, a)
+        f.box(x, 50, 260, 64, sw=2)
+        f.text(x + 130, 90, b, 17)
+    steps = ["材料を公開", "試す", "出口で判断", "本格化"]
+    w, gap = 176, 39
+    for i, st in enumerate(steps):
+        x = i * (w + gap)
+        f.box(x, 160, w, 70, fill=0.38 if i == 2 else 0.13, sw=2.2)
+        f.text(x + w / 2, 202, st, 18, True)
+        if i < 3:
+            f.arrow(x + w + 4, 195, x + w + gap - 4, 195)
+    f.box(0, 256, 820, 80, sw=2.2, dash=True)
+    f.text(410, 292, "「結果がこうなら、こうする」を試す前に決める", 18, True)
+    f.text(410, 322, "試行を先送りの口実にしない", 16)
+    return f
+
+
 def check(f):
     import re
     s = f.svg()
@@ -440,7 +478,8 @@ def main():
                      ("fig6-1_dousen", fig6_1), ("fig7-1_3michi", fig7_1),
                      ("fig8-1_hiraku", fig8_1), ("fig9-1_parkpfi", fig9_1),
                      ("fig10-1_shoku", fig10_1), ("fig11-1_kotsu", fig11_1),
-                     ("fig12-1_torihiki", fig12_1), ("fig13-1_kifu", fig13_1)]:
+                     ("fig12-1_torihiki", fig12_1), ("fig13-1_kifu", fig13_1),
+                     ("fig14-1_unei", fig14_1), ("fig15-1_goui", fig15_1)]:
         f = fn()
         n, c = check(f)
         (OUT / f"{name}.svg").write_text(f.svg(), encoding="utf-8")
