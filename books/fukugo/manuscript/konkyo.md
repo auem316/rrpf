@@ -25,7 +25,8 @@
 | アウガ：事業費185億円、初年度売上は計画52億円に対し約23億円 | [ビジネス+IT](https://www.sbbit.jp/article/cont1/32799) | 報道ベース |
 | アウガ：2015年度末に約24億円の債務超過、2008年に債権約23億円買取、2016年市長辞任、2017年2月商業撤退 | [プレジデントオンライン](https://president.jp/articles/-/22596) | 報道ベース |
 | アウガ：2018年1月から市役所駅前庁舎 | [青森市民図書館](https://www.library.city.aomori.aomori.jp/aomoricity_history/trivia/201-/288.pdf) | — |
-| エリアなかいち：事業費135億円、8割を国・県・市が負担 | [秋田魁新報](https://www.sakigake.jp/news/article/20220902AK0016/) | 2022年9月2日 |
+| エリアなかいち：事業費135億円、8割を国・県・市が負担。中心部の小売売上は1994年1,000億円超→2004年500億円台 | [秋田魁新報](https://www.sakigake.jp/news/article/20220902AK0016/) | 2022年9月2日、報道ベース |
+| エリアなかいち：2012年7月完成、中心市街地の人口増加・地価上昇に一定の成果、課題は回遊性 | [秋田市 中心市街地活性化の計画](https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/037/740/plan_01.pdf) | — |
 | 再開発ビルの空き床に公共施設を入れた例13件 | [大阪府「再開発ビルの空き床対策事例」](https://www.pref.osaka.lg.jp/documents/20793/zirei20akiyuka.pdf) | — |
 | 佐世保中央公園：Park-PFI、事業区域5.4ha、2022年4月供用開始、公募対象施設の設置20年、運営充実額2.5億円（運営利益充当1.4億円）、市内企業が代表・構成企業 | [国土交通省 官民連携事例資料](https://www.mlit.go.jp/sogoseisaku/kanminrenkei/content/001767666.pdf) | 提案時点 |
 | 佐世保中央公園：来園者数・商店街への効果 | 公表資料で確認できず【要確認】 | — |
