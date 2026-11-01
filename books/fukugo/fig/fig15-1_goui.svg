@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 352" width="100%" role="img"
+ aria-label="図15-1　合意の三つの原則と、試してから決める流れ"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="260" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="130.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">順序</text>
+<rect x="0" y="50" width="260" height="64" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="130" y="90" font-size="17" text-anchor="middle">材料が先、案は一度に</text>
+<rect x="280" y="0" width="260" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="410.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">回数</text>
+<rect x="280" y="50" width="260" height="64" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="410" y="90" font-size="17" text-anchor="middle">地区ごとに複数回</text>
+<rect x="560" y="0" width="260" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="690.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">等価性</text>
+<rect x="560" y="50" width="260" height="64" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="690" y="90" font-size="17" text-anchor="middle">できなくなることも</text>
+<rect x="0" y="160" width="176" height="70" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="88.0" y="202" font-size="18" font-weight="bold" text-anchor="middle">材料を公開</text>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="180" y1="195" x2="211" y2="195" stroke="currentColor" stroke-width="2" marker-end="url(#a1)"/>
+<rect x="215" y="160" width="176" height="70" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="303.0" y="202" font-size="18" font-weight="bold" text-anchor="middle">試す</text>
+<defs><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="395" y1="195" x2="426" y2="195" stroke="currentColor" stroke-width="2" marker-end="url(#a2)"/>
+<rect x="430" y="160" width="176" height="70" rx="5" fill="currentColor" fill-opacity="0.38" stroke="currentColor" stroke-width="2.2"/>
+<text x="518.0" y="202" font-size="18" font-weight="bold" text-anchor="middle">出口で判断</text>
+<defs><marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="610" y1="195" x2="641" y2="195" stroke="currentColor" stroke-width="2" marker-end="url(#a3)"/>
+<rect x="645" y="160" width="176" height="70" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="733.0" y="202" font-size="18" font-weight="bold" text-anchor="middle">本格化</text>
+<rect x="0" y="256" width="820" height="80" rx="5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-dasharray="7 5"/>
+<text x="410" y="292" font-size="18" font-weight="bold" text-anchor="middle">「結果がこうなら、こうする」を試す前に決める</text>
+<text x="410" y="322" font-size="16" text-anchor="middle">試行を先送りの口実にしない</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 312" width="100%" role="img"
+ aria-label="図3-2　二つの順序の比較"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="140" height="100" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="70" y="57" font-size="18" font-weight="bold" text-anchor="middle">失敗の順序</text>
+<rect x="170" y="14" width="196" height="72" rx="5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-dasharray="7 5"/>
+<text x="268" y="57" font-size="16" text-anchor="middle">再開発ビルを建てる</text>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="368" y1="50" x2="388" y2="50" stroke="currentColor" stroke-width="2" marker-end="url(#a1)"/>
+<rect x="390" y="14" width="196" height="72" rx="5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-dasharray="7 5"/>
+<text x="488" y="57" font-size="16" text-anchor="middle">商業で埋める</text>
+<defs><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="588" y1="50" x2="608" y2="50" stroke="currentColor" stroke-width="2" marker-end="url(#a2)"/>
+<rect x="610" y="14" width="196" height="72" rx="5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-dasharray="7 5"/>
+<text x="708" y="57" font-size="16" text-anchor="middle">空いた床を公共で埋める</text>
+<rect x="0" y="128" width="140" height="100" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="70" y="185" font-size="18" font-weight="bold" text-anchor="middle">融合の順序</text>
+<rect x="170" y="142" width="196" height="72" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="268" y="185" font-size="16" font-weight="bold" text-anchor="middle">施設再編計画で決める</text>
+<defs><marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="368" y1="178" x2="388" y2="178" stroke="currentColor" stroke-width="2" marker-end="url(#a3)"/>
+<rect x="390" y="142" width="196" height="72" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="488" y="185" font-size="16" font-weight="bold" text-anchor="middle">公共機能を核に置く</text>
+<defs><marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="588" y1="178" x2="608" y2="178" stroke="currentColor" stroke-width="2" marker-end="url(#a4)"/>
+<rect x="610" y="142" width="196" height="72" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="708" y="185" font-size="16" font-weight="bold" text-anchor="middle">テナント分だけ足す</text>
+<rect x="0" y="248" width="820" height="52" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="410" y="281" font-size="19" font-weight="bold" text-anchor="middle">集客の核を、商業から公共に置き換える</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 352" width="100%" role="img"
+ aria-label="図8-1　閉じた施設から、まちの居場所へ"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="240" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="120.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">① 福祉×福祉</text>
+<rect x="0" y="58" width="240" height="120" rx="5" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="120.0" y="106" font-size="18" font-weight="bold" text-anchor="middle">高齢者＋子ども</text>
+<text x="120.0" y="146" font-size="16" text-anchor="middle">まだ閉じている</text>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="246" y1="118" x2="284" y2="118" stroke="currentColor" stroke-width="2" marker-end="url(#a1)"/>
+<rect x="290" y="0" width="240" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="410.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">② 福祉×商業</text>
+<rect x="290" y="58" width="240" height="120" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2"/>
+<text x="410.0" y="106" font-size="18" font-weight="bold" text-anchor="middle">温泉・食堂・売店</text>
+<text x="410.0" y="146" font-size="16" text-anchor="middle">住民が来る理由</text>
+<defs><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="536" y1="118" x2="574" y2="118" stroke="currentColor" stroke-width="2" marker-end="url(#a2)"/>
+<rect x="580" y="0" width="240" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="700.0" y="29" font-size="19" font-weight="bold" text-anchor="middle">③ 福祉×文化</text>
+<rect x="580" y="58" width="240" height="120" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2"/>
+<text x="700.0" y="106" font-size="18" font-weight="bold" text-anchor="middle">図書館・公民館に</text>
+<text x="700.0" y="146" font-size="16" text-anchor="middle">日常の動線に乗る</text>
+<defs><marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="410" y1="190" x2="410" y2="226" stroke="currentColor" stroke-width="2" marker-end="url(#a3)"/>
+<rect x="0" y="238" width="820" height="96" rx="5" fill="currentColor" fill-opacity="0.38" stroke="currentColor" stroke-width="2.2"/>
+<text x="410" y="276" font-size="19" font-weight="bold" text-anchor="middle">自治体は、土地・床・条件を出す</text>
+<text x="410" y="310" font-size="17" text-anchor="middle">公募の条件に「地域に開く機能」の一行</text>
+</svg>

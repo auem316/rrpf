@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 832 342" width="100%" role="img"
+ aria-label="図1-1　自動車社会の配置と、広場を中心にした配置"
+ style="font-family:'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',sans-serif;color:inherit">
+<rect x="0" y="0" width="395" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="197.5" y="29" font-size="19" font-weight="bold" text-anchor="middle">自動車社会の配置</text>
+<line x1="0" y1="165" x2="395" y2="165" stroke="currentColor" stroke-width="10" stroke-opacity="0.25"/>
+<line x1="200" y1="60" x2="200" y2="268" stroke="currentColor" stroke-width="10" stroke-opacity="0.25"/>
+<rect x="22" y="78" width="110" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="77" y="111" font-size="17" font-weight="bold" text-anchor="middle">役所</text>
+<rect x="240" y="190" width="110" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="295" y="223" font-size="17" font-weight="bold" text-anchor="middle">大型店</text>
+<rect x="250" y="76" width="110" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="305" y="109" font-size="17" font-weight="bold" text-anchor="middle">病院</text>
+<rect x="22" y="190" width="46" height="40" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="1.4"/>
+<text x="45" y="217" font-size="17" font-weight="bold" text-anchor="middle">P</text>
+<rect x="130" y="76" width="46" height="40" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="1.4"/>
+<text x="153" y="103" font-size="17" font-weight="bold" text-anchor="middle">P</text>
+<rect x="140" y="205" width="46" height="40" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="1.4"/>
+<text x="163" y="232" font-size="17" font-weight="bold" text-anchor="middle">P</text>
+<rect x="425" y="0" width="395" height="44" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="622.5" y="29" font-size="19" font-weight="bold" text-anchor="middle">広場を中心にした配置</text>
+<rect x="575" y="130" width="120" height="80" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2" stroke-dasharray="7 5"/>
+<text x="635" y="177" font-size="19" font-weight="bold" text-anchor="middle">広場</text>
+<rect x="580" y="56" width="110" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="635" y="89" font-size="17" font-weight="bold" text-anchor="middle">役所</text>
+<rect x="440" y="144" width="110" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="495" y="177" font-size="17" font-weight="bold" text-anchor="middle">図書館</text>
+<rect x="712" y="144" width="110" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="767" y="177" font-size="17" font-weight="bold" text-anchor="middle">商業</text>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="635" y1="110" x2="635" y2="128" stroke="currentColor" stroke-width="2" marker-end="url(#a1)"/>
+<defs><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="552" y1="170" x2="573" y2="170" stroke="currentColor" stroke-width="2" marker-end="url(#a2)"/>
+<defs><marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9" fill="none" stroke="currentColor" stroke-width="2"/></marker></defs><line x1="710" y1="170" x2="697" y2="170" stroke="currentColor" stroke-width="2" marker-end="url(#a3)"/>
+<rect x="440" y="224" width="70" height="40" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="1.4"/>
+<text x="475" y="251" font-size="17" font-weight="bold" text-anchor="middle">P</text>
+<rect x="750" y="224" width="70" height="40" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="1.4"/>
+<text x="785" y="251" font-size="17" font-weight="bold" text-anchor="middle">P</text>
+<rect x="0" y="280" width="395" height="50" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="197" y="311" font-size="19" font-weight="bold" text-anchor="middle">効果は施設ごとに閉じる</text>
+<rect x="425" y="280" width="395" height="50" rx="5" fill="currentColor" fill-opacity="0.13" stroke="currentColor" stroke-width="2.2"/>
+<text x="622" y="311" font-size="19" font-weight="bold" text-anchor="middle">広場で効果が重なる</text>
+</svg>
