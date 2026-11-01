@@ -12,7 +12,7 @@ OUT = ROOT / "web"
 BOOK = "公共施設の複合化"
 SUB = "——「減らす」から「組み替える」へ"
 AUTHOR = "上村　章文"
-UPDATED = "2026年10月30日"
+UPDATED = "2026年11月1日"
 BASEDATE = "2026年10月30日"
 
 # (ファイル, 部) 見本として組む章
@@ -33,7 +33,10 @@ CHAPTERS = [
     ("13_okane", "13-okane.html"),
     ("14_unei", "14-unei.html"),
     ("15_goui", "15-goui.html"),
+    ("16_teigen", "16-teigen.html"),
     ("17_kokyo-tenant", "17-kokyo-tenant.html"),
+    ("18_jikanjiku", "18-jikanjiku.html"),
+    ("19_teian", "19-teian.html"),
 ]
 PAGE_OF = {int(src[:2]): html for src, html in CHAPTERS}
 

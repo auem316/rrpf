@@ -458,6 +458,75 @@ def fig15_1():
     return f
 
 
+def fig16_1():
+    f = Fig("図16-1　複合化のロードマップ——3つのフェーズと2つの関門", 300)
+    ph = [("フェーズ1", "見える化", "0〜1年目"), ("フェーズ2", "構想と試行", "1〜3年目"), ("フェーズ3", "事業化と運営", "3年目〜")]
+    w, gate = 220, 80
+    xs = [0, w + gate, 2 * (w + gate)]
+    for i, (a, b, c) in enumerate(ph):
+        x = xs[i]
+        f.box(x, 0, w, 130, fill=0.13 if i < 2 else 0.38, sw=2.2)
+        f.text(x + w / 2, 40, a, 18, True)
+        f.text(x + w / 2, 76, b, 18, True)
+        f.text(x + w / 2, 110, c, 16)
+    for j in range(2):
+        gx = xs[j] + w + gate / 2
+        f.line(gx, -4, gx, 150, sw=3)
+        f.text(gx, 176, f"関門{j + 1}", 17, True)
+    f.arrow(xs[1] + w / 2, 200, xs[0] + w / 2, 200, dash=True)
+    f.arrow(xs[2] + w / 2, 200, xs[1] + w / 2, 200, dash=True)
+    f.text(410, 232, "合意できなければ、前のフェーズに戻る", 17)
+    f.box(0, 252, 820, 46, sw=2.2, dash=True)
+    f.text(410, 282, "戻るなら、早いほど安い", 18, True)
+    return f
+
+
+def fig18_1():
+    f = Fig("図18-1　計画の階段と、予算の1年——民間が意見を出せる局面", 340)
+    steps = ["総合管理計画", "個別施設計画", "基本構想", "事業手法の検討", "公募", "契約・議決"]
+    w, gap = 125, 14
+    for i, st in enumerate(steps):
+        x = i * (w + gap)
+        y = 120 - i * 22
+        f.box(x, y, w, 60, fill=0.38 if i == 3 else 0.0, sw=2.6 if i == 3 else 1.8)
+        f.text(x + w / 2, y + 37, st, 15, i == 3)
+    f.text(3 * (w + gap) + w / 2, 40, "サウンディング", 17, True)
+    f.text(3 * (w + gap) + w / 2, 15, "ここで条件が動く", 16)
+    months = [("5〜8月", "対話", 0.38), ("9〜10月", "要求が固まる", 0.13), ("1〜2月", "予算案", 0.0), ("2〜3月", "議決", 0.0)]
+    mw, mg = 190, 20
+    for i, (a, b, fill) in enumerate(months):
+        x = i * (mw + mg)
+        f.box(x, 230, mw, 84, fill=fill, sw=2.2 if i == 0 else 1.8)
+        f.text(x + mw / 2, 264, a, 17, True)
+        f.text(x + mw / 2, 296, b, 16)
+        if i < 3:
+            f.arrow(x + mw + 3, 272, x + mw + mg - 3, 272)
+    return f
+
+
+def fig19_1():
+    f = Fig("図19-1　通る提案の組み立て——計画のどこに乗り、何を出し、何を書くか", 330)
+    cols = [("計画のどこに乗るか", "個別施設計画の施設と段"), ("何を出すか", "床・土地・運営"), ("何を書くか", "5つの項目")]
+    w, gap = 250, 35
+    for i, (a, b) in enumerate(cols):
+        x = i * (w + gap)
+        f.head(x, 0, w, a)
+        f.box(x, 50, w, 70, sw=2)
+        f.text(x + w / 2, 92, b, 17)
+        if i < 2:
+            f.arrow(x + w + 4, 85, x + w + gap - 4, 85)
+    items = ["課題", "財源", "他の例", "費用と年度", "出口"]
+    iw, ig = 148, 20
+    for i, it in enumerate(items):
+        x = i * (iw + ig)
+        f.box(x, 160, iw, 64, fill=0.38 if i == 4 else 0.13, sw=2.2)
+        f.text(x + iw / 2, 199, it, 18, True)
+    f.box(0, 254, 820, 70, sw=2.2, dash=True)
+    f.text(410, 286, "担当者が、そのまま庁内の説明に使える理屈", 18, True)
+    f.text(410, 314, "1枚目に自社の紹介を書かない", 16)
+    return f
+
+
 def check(f):
     import re
     s = f.svg()
@@ -479,7 +548,9 @@ def main():
                      ("fig8-1_hiraku", fig8_1), ("fig9-1_parkpfi", fig9_1),
                      ("fig10-1_shoku", fig10_1), ("fig11-1_kotsu", fig11_1),
                      ("fig12-1_torihiki", fig12_1), ("fig13-1_kifu", fig13_1),
-                     ("fig14-1_unei", fig14_1), ("fig15-1_goui", fig15_1)]:
+                     ("fig14-1_unei", fig14_1), ("fig15-1_goui", fig15_1),
+                     ("fig16-1_roadmap", fig16_1), ("fig18-1_kaidan", fig18_1),
+                     ("fig19-1_teian", fig19_1)]:
         f = fn()
         n, c = check(f)
         (OUT / f"{name}.svg").write_text(f.svg(), encoding="utf-8")

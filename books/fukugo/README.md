@@ -24,7 +24,10 @@
 | manuscript/13_okane.md | 第13章 お金をどう用意するか |
 | manuscript/14_unei.md | 第14章 誰がどう運営するか |
 | manuscript/15_goui.md | 第15章 試してから決める（合意形成） |
+| manuscript/16_teigen.md | 第16章 18の提言とロードマップ |
 | manuscript/17_kokyo-tenant.md | 第17章 公共テナントは商業施設に何をもたらすか |
+| manuscript/18_jikanjiku.md | 第18章 自治体の決め方と時間軸を読む |
+| manuscript/19_teian.md | 第19章 通る提案の組み立て |
 | manuscript/konkyo.md | 根拠資料——章別 |
 | manuscript/checklist.md | 章別チェックリスト |
 
