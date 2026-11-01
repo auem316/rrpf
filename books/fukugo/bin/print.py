@@ -130,7 +130,8 @@ def main():
                 '</div></div>')
     last_part = None
     for i, (src, part) in enumerate(CHAPTERS):
-        md_text = (SRC / f"{src}.md").read_text(encoding="utf-8")
+        paper = OUT / f"{src}.md"  # 紙版の原稿があればそれを組む
+        md_text = (paper if paper.exists() else SRC / f"{src}.md").read_text(encoding="utf-8")
         name = f"c{i}"
         html, chap = chapter_html(md_text, name)
         pages.append(PAGE_RULE.format(name=name, part=part, chap=chap))

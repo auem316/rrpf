@@ -91,7 +91,7 @@
 | 土浦市新庁舎：2015年9月24日開庁 | [広報つちうら №1154](https://www.city.tsuchiura.lg.jp/data/doc/1441012168_doc_6_0.pdf) | 2015年9月1日 |
 | 土浦市の床の取得費・改修費、新築案との比較 | 公開資料で確認できず【要確認】 | — |
 | 区分所有建物の建替え決議（5分の4） | 建物の区分所有等に関する法律第62条 | — |
-| 区分所有法の改正（2025年5月公布、2026年4月施行） | [契約ウォッチ](https://keiyaku-watch.jp/media/hourei/202604-kubunsyoyuhou-kaisei/) | 改正の中身は条文で確認【要確認】 |
+| 区分所有法の改正（2025年5月30日公布、2026年4月1日施行）：客観的な緩和事由（耐震性の不足など）があれば建替え決議は各4分の3以上 | [契約ウォッチ](https://keiyaku-watch.jp/media/hourei/202604-kubunsyoyuhou-kaisei/)、[三井住友トラスト不動産](https://smtrc.jp/useful/knowledge/sellbuy-law/2025_08.html) | 二次資料。条文（改正後第62条）での照合は打診前に |
 | 不動産を借りる契約の長期継続契約 | 地方自治法第234条の3 | — |
 | 企業版ふるさと納税の見返り禁止と認定取消 | [内閣府 制度説明資料](https://www.chisou.go.jp/tiiki/tiikisaisei/portal/pdf/dai8/seidosetsumei.pdf) | 適用期限2028年3月31日 |
 
