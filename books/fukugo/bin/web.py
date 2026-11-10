@@ -1,6 +1,10 @@
-"""見本章の Web 版を『自治体の公民連携ハンドブック』と同じ紙面で組む。
+"""本の紹介ページ（Web）を組む。
 
-使い方: python3 bin/web.py   （books/fukugo で実行。出力は web/）
+本文はWebに出さない。最も詳しい内容は本に載せ、Webは本の紹介と本への入口にする
+（2026年11月10日の方針。学芸出版社の指摘による）。
+載せるもの：書名と著者、この本でできること、目次（節と事例名）、各章の要点、更新情報。
+
+使い方: python3 bin/web.py   （books/fukugo で実行。出力は web/index.html）
 """
 import re
 from pathlib import Path
@@ -12,7 +16,7 @@ OUT = ROOT / "web"
 BOOK = "公共施設の複合化"
 SUB = "——「減らす」から「組み替える」へ"
 AUTHOR = "上村　章文"
-UPDATED = "2026年11月1日"
+UPDATED = "2026年11月10日"
 BASEDATE = "2026年10月30日"
 
 # (ファイル, 部) 見本として組む章
@@ -90,7 +94,7 @@ def page(title, desc, body):
 <body>
 <header class="site"><div class="wrap">
 <a class="home" href="index.html">{BOOK}</a>
-<nav><a href="index.html">目次</a><a href="konkyo.html">根拠資料</a><a href="checklist-web.html">チェックリスト</a><a href="../index.html" class="portal">ポータルへ</a></nav>
+<nav><a href="#toc">目次</a><a href="#updates">更新情報</a><a href="../index.html" class="portal">ポータルへ</a></nav>
 </div></header>
 <main class="wrap">
 {body}
@@ -131,60 +135,54 @@ def desc_of(md_text):
     return re.sub(r"\s+", " ", t).strip()[:120]
 
 
+def points_of(md_text):
+    """「この章の要点」の箇条をそのまま取り出す。"""
+    m = re.search(r"## この章の要点\n\n(.*?)\n\n---", md_text, re.S)
+    return markdown.markdown(m.group(1)) if m else ""
+
+
 def main():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("printmod", ROOT / "bin" / "print.py")
+    pm = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(pm)
+
     OUT.mkdir(exist_ok=True)
-    titles = []
-    for src, _ in CHAPTERS:
-        titles.append((SRC / f"{src}.md").read_text(encoding="utf-8").splitlines()[0][2:])
-    for i, (src, dst) in enumerate(CHAPTERS):
-        md_text = (SRC / f"{src}.md").read_text(encoding="utf-8")
-        n = int(src[:2])
-        body = render(md_text)
-        anc = "序章" if n == 0 else f"第{n}章"
-        body += ('\n<hr>\n<blockquote><p><strong>この章は見本原稿です。</strong>'
-                 f'Web版には、この章の<a href="konkyo.html#{anc}">根拠資料</a>と'
-                 f'<a href="checklist-web.html#{anc}">チェックリスト</a>を置いている。</p></blockquote>\n')
-        prev = f'<a href="{CHAPTERS[i-1][1]}">← {titles[i-1]}</a>' if i else "<span></span>"
-        nxt = f'<a href="{CHAPTERS[i+1][1]}">{titles[i+1]} →</a>' if i + 1 < len(CHAPTERS) else "<span></span>"
-        body += f'<div class="pager">{prev}{nxt}</div>'
-        (OUT / dst).write_text(page(titles[i], desc_of(md_text), body), encoding="utf-8")
-
-    for src, dst in [("konkyo", "konkyo.html"), ("checklist", "checklist-web.html")]:
-        md_text = (SRC / f"{src}.md").read_text(encoding="utf-8")
-        body = render(md_text)
-        # 章見出しに「第N章」のアンカーを付ける
-        body = re.sub(r'<h2 id="(第(\d+)章[^"]*)">第\d+章',
-                      lambda m: f'<span id="第{m.group(2)}章"></span><h2 id="{m.group(1)}">'
-                                + (f'<a href="{PAGE_OF[int(m.group(2))]}">第{m.group(2)}章</a>'
-                                   if int(m.group(2)) in PAGE_OF else f"第{m.group(2)}章"), body)
-        body = re.sub(r'<h2 id="(序章[^"]*)">序章', r'<span id="序章"></span><h2 id="\1"><a href="00-josho.html">序章</a>', body)
-        (OUT / dst).write_text(page(md_text.splitlines()[0][2:], desc_of(md_text), body), encoding="utf-8")
-
+    for old in OUT.glob("*.html"):
+        old.unlink()
     rows = [f'<h1>{BOOK}<br><span class="lead">{SUB}</span></h1>',
             '<p class="lead">商業・文化・福祉・交通を「広場」でつなぐ——自治体とデベロッパーの実務</p>',
             f'<p class="lead">{AUTHOR}</p>',
-            '<div class="kami"><p><strong>この本には、紙の版とWebの版があります。</strong></p>'
-            '<p>紙は、読んで決め、点検表として書き込むためのもの。Webは、必要なところをその場で引くためのものです。'
-            '<strong>本文は同じですが、Web版には章ごとの根拠資料とチェックリストを足しています。</strong></p>'
-            '<p class="lead">いま読めるのは、序章・第1章〜第3章・第17章です。ほかの章は準備中です。</p></div>']
-    for part, chs in TOC:
-        if part:
+            '<div class="kami"><p><strong>公共施設を「何と、どこで、どう束ねるか」を、自治体と商業施設のデベロッパーの双方が判断できるようにする本です。</strong></p>'
+            '<p>全国の事例を組み合わせごとに整理し、人口規模別に「理想・次善・最低限」を示します。'
+            'このページでは、目次と各章の要点を紹介しています。事例の詳しい経緯、数字、点検表は本に載せています。</p></div>',
+            '<h2 id="toc">目次</h2>']
+    last = None
+    for src, part in pm.CHAPTERS:
+        md_text = (SRC / f"{src}.md").read_text(encoding="utf-8")
+        if part != last and part != "序章":
             rows.append(f'<div class="part">{part}</div>')
-        for ch in chs:
-            m = re.match(r"第(\d+)章", ch)
-            n = 0 if ch.startswith("序章") else (int(m.group(1)) if m else None)
-            if n in PAGE_OF:
-                rows.append(f'<p><a href="{PAGE_OF[n]}">{ch}</a></p>')
+            last = part
+        for lv, t, _ in pm.toc_entries(md_text, src[:2]):
+            if lv == 1:
+                rows.append(f'<h3 class="toc-ch">{t}</h3>')
+                pts = points_of(md_text)
+                if pts:
+                    rows.append(f'<div class="kami"><p><strong>この章の要点</strong></p>{pts}</div>')
+            elif lv == 2:
+                rows.append(f'<p class="toc-sec">{t}</p>')
             else:
-                rows.append(f'<p class="soon">{ch}（準備中）</p>')
-    rows += ['<h2>巻末資料</h2>',
-             '<p><a href="konkyo.html">根拠資料——章別</a></p>',
-             '<p><a href="checklist-web.html">章別チェックリスト</a></p>']
-    (OUT / "index.html").write_text(page("目次", f"{BOOK}{SUB}　目次と見本章", "\n".join(rows)),
+                rows.append(f'<p class="toc-case">事例　{t}</p>')
+    rows += ['<h2 id="updates">更新情報</h2>',
+             '<p>制度の改正などで本の記述が変わったときは、ここでお知らせします。</p>',
+             f'<p>{UPDATED}　紹介ページを公開しました。</p>']
+    (OUT / "index.html").write_text(page("本の紹介と目次", f"{BOOK}{SUB}　本の紹介と目次", "\n".join(rows)),
                                     encoding="utf-8")
-    (OUT / "fig").mkdir(exist_ok=True)
-    for svg in (ROOT / "fig").glob("*.svg"):
-        (OUT / "fig" / svg.name).write_text(svg.read_text(encoding="utf-8"), encoding="utf-8")
+    fig = OUT / "fig"
+    if fig.exists():
+        for p in fig.glob("*"):
+            p.unlink()
+        fig.rmdir()
     print("built:", sorted(p.name for p in OUT.iterdir()))
 
 

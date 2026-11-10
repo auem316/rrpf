@@ -78,3 +78,6 @@ footer.site{border-top:1px solid var(--line);margin-top:3rem;padding:1.4rem 0 3r
  font-family:"Hiragino Kaku Gothic ProN","Yu Gothic",YuGothic,"Noto Sans JP",sans-serif}
 .toc p.soon{color:var(--sub)}
 p.soon{color:var(--sub);margin:.5rem 0}
+.toc-ch { margin: 1.6em 0 .4em; }
+.toc-sec { margin: .15em 0 .15em 1em; }
+.toc-case { margin: .1em 0 .1em 2.2em; font-size: .92em; }

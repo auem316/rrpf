@@ -1,54 +1,61 @@
-"""紙版の原稿（print/NN_名前.md）を Web版（manuscript/NN_名前.md）と突き合わせて点検する。
+"""原稿の点検。本は完全版の1つだけ（manuscript/）。
 
 使い方: python3 bin/check.py   （books/fukugo で実行）
-見るもの：章題・節題（## 行）と順番が同じか／図の行が同じか／
-紙版に Web版にない数値が出ていないか／残った【要確認】／分量（Web版に対する割合）。
+
+見るもの:
+  1. 図の行（〔図N-M　…〕）に対応する SVG が fig/ にあるか
+  2. 残っている【要確認】の数
+  3. 章をまたぐ重複——同じ22字の並びが2つ以上の章に出てくる箇所
+     （通読を前提に、詳しく書くのは1か所にし、ほかの章からは節番号で指す）
+重複は「人の目で確かめる候補」として出す。図が欠けていれば終了コード1。
 """
+import collections
 import re
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-WEB, PAPER = ROOT / "manuscript", ROOT / "print"
-NUM = re.compile(r"\d[\d,，.．]*")
+SRC = ROOT / "manuscript"
+FIG = ROOT / "fig"
+K = 22          # 重複とみなす字数
+TEMPLATE = ("規模別の現実解", "理想次善最低限", "自治体に何を確かめるか")  # 全章共通の型の文言は除く
 
+files = sorted(SRC.glob("[0-9][0-9]_*.md"))
+bad = 0
 
-def chars(s):
-    return len(re.sub(r"\s|[#>|*\-]", "", s))
+print("1. 図")
+for f in files:
+    for cap in re.findall(r"〔図(\d+-\d+)　[^〕]*〕", f.read_text(encoding="utf-8")):
+        if not list(FIG.glob(f"fig{cap}_*.svg")):
+            print(f"  {f.name}: 図{cap} の SVG がない")
+            bad += 1
+print("  欠けなし" if not bad else f"  欠け {bad} 件")
 
+print("2. 【要確認】")
+for f in files:
+    n = f.read_text(encoding="utf-8").count("【要確認】")
+    if n:
+        print(f"  {f.name}: {n}")
 
-def heads(s):
-    return [l.strip() for l in s.splitlines() if re.match(r"#{1,2} ", l)]
+print("3. 章をまたぐ重複（候補）")
+shingles = collections.defaultdict(set)
+for f in files:
+    t = f.read_text(encoding="utf-8")
+    t = re.sub(r"[*#>|`\-\s]", "", t)
+    for i in range(0, len(t) - K, 3):
+        s = t[i:i + K]
+        if not any(w in s for w in TEMPLATE):
+            shingles[s].add(f.name[:2])
+pairs = collections.defaultdict(list)
+for s, chs in shingles.items():
+    if len(chs) > 1:
+        pairs[tuple(sorted(chs))].append(s)
+if not pairs:
+    print("  なし")
+for chs, ss in sorted(pairs.items(), key=lambda x: -len(x[1])):
+    if len(ss) >= 2:
+        print(f"  第{'・'.join(str(int(c)) for c in chs)}章：{len(ss)}か所　例「{ss[0]}」")
 
-
-def figs(s):
-    return re.findall(r"〔図[^〕]*〕", s)
-
-
-def main():
-    bad, tw, tp = 0, 0, 0
-    for p in sorted(PAPER.glob("[0-9][0-9]_*.md")):
-        w = WEB / p.name
-        ps, ws = p.read_text(encoding="utf-8"), w.read_text(encoding="utf-8")
-        msgs = []
-        if heads(ps) != heads(ws):
-            msgs.append(f"節題が違う: {sorted(set(heads(ws)) ^ set(heads(ps)))}")
-        if figs(ps) != figs(ws):
-            msgs.append(f"図の行が違う: {sorted(set(figs(ws)) ^ set(figs(ps)))}")
-        wnums = set(NUM.findall(ws))
-        extra = sorted(set(n for n in NUM.findall(ps) if n not in wnums))
-        if extra:
-            msgs.append(f"Web版にない数値: {extra}")
-        k = ps.count("【要確認】")
-        if k:
-            msgs.append(f"【要確認】が{k}か所")
-        a, b = chars(ws), chars(ps)
-        tw, tp = tw + a, tp + b
-        print(f"{p.name:24} {b:6} / {a:6}  {b / a:5.0%}  " + ("OK" if not msgs else "; ".join(msgs)))
-        bad += any(not m.startswith("【要確認】") for m in msgs)
-    print(f"{'合計':22} {tp:6} / {tw:6}  {tp / tw:5.0%}")
-    sys.exit(1 if bad else 0)
-
-
-if __name__ == "__main__":
-    main()
+total = sum(len(re.sub(r"\s", "", f.read_text(encoding="utf-8"))) for f in files)
+print(f"字数（空白を除く）: {total:,}")
+sys.exit(1 if bad else 0)
