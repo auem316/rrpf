@@ -170,6 +170,7 @@
 | 桜町再開発の市の支出が総額400億円超 | [データ・マックス](https://data-max.co.jp/article/34645) | 報道ベース |
 | ライトキューブ宇都宮：2022年11月、JR宇都宮駅東口に直結 | [栃木県](https://www.pref.tochigi.lg.jp/h15/kouhou/houdou/documents/01lightcube.pdf) | — |
 | きらめき広場・哲西：2001年、支局・防災センター・生涯学習センター・文化ホール・図書館・保健福祉センター・診療所、道の駅に隣接 | [国土交通省 資料](https://www.mlit.go.jp/common/001116560.pdf) | — |
+| 豊丘村：道の駅 南信州とよおかマルシェ（平成30年4月開業）、村内唯一のスーパー・直売・農家レストラン・行政情報コーナー・コミュニティスペース・緑地広場、株式会社豊かな丘（平成29年12月設立、村と村民等が出資）、拠点と全集落をコミュニティバスで結ぶ | [内閣府「小さな拠点税制の活用事例（長野県豊丘村）〜道の駅を核とした小さな拠点〜」](https://www.chisou.go.jp/sousei/about/chiisanakyoten/nagano_toyookamura_0607.pdf) | 地域再生計画 平成29年2月認定 |
 | 地域くらしサービス拠点：交通の停留所を拠点の機能に挙げる | [内閣府](https://www.chisou.go.jp/sousei/about/chiikikurashi/pdf/gaiyo.pdf) | — |
 | 境町：2020年11月26日、往復約5km、無料、車両3台・5年間で5億2,000万円 | [レスポンス](https://response.jp/article/2020/11/26/340686.html) | 2020年11月 |
 | 境町長の「横に動くエレベータ」 | [乗りものニュース](https://trafficnews.jp/post/111210) | — |
