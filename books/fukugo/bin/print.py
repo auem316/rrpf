@@ -37,9 +37,10 @@ CHAPTERS = [
     ("14_unei", "第3部　仕組み"),
     ("15_goui", "第3部　仕組み"),
     ("16_teigen", "第4部　行動"),
-    ("17_kokyo-tenant", "第5部　デベロッパーの実務"),
-    ("18_jikanjiku", "第5部　デベロッパーの実務"),
-    ("19_teian", "第5部　デベロッパーの実務"),
+    ("17_kokyo-tenant", "第5部　商業施設の実務と戦略"),
+    ("18_jikanjiku", "第5部　商業施設の実務と戦略"),
+    ("19_teian", "第5部　商業施設の実務と戦略"),
+    ("20_sc-senryaku", "第5部　商業施設の実務と戦略"),
 ]
 
 CSS = r"""
@@ -213,7 +214,7 @@ def main():
     OUT.mkdir(exist_ok=True)
     pages, body = [], []
     body.append(f'<div class="title"><h1>{BOOK}</h1><p class="sub">{SUB}</p><p class="sub2">{SUB2}</p>'
-                f'<p class="au">{AUTHOR}</p><div class="note">見本紙面（目次・序章・第1章〜第19章）<br>'
+                f'<p class="au">{AUTHOR}</p><div class="note">見本紙面（目次・序章・第1章〜第20章）<br>'
                 'A5判。本文は明朝、見出し・表・柱はゴシック。ページ番号は見本用の通し番号です。'
                 '</div></div>')
     toc_at = len(body)
